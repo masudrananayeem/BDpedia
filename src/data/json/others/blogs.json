@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "A Guide to Exploring the Sundarbans",
+    "author": "Rahim",
+    "category": "Travel",
+    "image": "/images/blog/blog_1.jpg",
+    "excerpt": "Discover the largest mangrove forest in the world..."
+  },
+  {
+    "id": 2,
+    "title": "The Hidden Gems of Sylhet",
+    "author": "Nusrat",
+    "category": "Travel",
+    "image": "/images/blog/blog_2.jpg",
+    "excerpt": "Sylhet is not just about tea gardens, explore the hidden waterfalls..."
+  },
+  {
+    "id": 3,
+    "title": "History of the Liberation War",
+    "author": "Kamal",
+    "category": "History",
+    "image": "/images/blog/blog_3.jpg",
+    "excerpt": "A deep dive into the events of 1971..."
+  },
+  {
+    "id": 4,
+    "title": "Rich Culture of the Hill Tracts",
+    "author": "Sonia",
+    "category": "Culture",
+    "image": "/images/blog/blog_4.jpg",
+    "excerpt": "Understanding the lifestyle of the indigenous communities..."
+  },
+  {
+    "id": 5,
+    "title": "Top 10 Must-Try Bangladeshi Street Foods",
+    "author": "Arif",
+    "category": "Food",
+    "image": "/images/blog/blog_5.jpg",
+    "excerpt": "From Fuchka to Chotpoti, a culinary journey..."
+  },
+  {
+    "id": 6,
+    "title": "Trekking Keokradong: A Complete Guide",
+    "author": "Faisal",
+    "category": "Adventure",
+    "image": "/images/blog/blog_6.jpg",
+    "excerpt": "Everything you need to know before climbing the peak..."
+  },
+  {
+    "id": 7,
+    "title": "The Architectural Marvels of Old Dhaka",
+    "author": "Sadia",
+    "category": "History",
+    "image": "/images/blog/blog_7.jpg",
+    "excerpt": "Walking through the narrow lanes of Puran Dhaka..."
+  }
+]

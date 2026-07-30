@@ -1,0 +1,302 @@
+[
+  {
+    "id": "cox-s-bazar-beach",
+    "name": "Cox's Bazar Beach",
+    "image": "/images/places/cox-s-bazar-beach.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "sundarbans",
+    "name": "Sundarbans",
+    "image": "/images/places/sundarbans.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "sajek-valley",
+    "name": "Sajek Valley",
+    "image": "/images/places/sajek-valley.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "saint-martin-s-island",
+    "name": "Saint Martin's Island",
+    "image": "/images/places/saint-martin-s-island.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "kuakata-beach",
+    "name": "Kuakata Beach",
+    "image": "/images/places/kuakata-beach.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "ahsan-manzil",
+    "name": "Ahsan Manzil",
+    "image": "/images/places/ahsan-manzil.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "lalbagh-fort",
+    "name": "Lalbagh Fort",
+    "image": "/images/places/lalbagh-fort.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "somapura-mahavihara",
+    "name": "Somapura Mahavihara",
+    "image": "/images/places/somapura-mahavihara.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "sixty-dome-mosque",
+    "name": "Sixty Dome Mosque",
+    "image": "/images/places/sixty-dome-mosque.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "jaflong",
+    "name": "Jaflong",
+    "image": "/images/places/jaflong.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "bisanakandi",
+    "name": "Bisanakandi",
+    "image": "/images/places/bisanakandi.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "ratargul-swamp-forest",
+    "name": "Ratargul Swamp Forest",
+    "image": "/images/places/ratargul-swamp-forest.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "tanguar-haor",
+    "name": "Tanguar Haor",
+    "image": "/images/places/tanguar-haor.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "nilgiri",
+    "name": "Nilgiri",
+    "image": "/images/places/nilgiri.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "nafakhum",
+    "name": "Nafakhum",
+    "image": "/images/places/nafakhum.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "amiakhum",
+    "name": "Amiakhum",
+    "image": "/images/places/amiakhum.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "keokradong",
+    "name": "Keokradong",
+    "image": "/images/places/keokradong.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "boga-lake",
+    "name": "Boga Lake",
+    "image": "/images/places/boga-lake.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "chandranath-hill",
+    "name": "Chandranath Hill",
+    "image": "/images/places/chandranath-hill.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "sitakunda",
+    "name": "Sitakunda",
+    "image": "/images/places/sitakunda.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "foy-s-lake",
+    "name": "Foy's Lake",
+    "image": "/images/places/foy-s-lake.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "patenga-beach",
+    "name": "Patenga Beach",
+    "image": "/images/places/patenga-beach.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "mahasthangarh",
+    "name": "Mahasthangarh",
+    "image": "/images/places/mahasthangarh.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "kantajew-temple",
+    "name": "Kantajew Temple",
+    "image": "/images/places/kantajew-temple.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "ramsagar",
+    "name": "Ramsagar",
+    "image": "/images/places/ramsagar.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "tajhat-palace",
+    "name": "Tajhat Palace",
+    "image": "/images/places/tajhat-palace.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "sreemangal-tea-gardens",
+    "name": "Sreemangal Tea Gardens",
+    "image": "/images/places/sreemangal-tea-gardens.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "lawachara-national-park",
+    "name": "Lawachara National Park",
+    "image": "/images/places/lawachara-national-park.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "madhabkunda-waterfall",
+    "name": "Madhabkunda Waterfall",
+    "image": "/images/places/madhabkunda-waterfall.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "sonargaon",
+    "name": "Sonargaon",
+    "image": "/images/places/sonargaon.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "panam-nagar",
+    "name": "Panam Nagar",
+    "image": "/images/places/panam-nagar.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "national-martyrs-memorial",
+    "name": "National Martyrs' Memorial",
+    "image": "/images/places/national-martyrs-memorial.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "jatiyo-sangsad-bhaban",
+    "name": "Jatiyo Sangsad Bhaban",
+    "image": "/images/places/jatiyo-sangsad-bhaban.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "dhakeshwari-temple",
+    "name": "Dhakeshwari Temple",
+    "image": "/images/places/dhakeshwari-temple.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "star-mosque",
+    "name": "Star Mosque",
+    "image": "/images/places/star-mosque.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "baitul-mukarram",
+    "name": "Baitul Mukarram",
+    "image": "/images/places/baitul-mukarram.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "chhoto-sona-mosque",
+    "name": "Chhoto Sona Mosque",
+    "image": "/images/places/chhoto-sona-mosque.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "lalon-shah-s-shrine",
+    "name": "Lalon Shah's Shrine",
+    "image": "/images/places/lalon-shah-s-shrine.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "mujibnagar-memorial",
+    "name": "Mujibnagar Memorial",
+    "image": "/images/places/mujibnagar-memorial.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "hardinge-bridge",
+    "name": "Hardinge Bridge",
+    "image": "/images/places/hardinge-bridge.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "lalon-shah-bridge",
+    "name": "Lalon Shah Bridge",
+    "image": "/images/places/lalon-shah-bridge.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "guliakhali-beach",
+    "name": "Guliakhali Beach",
+    "image": "/images/places/guliakhali-beach.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "nijhum-dwip",
+    "name": "Nijhum Dwip",
+    "image": "/images/places/nijhum-dwip.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "manpura-island",
+    "name": "Manpura Island",
+    "image": "/images/places/manpura-island.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "kuakata-sunrise-point",
+    "name": "Kuakata Sunrise Point",
+    "image": "/images/places/kuakata-sunrise-point.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "mohera-jomidar-bari",
+    "name": "Mohera Jomidar Bari",
+    "image": "/images/places/mohera-jomidar-bari.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "baliati-palace",
+    "name": "Baliati Palace",
+    "image": "/images/places/baliati-palace.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "shilaidaha-kuthibari",
+    "name": "Shilaidaha Kuthibari",
+    "image": "/images/places/shilaidaha-kuthibari.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "puthia-temple-complex",
+    "name": "Puthia Temple Complex",
+    "image": "/images/places/puthia-temple-complex.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  },
+  {
+    "id": "mainamati-ruins",
+    "name": "Mainamati Ruins",
+    "image": "/images/places/mainamati-ruins.jpg",
+    "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty."
+  }
+]
