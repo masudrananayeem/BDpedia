@@ -117,12 +117,12 @@ export default function PlaceDetails() {
 
       {related.length > 0 && (
         <div className="mt-16">
-          <h2 className="text-2xl font-bold mb-6">You might also like</h2>
+          <h2 className="text-2xl font-bold mb-6 text-heading">You might also like</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {related.map((p) => (
               <Link to={`/explore/${p.id}`} key={p.id} className="group bg-surface rounded-2xl overflow-hidden border border-line/5 hover:border-brand-green/50 transition-all">
                 <div className="h-36 bg-surfacealt relative overflow-hidden">
-                  <img src={p.image} alt={p.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onError={(e) => (e.currentTarget.style.opacity = '0')} />
+                  <img src={p.image} alt={p.name} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onError={(e) => (e.currentTarget.style.opacity = '0')} />
                   <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent" />
                 </div>
                 <div className="p-4">
