@@ -26,7 +26,7 @@ export default function Districts() {
     <div className="max-w-7xl mx-auto px-6 py-12">
       <div className="mb-10 text-center">
         <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Administrative Map</span>
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4">64 Districts of Bangladesh</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-heading">64 Districts of Bangladesh</h1>
         <p className="text-muted mb-8 max-w-2xl mx-auto text-lg">Click on any district to explore its rich history and popular tourist destinations.</p>
         <div className="relative max-w-xl mx-auto">
           <Search className="absolute left-5 top-1/2 -translate-y-1/2 text-muted" size={20} />
@@ -81,7 +81,7 @@ export default function Districts() {
                   className="bg-surface rounded-2xl overflow-hidden border border-line/5 hover:border-brand-green/50 hover:shadow-[0_0_20px_rgba(34,197,94,0.15)] transition-all group flex flex-col h-full"
                 >
                   <div className="h-40 bg-surfacealt relative overflow-hidden flex items-center justify-center">
-                    <img src={district.image} alt={district.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-60 group-hover:opacity-100" onError={(e) => (e.currentTarget.style.opacity = '0')} />
+                    <img src={district.image} alt={district.name} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-60 group-hover:opacity-100" onError={(e) => (e.currentTarget.style.opacity = '0')} />
                     <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
                     {district.division && (
                       <span className="absolute top-3 left-3 bg-black/60 backdrop-blur-sm text-brand-green text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full border border-brand-green/30">
