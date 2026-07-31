@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="max-w-4xl mx-auto px-6 py-16">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-14">
         <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Get In Touch</span>
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Contact Us</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-heading">Contact Us</h1>
         <p className="text-muted max-w-xl mx-auto">Have a question, correction, or want to collaborate? Reach out anytime.</p>
       </motion.div>
 
