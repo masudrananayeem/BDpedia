@@ -90,12 +90,12 @@ export default function DistrictDetails() {
 
       {nearbyPlaces.length > 0 && (
         <div className="mt-16">
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2"><Compass className="text-brand-green" /> Places to visit in {district.name}</h2>
+          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 text-heading"><Compass className="text-brand-green" /> Places to visit in {district.name}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {nearbyPlaces.map((p) => (
               <Link to={`/explore/${p.id}`} key={p.id} className="group bg-surface rounded-2xl overflow-hidden border border-line/5 hover:border-brand-green/50 transition-all">
                 <div className="h-40 bg-surfacealt relative overflow-hidden">
-                  <img src={p.image} alt={p.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onError={(e) => (e.currentTarget.style.opacity = '0')} />
+                  <img src={p.image} alt={p.name} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onError={(e) => (e.currentTarget.style.opacity = '0')} />
                   <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent" />
                 </div>
                 <div className="p-4">
