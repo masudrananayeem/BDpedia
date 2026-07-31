@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import blogs from '../data/json/others/blogs.json';
 import { CalendarDays, User } from 'lucide-react';
 
@@ -40,7 +41,7 @@ export default function Blog() {
               <span className="flex items-center gap-1.5"><User size={13} /> {featured.author}</span>
               <span className="flex items-center gap-1.5"><CalendarDays size={13} /> Bangladesh Travel Desk</span>
             </div>
-            <button className="self-start text-brand-green font-semibold text-sm">Read Full Story &rarr;</button>
+            <Link to={`/blog/${featured.id}`} className="self-start text-brand-green font-semibold text-sm hover:underline">Read Full Story &rarr;</Link>
           </div>
         </article>
       )}
@@ -64,20 +65,20 @@ export default function Blog() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {rest.map((blog) => (
-          <article key={blog.id} className="bg-surface rounded-2xl overflow-hidden border border-line/10 hover:border-brand-green/50 transition-colors group flex flex-col">
+          <Link to={`/blog/${blog.id}`} key={blog.id} className="bg-surface rounded-2xl overflow-hidden border border-line/10 hover:border-brand-green/50 transition-colors group flex flex-col">
             <div className="h-48 bg-surfacealt relative flex items-center justify-center text-muted text-sm">
               <span className="z-10">{blog.image}</span>
-              <img src={blog.image} className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity" onError={(e) => (e.currentTarget.style.opacity = '0')} alt={blog.title}/>
+              <img src={blog.image} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity" onError={(e) => (e.currentTarget.style.opacity = '0')} alt={blog.title}/>
               <span className="absolute top-4 left-4 bg-brand-green text-black text-xs font-bold px-3 py-1 rounded-full z-20">{blog.category}</span>
             </div>
             <div className="p-6 flex-grow flex flex-col">
               <h2 className="text-xl font-bold mb-3 text-heading group-hover:text-brand-green transition-colors">{blog.title}</h2>
               <p className="text-muted text-sm mb-4 flex-grow">{blog.excerpt}</p>
               <div className="text-xs text-muted flex justify-between items-center mt-auto pt-4 border-t border-line/10">
-                <span>By {blog.author}</span><button className="text-brand-green font-semibold">Read More &rarr;</button>
+                <span>By {blog.author}</span><span className="text-brand-green font-semibold">Read More &rarr;</span>
               </div>
             </div>
-          </article>
+          </Link>
         ))}
         {rest.length === 0 && (
           <p className="col-span-full text-center text-muted py-10">No articles in this category yet.</p>
