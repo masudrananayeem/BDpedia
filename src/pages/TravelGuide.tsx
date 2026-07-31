@@ -56,7 +56,7 @@ export default function TravelGuide() {
     <div className="max-w-7xl mx-auto px-6 py-12">
       <div className="text-center mb-12">
         <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Plan Your Trip</span>
-        <h1 className="text-4xl md:text-5xl font-extrabold">Ultimate Travel Guide</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-heading">Ultimate Travel Guide</h1>
         <p className="text-body max-w-2xl mx-auto mt-4">Everything you need before you go — timing, transport, budgeting, communities, and where to stay.</p>
       </div>
 

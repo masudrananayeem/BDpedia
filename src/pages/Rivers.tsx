@@ -31,7 +31,7 @@ export default function Rivers() {
     <div className="max-w-7xl mx-auto px-6 py-12">
       <div className="mb-10 text-center">
         <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Land of Rivers</span>
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Rivers of Bangladesh</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-heading">Rivers of Bangladesh</h1>
         <p className="text-muted mb-8 max-w-2xl mx-auto text-lg">
           Bangladesh is crisscrossed by {ALL_RIVERS.length}+ major rivers that shape its land, livelihood and culture.
         </p>
@@ -55,8 +55,23 @@ export default function Rivers() {
           <motion.div
             key={river.id}
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: (index % 10) * 0.05 }}
-            className="bg-surface rounded-2xl border border-line/5 hover:border-brand-green/40 transition-all p-6 md:p-7"
+            className="bg-surface rounded-2xl border border-line/5 hover:border-brand-green/40 transition-all overflow-hidden flex flex-col"
           >
+            <div className="h-44 bg-surfacealt relative overflow-hidden flex items-center justify-center">
+              <img
+                src={river.image || `/images/rivers/${river.id}.jpg`}
+                alt={river.name}
+                loading="lazy"
+                decoding="async"
+                className="absolute inset-0 w-full h-full object-cover"
+                onError={(e) => (e.currentTarget.style.opacity = '0')}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/10 to-transparent" />
+              <span className="absolute bottom-3 right-3 flex items-center gap-1 bg-brand-green/90 text-black text-xs font-semibold px-3 py-1.5 rounded-full whitespace-nowrap">
+                <Ruler size={13} /> {river.length_km} km
+              </span>
+            </div>
+            <div className="p-6 md:p-7">
             <div className="flex items-start justify-between gap-4 mb-3">
               <div>
                 <h2 className="text-2xl font-bold text-heading flex items-center gap-2">
@@ -64,9 +79,6 @@ export default function Rivers() {
                 </h2>
                 {river.localName && <p className="text-sm text-muted ml-7">{river.localName}</p>}
               </div>
-              <span className="flex items-center gap-1 bg-brand-green/10 text-brand-green text-xs font-semibold px-3 py-1.5 rounded-full whitespace-nowrap">
-                <Ruler size={13} /> {river.length_km} km
-              </span>
             </div>
 
             <p className="text-muted text-sm leading-relaxed mb-4">{river.description}</p>
@@ -83,6 +95,7 @@ export default function Rivers() {
                   <span key={d} className="text-xs bg-line/5 border border-line/10 text-body px-3 py-1 rounded-full">{d}</span>
                 ))}
               </div>
+            </div>
             </div>
           </motion.div>
         ))}

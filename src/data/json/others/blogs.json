@@ -5,7 +5,13 @@
     "author": "Rahim",
     "category": "Travel",
     "image": "/images/blog/blog_1.jpg",
-    "excerpt": "Discover the largest mangrove forest in the world..."
+    "excerpt": "Discover the largest mangrove forest in the world...",
+    "content": [
+      "The Sundarbans, the largest mangrove forest on Earth, straddles the border of Bangladesh and India along the Bay of Bengal. On the Bangladeshi side alone, it spans thousands of square kilometres of tidal waterways, mudflats, and dense mangrove islands.",
+      "Most trips begin from Khulna or Mongla, where guided launch tours wind through narrow canals in search of spotted deer, crocodiles, and — if you're fortunate — a glimpse of the elusive Royal Bengal Tiger.",
+      "Beyond wildlife, the Sundarbans is home to fishing and honey-collecting communities whose lives are deeply tied to the forest's rhythms. A multi-day boat trip, complete with a knowledgeable guide and proper permits from the Forest Department, is the best way to experience it responsibly.",
+      "Best time to visit: November to February, when the weather is cool and dry and wildlife sightings are more frequent."
+    ]
   },
   {
     "id": 2,
@@ -13,7 +19,13 @@
     "author": "Nusrat",
     "category": "Travel",
     "image": "/images/blog/blog_2.jpg",
-    "excerpt": "Sylhet is not just about tea gardens, explore the hidden waterfalls..."
+    "excerpt": "Sylhet is not just about tea gardens, explore the hidden waterfalls...",
+    "content": [
+      "Sylhet is best known for its rolling tea gardens, but the division hides far more for travellers willing to venture beyond the estates.",
+      "Ratargul Swamp Forest, often called the 'Amazon of Bangladesh', is a freshwater swamp forest best explored by boat during the monsoon when the trees stand knee-deep in water.",
+      "Further east, Bisanakandi and Jaflong offer dramatic views where hills, rivers, and stone-strewn riverbeds meet at the India border, while Lalakhal's turquoise waters make for an unforgettable canoe ride.",
+      "For a quieter pace, the Madhabkunda Waterfall and Lawachara National Park reward visitors with cascading water and a rare chance to spot the endangered hoolock gibbon in the wild."
+    ]
   },
   {
     "id": 3,
@@ -21,7 +33,13 @@
     "author": "Kamal",
     "category": "History",
     "image": "/images/blog/blog_3.jpg",
-    "excerpt": "A deep dive into the events of 1971..."
+    "excerpt": "A deep dive into the events of 1971...",
+    "content": [
+      "The Bangladesh Liberation War of 1971 remains the defining event in the nation's history — a nine-month struggle that transformed East Pakistan into an independent Bangladesh.",
+      "It began in the early hours of 26 March 1971, following escalating political tension and a brutal military crackdown on Bengali nationalists. Under the leadership of Bangabandhu Sheikh Mujibur Rahman, the Mukti Bahini — Bangladesh's freedom fighters — waged a determined guerrilla resistance.",
+      "Millions were displaced, and the war exacted an immense human cost, but on 16 December 1971, Pakistani forces surrendered in Dhaka, marking the birth of Bangladesh.",
+      "Today, sites like the Liberation War Museum in Dhaka and the National Martyrs' Memorial in Savar stand as solemn reminders of that sacrifice, drawing visitors keen to understand the roots of modern Bangladesh."
+    ]
   },
   {
     "id": 4,
@@ -29,7 +47,13 @@
     "author": "Sonia",
     "category": "Culture",
     "image": "/images/blog/blog_4.jpg",
-    "excerpt": "Understanding the lifestyle of the indigenous communities..."
+    "excerpt": "Understanding the lifestyle of the indigenous communities...",
+    "content": [
+      "The Chittagong Hill Tracts — comprising Rangamati, Bandarban, and Khagrachhari — are home to over a dozen indigenous communities, including the Chakma, Marma, Tripura, and Mru peoples, each with distinct languages, dress, and traditions.",
+      "Unlike the Bengali plains, the Hill Tracts follow their own calendars of festivals, most notably Boisabi, a joint New Year celebration combining Chakma, Marma, and Tripura traditions with days of feasting, water festivals, and traditional dance.",
+      "Handwoven textiles, bamboo and cane crafts, and distinct culinary traditions — often built around bamboo shoot and fresh hill vegetables — set the region apart from the rest of the country.",
+      "Visiting respectfully, with a local guide and an openness to learning, offers a rewarding window into one of Bangladesh's most culturally diverse corners."
+    ]
   },
   {
     "id": 5,
@@ -37,7 +61,13 @@
     "author": "Arif",
     "category": "Food",
     "image": "/images/blog/blog_5.jpg",
-    "excerpt": "From Fuchka to Chotpoti, a culinary journey..."
+    "excerpt": "From Fuchka to Chotpoti, a culinary journey...",
+    "content": [
+      "Bangladeshi street food is a sensory experience — a mix of spice, crunch, and tang best enjoyed straight from a roadside stall.",
+      "Fuchka (the local take on pani puri), served with tangy tamarind water and spiced potato filling, is practically a national pastime. Jhalmuri, a spicy puffed-rice mix tossed with mustard oil, onions, and chili, is the go-to evening snack across the country.",
+      "For something heartier, try Chotpoti, a tangy mashed-potato and chickpea dish, or Haleem during Ramadan evenings — a slow-cooked lentil and meat stew that's become a citywide obsession in Dhaka.",
+      "No street food tour is complete without trying local sweets like Chomchom from Cumilla or fresh Rasomalai, best enjoyed after a spicy snack to balance the heat."
+    ]
   },
   {
     "id": 6,
@@ -45,7 +75,13 @@
     "author": "Faisal",
     "category": "Adventure",
     "image": "/images/blog/blog_6.jpg",
-    "excerpt": "Everything you need to know before climbing the peak..."
+    "excerpt": "Everything you need to know before climbing the peak...",
+    "content": [
+      "At 986 metres, Keokradong is among the highest peaks accessible to trekkers in Bangladesh, located deep in the hills of Bandarban.",
+      "The typical route starts from Ruma Bazar, passing through Bogalake before a steep final climb to the summit — usually completed over two to three days with an overnight stay in a hill village.",
+      "Porters and local Bawm or Mru guides are essential, both for navigation and to support the local economy. Permits from the local army camp and district administration are required before setting off.",
+      "The reward: sweeping views over layered hills stretching toward Myanmar, especially spectacular at sunrise before the clouds roll in."
+    ]
   },
   {
     "id": 7,
@@ -53,6 +89,12 @@
     "author": "Sadia",
     "category": "History",
     "image": "/images/blog/blog_7.jpg",
-    "excerpt": "Walking through the narrow lanes of Puran Dhaka..."
+    "excerpt": "Walking through the narrow lanes of Puran Dhaka...",
+    "content": [
+      "Old Dhaka's narrow lanes conceal some of South Asia's finest Mughal and colonial-era architecture, layered over four centuries of history.",
+      "Lalbagh Fort, an unfinished 17th-century Mughal fort complex, and Ahsan Manzil, the pink palace of the Nawabs of Dhaka on the Buriganga riverbank, are essential starting points.",
+      "Nearby, Star Mosque dazzles with its mosaic of Chinese porcelain tiles, while Bara Katra and the Armenian Church speak to Dhaka's centuries as a trading crossroads.",
+      "Exploring on foot — or by rickshaw through the narrowest lanes — remains the best way to take in the layered history hidden behind Old Dhaka's busy shopfronts."
+    ]
   }
 ]

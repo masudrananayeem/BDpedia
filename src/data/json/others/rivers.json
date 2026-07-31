@@ -2,161 +2,360 @@
   {
     "id": "padma",
     "name": "Padma River",
-    "localName": "\u09aa\u09a6\u09cd\u09ae\u09be",
+    "localName": "পদ্মা",
     "length_km": 120,
     "origin": "Continuation of the Ganges, entering Bangladesh at Chapainawabganj",
-    "districts": ["Chapainawabganj", "Rajshahi", "Pabna", "Kushtia", "Faridpur", "Munshiganj"],
+    "districts": [
+      "Chapainawabganj",
+      "Rajshahi",
+      "Pabna",
+      "Kushtia",
+      "Faridpur",
+      "Munshiganj"
+    ],
     "description": "The Padma is the main distributary of the Ganges and one of the three mightiest rivers of Bangladesh. It merges with the Jamuna near Goalundo before joining the Meghna, and is famous for hilsa fishing and the Padma Bridge.",
     "image": "/images/rivers/padma.jpg"
   },
   {
     "id": "jamuna",
     "name": "Jamuna River",
-    "localName": "\u09af\u09ae\u09c1\u09a8\u09be",
+    "localName": "যমুনা",
     "length_km": 240,
     "origin": "Main channel of the Brahmaputra after entering Bangladesh from Assam, India",
-    "districts": ["Kurigram", "Gaibandha", "Jamalpur", "Sirajganj", "Tangail", "Manikganj"],
+    "districts": [
+      "Kurigram",
+      "Gaibandha",
+      "Jamalpur",
+      "Sirajganj",
+      "Tangail",
+      "Manikganj"
+    ],
     "description": "The Jamuna is the Bangladeshi name for the lower course of the Brahmaputra. It is one of the widest braided rivers in the world and is crossed by the Bangabandhu Jamuna Multi-Purpose Bridge.",
     "image": "/images/rivers/jamuna.jpg"
   },
   {
     "id": "meghna",
     "name": "Meghna River",
-    "localName": "\u09ae\u09c7\u0998\u09a8\u09be",
+    "localName": "মেঘনা",
     "length_km": 160,
     "origin": "Formed by the union of the Surma and Kushiyara rivers in Sylhet region",
-    "districts": ["Sylhet", "Kishoreganj", "Chandpur", "Barishal", "Bhola"],
+    "districts": [
+      "Sylhet",
+      "Kishoreganj",
+      "Chandpur",
+      "Barishal",
+      "Bhola"
+    ],
     "description": "The Meghna is one of the largest rivers by discharge volume in Bangladesh, carrying the combined waters of the Ganges-Padma and Brahmaputra-Jamuna systems into the Bay of Bengal.",
     "image": "/images/rivers/meghna.jpg"
   },
   {
     "id": "brahmaputra",
     "name": "Brahmaputra (Old Brahmaputra)",
-    "localName": "\u09ac\u09cd\u09b0\u09b9\u09cd\u09ae\u09aa\u09c1\u09a4\u09cd\u09b0",
+    "localName": "ব্রহ্মপুত্র",
     "length_km": 276,
     "origin": "Tibet, entering Bangladesh through Kurigram",
-    "districts": ["Kurigram", "Jamalpur", "Mymensingh", "Netrokona"],
+    "districts": [
+      "Kurigram",
+      "Jamalpur",
+      "Mymensingh",
+      "Netrokona"
+    ],
     "description": "The Old Brahmaputra was the main channel before the river shifted course to form the Jamuna in the late 18th century. It still flows through Mymensingh and Jamalpur, supporting agriculture and river life.",
     "image": "/images/rivers/brahmaputra.jpg"
   },
   {
     "id": "surma",
     "name": "Surma River",
-    "localName": "\u09b8\u09c1\u09b0\u09ae\u09be",
+    "localName": "সুরমা",
     "length_km": 350,
     "origin": "Barak River in India, splitting into Surma and Kushiyara at the border",
-    "districts": ["Sylhet", "Sunamganj", "Habiganj", "Kishoreganj"],
+    "districts": [
+      "Sylhet",
+      "Sunamganj",
+      "Habiganj",
+      "Kishoreganj"
+    ],
     "description": "The Surma flows through the scenic haor basin of greater Sylhet and is central to the region's fishing communities and boat culture, feeding wetlands like Tanguar Haor.",
     "image": "/images/rivers/surma.jpg"
   },
   {
     "id": "karnaphuli",
     "name": "Karnaphuli River",
-    "localName": "\u0995\u09b0\u09cd\u09a3\u09ab\u09c1\u09b2\u09c0",
+    "localName": "কর্ণফুলী",
     "length_km": 180,
     "origin": "Lushai Hills of Mizoram, India",
-    "districts": ["Rangamati", "Chattogram"],
+    "districts": [
+      "Rangamati",
+      "Chattogram"
+    ],
     "description": "The lifeline of the Chattogram Hill Tracts, the Karnaphuli feeds the Kaptai Lake and Kaptai Hydroelectric Dam, and its estuary forms the natural harbour of Chattogram Port.",
     "image": "/images/rivers/karnaphuli.jpg"
   },
   {
     "id": "teesta",
     "name": "Teesta River",
-    "localName": "\u09a4\u09bf\u09b8\u09cd\u09a4\u09be",
+    "localName": "তিস্তা",
     "length_km": 115,
     "origin": "Sikkim Himalayas, India",
-    "districts": ["Nilphamari", "Lalmonirhat", "Rangpur", "Gaibandha"],
+    "districts": [
+      "Nilphamari",
+      "Lalmonirhat",
+      "Rangpur",
+      "Gaibandha"
+    ],
     "description": "A major transboundary river of the north, the Teesta is central to a long-running water-sharing discussion between Bangladesh and India and supports irrigation across greater Rangpur.",
     "image": "/images/rivers/teesta.jpg"
   },
   {
     "id": "buriganga",
     "name": "Buriganga River",
-    "localName": "\u09ac\u09c1\u09dc\u09bf\u0997\u0999\u09cd\u0997\u09be",
+    "localName": "বুড়িগঙ্গা",
     "length_km": 27,
     "origin": "Branches off the Dhaleshwari River",
-    "districts": ["Dhaka"],
+    "districts": [
+      "Dhaka"
+    ],
     "description": "Once the main channel of the Ganges, the Buriganga flows past Old Dhaka and Sadarghat and has historically been the lifeline of the capital's river trade, though it now faces heavy pollution.",
     "image": "/images/rivers/buriganga.jpg"
   },
   {
     "id": "dhaleshwari",
     "name": "Dhaleshwari River",
-    "localName": "\u09a7\u09b2\u09c7\u09b6\u09cd\u09ac\u09b0\u09c0",
+    "localName": "ধলেশ্বরী",
     "length_km": 160,
     "origin": "Distributary of the Jamuna near Tangail",
-    "districts": ["Tangail", "Manikganj", "Dhaka", "Munshiganj"],
+    "districts": [
+      "Tangail",
+      "Manikganj",
+      "Dhaka",
+      "Munshiganj"
+    ],
     "description": "A key distributary that separates from the Jamuna and eventually links with the Meghna, historically important for trade routes around Savar and Munshiganj.",
     "image": "/images/rivers/dhaleshwari.jpg"
   },
   {
     "id": "rupsha",
     "name": "Rupsha River",
-    "localName": "\u09b0\u09c2\u09aa\u09b8\u09be",
+    "localName": "রূপসা",
     "length_km": 25,
     "origin": "Confluence of the Bhairab and Atrai rivers",
-    "districts": ["Khulna"],
+    "districts": [
+      "Khulna"
+    ],
     "description": "Flowing past Khulna city, the Rupsha connects to the Pashur River toward the Sundarbans and Mongla Port, and is well known for its river ferry (the Rupsha Ferry Ghat).",
     "image": "/images/rivers/rupsha.jpg"
   },
   {
     "id": "pashur",
     "name": "Pashur River",
-    "localName": "\u09aa\u09b6\u09c1\u09b0",
+    "localName": "পশুর",
     "length_km": 140,
     "origin": "Continuation of the Rupsha River flowing toward the Bay of Bengal",
-    "districts": ["Bagerhat", "Khulna"],
+    "districts": [
+      "Bagerhat",
+      "Khulna"
+    ],
     "description": "The Pashur cuts through the heart of the Sundarbans mangrove forest and serves as the shipping channel for Mongla Port, one of Bangladesh's principal seaports.",
     "image": "/images/rivers/pashur.jpg"
   },
   {
     "id": "halda",
     "name": "Halda River",
-    "localName": "\u09b9\u09be\u09b2\u09a6\u09be",
+    "localName": "হালদা",
     "length_km": 98,
     "origin": "Hills of Khagrachari and Fatikchhari",
-    "districts": ["Khagrachari", "Chattogram"],
+    "districts": [
+      "Khagrachari",
+      "Chattogram"
+    ],
     "description": "One of the only rivers in the world that hosts natural breeding grounds for carp fish, the Halda is ecologically vital to Chattogram's fisheries and hatchery industry.",
     "image": "/images/rivers/halda.jpg"
   },
   {
     "id": "naf",
     "name": "Naf River",
-    "localName": "\u09a8\u09be\u09ab",
+    "localName": "নাফ",
     "length_km": 56,
     "origin": "Mizoram-Myanmar border hills",
-    "districts": ["Cox's Bazar"],
+    "districts": [
+      "Cox's Bazar"
+    ],
     "description": "Forming the natural border between Bangladesh and Myanmar, the Naf River empties into the Bay of Bengal near Teknaf, close to Saint Martin's Island.",
     "image": "/images/rivers/naf.jpg"
   },
   {
     "id": "atrai",
     "name": "Atrai River",
-    "localName": "\u0986\u09a4\u09cd\u09b0\u09be\u0987",
+    "localName": "আত্রাই",
     "length_km": 297,
     "origin": "West Bengal, India, entering through Panchagarh",
-    "districts": ["Panchagarh", "Dinajpur", "Naogaon", "Rajshahi"],
+    "districts": [
+      "Panchagarh",
+      "Dinajpur",
+      "Naogaon",
+      "Rajshahi"
+    ],
     "description": "A long, winding river of the northwest that feeds the Chalan Beel wetland system and supports agriculture across greater Rajshahi and Rangpur.",
     "image": "/images/rivers/atrai.jpg"
   },
   {
     "id": "gorai-madhumati",
     "name": "Gorai-Madhumati River",
-    "localName": "\u0997\u09dc\u09be\u0987-\u09ae\u09a7\u09c1\u09ae\u09a4\u09c0",
+    "localName": "গড়াই-মধুমতী",
     "length_km": 250,
     "origin": "Distributary of the Padma near Kushtia",
-    "districts": ["Kushtia", "Magura", "Faridpur", "Narail", "Gopalganj"],
+    "districts": [
+      "Kushtia",
+      "Magura",
+      "Faridpur",
+      "Narail",
+      "Gopalganj"
+    ],
     "description": "Known as the Gorai in its upper reach and the Madhumati downstream, this river is a critical freshwater source for southwestern Bangladesh and the Sundarbans ecosystem.",
     "image": "/images/rivers/gorai-madhumati.jpg"
   },
   {
     "id": "sitalakhya",
     "name": "Sitalakhya River",
-    "localName": "\u09b6\u09c0\u09a4\u09b2\u0995\u09cd\u09b7\u09cd\u09af\u09be",
+    "localName": "শীতলক্ষ্যা",
     "length_km": 110,
     "origin": "Distributary of the old Brahmaputra near Kapasia",
-    "districts": ["Gazipur", "Narayanganj"],
+    "districts": [
+      "Gazipur",
+      "Narayanganj"
+    ],
     "description": "A major industrial river that flows through the port town of Narayanganj, historically central to the region's textile and trading economy.",
     "image": "/images/rivers/sitalakhya.jpg"
+  },
+  {
+    "id": "sangu",
+    "name": "Sangu River",
+    "localName": "সাঙ্গু",
+    "length_km": 173,
+    "origin": "Arakan hills of Myanmar, entering the Chittagong Hill Tracts",
+    "districts": [
+      "Bandarban",
+      "Chattogram"
+    ],
+    "description": "A fast-flowing hill river winding through Bandarban's forests and hills before reaching the Bay of Bengal, popular for river-boat tourism.",
+    "image": "/images/rivers/sangu.jpg"
+  },
+  {
+    "id": "matamuhuri",
+    "name": "Matamuhuri River",
+    "localName": "মাতামুহুরী",
+    "length_km": 156,
+    "origin": "Arakan hills of Myanmar, flowing through Bandarban",
+    "districts": [
+      "Bandarban",
+      "Cox's Bazar"
+    ],
+    "description": "A hill river flowing through remote parts of the Chittagong Hill Tracts before emptying into the Bay of Bengal near Chakaria.",
+    "image": "/images/rivers/matamuhuri.jpg"
+  },
+  {
+    "id": "feni",
+    "name": "Feni River",
+    "localName": "ফেনী",
+    "length_km": 115,
+    "origin": "Tripura hills of India, flowing into southeastern Bangladesh",
+    "districts": [
+      "Feni",
+      "Noakhali",
+      "Chattogram"
+    ],
+    "description": "A border river between Bangladesh and India in the southeast, historically significant and site of the Muhuri irrigation project.",
+    "image": "/images/rivers/feni.jpg"
+  },
+  {
+    "id": "kushiyara",
+    "name": "Kushiyara River",
+    "localName": "কুশিয়ারা",
+    "length_km": 161,
+    "origin": "Distributary of the Barak River at the India border",
+    "districts": [
+      "Sylhet",
+      "Moulvibazar",
+      "Habiganj"
+    ],
+    "description": "One of the two branches of the Barak River, flowing through Sylhet division before joining the Meghna system.",
+    "image": "/images/rivers/kushiyara.jpg"
+  },
+  {
+    "id": "someshwari",
+    "name": "Someshwari River",
+    "localName": "সোমেশ্বরী",
+    "length_km": 118,
+    "origin": "Garo Hills of Meghalaya, India, entering near Durgapur",
+    "districts": [
+      "Netrokona"
+    ],
+    "description": "A scenic river known for its china-clay-tinted waters near Durgapur, flowing from the Meghalaya border in the north.",
+    "image": "/images/rivers/someshwari.jpg"
+  },
+  {
+    "id": "kirtankhola",
+    "name": "Kirtankhola River",
+    "localName": "কীর্তনখোলা",
+    "length_km": 96,
+    "origin": "Connected to the wider Padma-Meghna river system",
+    "districts": [
+      "Barisal"
+    ],
+    "description": "The river flowing past Barisal city, historically vital for the region's launch and steamer trade.",
+    "image": "/images/rivers/kirtankhola.jpg"
+  },
+  {
+    "id": "ichamati",
+    "name": "Ichamati River",
+    "localName": "ইছামতী",
+    "length_km": 146,
+    "origin": "Branches off from the Padma system near the India border",
+    "districts": [
+      "Pabna",
+      "Satkhira"
+    ],
+    "description": "A border river shared with India, historically important for trade between the two Bengals.",
+    "image": "/images/rivers/ichamati.jpg"
+  },
+  {
+    "id": "mahananda",
+    "name": "Mahananda River",
+    "localName": "মহানন্দা",
+    "length_km": 96,
+    "origin": "Himalayan foothills of India, entering via Chapainawabganj",
+    "districts": [
+      "Chapainawabganj",
+      "Rajshahi"
+    ],
+    "description": "A river originating in the Himalayan foothills, flowing into northwestern Bangladesh before joining the Padma.",
+    "image": "/images/rivers/mahananda.jpg"
+  },
+  {
+    "id": "gomti",
+    "name": "Gomti River",
+    "localName": "গোমতী",
+    "length_km": 149,
+    "origin": "Tripura hills of India, entering Bangladesh near Cumilla",
+    "districts": [
+      "Cumilla"
+    ],
+    "description": "A river flowing from the Tripura hills through Cumilla district, historically prone to seasonal flooding.",
+    "image": "/images/rivers/gomti.jpg"
+  },
+  {
+    "id": "bhairab",
+    "name": "Bhairab River",
+    "localName": "ভৈরব",
+    "length_km": 250,
+    "origin": "Distributary of the Padma-Jalangi system near the India border",
+    "districts": [
+      "Kushtia",
+      "Jashore",
+      "Khulna"
+    ],
+    "description": "A historic river of southwestern Bangladesh, once a major trade route, now largely reliant on seasonal flow and water management.",
+    "image": "/images/rivers/bhairab.jpg"
   }
 ]

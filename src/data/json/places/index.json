@@ -398,5 +398,293 @@
     "description": "One of the most famous tourist attractions in Bangladesh, known for its incredible natural beauty.",
     "category": "Archaeological",
     "district": "Cumilla"
+  },
+  {
+    "id": "bangabandhu-memorial-museum",
+    "name": "Bangabandhu Memorial Museum",
+    "image": "/images/places/bangabandhu-memorial-museum.jpg",
+    "description": "The former residence of Bangabandhu Sheikh Mujibur Rahman at Dhanmondi 32, preserved as a museum documenting his life and the birth of Bangladesh.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "liberation-war-museum",
+    "name": "Liberation War Museum",
+    "image": "/images/places/liberation-war-museum.jpg",
+    "description": "A museum dedicated to the 1971 Liberation War, showcasing artefacts, photographs, and stories of the freedom struggle.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "national-museum",
+    "name": "Bangladesh National Museum",
+    "image": "/images/places/national-museum.jpg",
+    "description": "The largest museum in Bangladesh, housing collections spanning natural history, art, and the country's cultural heritage.",
+    "category": "Landmark",
+    "district": "Dhaka"
+  },
+  {
+    "id": "curzon-hall",
+    "name": "Curzon Hall",
+    "image": "/images/places/curzon-hall.jpg",
+    "description": "A striking example of Indo-Saracenic architecture on the Dhaka University campus, built in the early 20th century.",
+    "category": "Heritage & Palace",
+    "district": "Dhaka"
+  },
+  {
+    "id": "rose-garden-palace",
+    "name": "Rose Garden Palace",
+    "image": "/images/places/rose-garden-palace.jpg",
+    "description": "A 19th-century zamindar-era palace in Old Dhaka noted for its ornate architecture and historical significance.",
+    "category": "Heritage & Palace",
+    "district": "Dhaka"
+  },
+  {
+    "id": "bara-katra",
+    "name": "Bara Katra",
+    "image": "/images/places/bara-katra.jpg",
+    "description": "A 17th-century Mughal-era caravanserai in Old Dhaka, one of the city's oldest surviving structures.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "armenian-church",
+    "name": "Armenian Church",
+    "image": "/images/places/armenian-church.jpg",
+    "description": "A well-preserved 18th-century church in Old Dhaka reflecting the city's historic Armenian trading community.",
+    "category": "Religious",
+    "district": "Dhaka"
+  },
+  {
+    "id": "baldha-garden",
+    "name": "Baldha Garden",
+    "image": "/images/places/baldha-garden.jpg",
+    "description": "A century-old botanical garden in Old Dhaka home to a rich variety of rare and exotic plant species.",
+    "category": "Nature",
+    "district": "Dhaka"
+  },
+  {
+    "id": "himchari-national-park",
+    "name": "Himchari National Park",
+    "image": "/images/places/himchari-national-park.jpg",
+    "description": "A hilly national park along the Cox's Bazar coastline known for waterfalls, forest trails, and sea views.",
+    "category": "Nature",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "inani-beach",
+    "name": "Inani Beach",
+    "image": "/images/places/inani-beach.jpg",
+    "description": "A quieter stretch of Cox's Bazar's coastline known for coral fragments and calmer surroundings.",
+    "category": "Beach",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "marine-drive-coxsbazar",
+    "name": "Cox's Bazar Marine Drive",
+    "image": "/images/places/marine-drive-coxsbazar.jpg",
+    "description": "A scenic coastal road connecting Cox's Bazar to Teknaf, offering uninterrupted views of the Bay of Bengal.",
+    "category": "Landmark",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "teknaf",
+    "name": "Teknaf",
+    "image": "/images/places/teknaf.jpg",
+    "description": "The southernmost tip of mainland Bangladesh, bordered by hills, sea, and the Naf River.",
+    "category": "Nature",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "chimbuk-hill",
+    "name": "Chimbuk Hill",
+    "image": "/images/places/chimbuk-hill.jpg",
+    "description": "One of the highest points accessible by road in the Chittagong Hill Tracts, popular for panoramic views.",
+    "category": "Hill & Mountain",
+    "district": "Bandarban"
+  },
+  {
+    "id": "golden-temple-bandarban",
+    "name": "Buddha Dhatu Jadi (Golden Temple)",
+    "image": "/images/places/golden-temple-bandarban.jpg",
+    "description": "The largest Buddhist temple in Bangladesh, home to a sacred Buddha relic, overlooking Bandarban town.",
+    "category": "Religious",
+    "district": "Bandarban"
+  },
+  {
+    "id": "kaptai-lake",
+    "name": "Kaptai Lake",
+    "image": "/images/places/kaptai-lake.jpg",
+    "description": "The largest man-made lake in Bangladesh, formed by the Karnaphuli hydroelectric dam, ringed by hills.",
+    "category": "Lake",
+    "district": "Rangamati"
+  },
+  {
+    "id": "rangamati-hanging-bridge",
+    "name": "Rangamati Hanging Bridge",
+    "image": "/images/places/rangamati-hanging-bridge.jpg",
+    "description": "An iconic suspension footbridge over Kaptai Lake and a signature symbol of Rangamati.",
+    "category": "Landmark",
+    "district": "Rangamati"
+  },
+  {
+    "id": "alutila-cave",
+    "name": "Alutila Cave",
+    "image": "/images/places/alutila-cave.jpg",
+    "description": "A natural limestone cave in the hills of Khagrachhari, explored with torches through its dark, winding tunnel.",
+    "category": "Nature",
+    "district": "Khagrachhari"
+  },
+  {
+    "id": "richhang-waterfall",
+    "name": "Richhang Waterfall",
+    "image": "/images/places/richhang-waterfall.jpg",
+    "description": "A tiered waterfall tucked in the hills near Khagrachhari town, reachable by a short hillside trek.",
+    "category": "Waterfall",
+    "district": "Khagrachhari"
+  },
+  {
+    "id": "lalakhal",
+    "name": "Lalakhal",
+    "image": "/images/places/lalakhal.jpg",
+    "description": "Known for its striking turquoise-blue river water, framed by hills and betel-nut plantations.",
+    "category": "Nature",
+    "district": "Sylhet"
+  },
+  {
+    "id": "hakaluki-haor",
+    "name": "Hakaluki Haor",
+    "image": "/images/places/hakaluki-haor.jpg",
+    "description": "One of the largest wetlands in Bangladesh, a vital habitat for migratory birds and freshwater fish.",
+    "category": "Forest & Wetland",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "bholaganj-stone-quarry",
+    "name": "Bholaganj (Volaganj)",
+    "image": "/images/places/bholaganj-stone-quarry.jpg",
+    "description": "A stone-collection area near the India border, known for its clear streams and quarry-carved landscape.",
+    "category": "Nature",
+    "district": "Sylhet"
+  },
+  {
+    "id": "shah-jalal-mazar",
+    "name": "Shrine of Hazrat Shah Jalal",
+    "image": "/images/places/shah-jalal-mazar.jpg",
+    "description": "The shrine of the revered Sufi saint Hazrat Shah Jalal, one of the most visited religious sites in Sylhet.",
+    "category": "Religious",
+    "district": "Sylhet"
+  },
+  {
+    "id": "shah-paran-mazar",
+    "name": "Shrine of Hazrat Shah Paran",
+    "image": "/images/places/shah-paran-mazar.jpg",
+    "description": "A historic Sufi shrine on the outskirts of Sylhet city, dedicated to Hazrat Shah Paran.",
+    "category": "Religious",
+    "district": "Sylhet"
+  },
+  {
+    "id": "guthia-mosque",
+    "name": "Guthia Mosque",
+    "image": "/images/places/guthia-mosque.jpg",
+    "description": "A century-old mosque in Barisal noted for its terracotta ornamentation and colonial-era architecture.",
+    "category": "Religious",
+    "district": "Barisal"
+  },
+  {
+    "id": "durga-sagar",
+    "name": "Durga Sagar",
+    "image": "/images/places/durga-sagar.jpg",
+    "description": "An 18th-century excavated lake surrounded by palm trees, one of the largest ponds in southern Bangladesh.",
+    "category": "Lake",
+    "district": "Barisal"
+  },
+  {
+    "id": "michael-madhusudan-house",
+    "name": "Michael Madhusudan Dutta's House",
+    "image": "/images/places/michael-madhusudan-house.jpg",
+    "description": "The ancestral home of the pioneering 19th-century Bengali poet Michael Madhusudan Dutta, now a memorial site.",
+    "category": "Historical",
+    "district": "Jashore"
+  },
+  {
+    "id": "khan-jahan-ali-tomb",
+    "name": "Khan Jahan Ali's Tomb",
+    "image": "/images/places/khan-jahan-ali-tomb.jpg",
+    "description": "The mausoleum of Khan Jahan Ali, the Sufi saint who founded the historic city of Bagerhat.",
+    "category": "Religious",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "varendra-research-museum",
+    "name": "Varendra Research Museum",
+    "image": "/images/places/varendra-research-museum.jpg",
+    "description": "The oldest museum in Bangladesh, holding archaeological artefacts from the ancient Varendra region.",
+    "category": "Landmark",
+    "district": "Rajshahi"
+  },
+  {
+    "id": "padma-garden-rajshahi",
+    "name": "Padma Garden",
+    "image": "/images/places/padma-garden-rajshahi.jpg",
+    "description": "A riverside park along the Padma in Rajshahi city, popular for sunset views over the river.",
+    "category": "Nature",
+    "district": "Rajshahi"
+  },
+  {
+    "id": "natore-rajbari",
+    "name": "Natore Rajbari (Uttara Gono Bhaban)",
+    "image": "/images/places/natore-rajbari.jpg",
+    "description": "A grand 18th-century zamindar palace complex, now used as the President's northern residence and a heritage site.",
+    "category": "Heritage & Palace",
+    "district": "Natore"
+  },
+  {
+    "id": "chalan-beel",
+    "name": "Chalan Beel",
+    "image": "/images/places/chalan-beel.jpg",
+    "description": "One of the largest wetlands in Bangladesh, spanning several districts and rich in freshwater biodiversity.",
+    "category": "Forest & Wetland",
+    "district": "Natore"
+  },
+  {
+    "id": "bhawal-national-park",
+    "name": "Bhawal National Park",
+    "image": "/images/places/bhawal-national-park.jpg",
+    "description": "A sal-forest national park near Dhaka, popular for day trips, forest trails, and picnicking.",
+    "category": "Forest & Wetland",
+    "district": "Gazipur"
+  },
+  {
+    "id": "nuhash-polli",
+    "name": "Nuhash Palli",
+    "image": "/images/places/nuhash-polli.jpg",
+    "description": "A private retreat created by novelist Humayun Ahmed, now a memorial garden open to visitors.",
+    "category": "Landmark",
+    "district": "Gazipur"
+  },
+  {
+    "id": "shashi-lodge",
+    "name": "Shashi Lodge",
+    "image": "/images/places/shashi-lodge.jpg",
+    "description": "A 19th-century zamindar mansion in Mymensingh town, known for its colonial-era architecture.",
+    "category": "Heritage & Palace",
+    "district": "Mymensingh"
+  },
+  {
+    "id": "birishiri",
+    "name": "Birishiri",
+    "image": "/images/places/birishiri.jpg",
+    "description": "A scenic area along the Someshwari River, known for china-clay hills and views towards the Meghalaya border.",
+    "category": "Nature",
+    "district": "Netrokona"
+  },
+  {
+    "id": "gajni-avinjan-kendra",
+    "name": "Gajni Avinjan Kendra",
+    "image": "/images/places/gajni-avinjan-kendra.jpg",
+    "description": "An eco-tourism spot at the foothills of the Garo Hills, popular for its scenery and adventure activities.",
+    "category": "Nature",
+    "district": "Sherpur"
   }
 ]

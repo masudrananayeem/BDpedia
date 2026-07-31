@@ -9,6 +9,7 @@ import History from './pages/History';
 import Culture from './pages/Culture';
 import TravelGuide from './pages/TravelGuide';
 import Blog from './pages/Blog';
+import BlogDetails from './pages/BlogDetails';
 import Gallery from './pages/Gallery';
 import Rivers from './pages/Rivers';
 import About from './pages/About';
@@ -28,6 +29,7 @@ function App() {
           <Route path="culture" element={<Culture />} />
           <Route path="guide" element={<TravelGuide />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="blog/:id" element={<BlogDetails />} />
           <Route path="gallery" element={<Gallery />} />
           <Route path="rivers" element={<Rivers />} />
           <Route path="about" element={<About />} />
