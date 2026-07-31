@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import placesIndex from '../data/json/places/index.json';
-import { MapPin, ArrowRight, Search, SlidersHorizontal, X, ArrowUpDown } from 'lucide-react';
+import { MapPin, ArrowRight, Search, SlidersHorizontal, X, ArrowUpDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
@@ -14,6 +14,7 @@ type Place = {
 };
 
 const ALL_PLACES = placesIndex as Place[];
+const PAGE_SIZE = 33;
 
 const CATEGORIES = Array.from(new Set(ALL_PLACES.map((p) => p.category).filter(Boolean))) as string[];
 const DISTRICTS = Array.from(new Set(ALL_PLACES.map((p) => p.district).filter(Boolean))).sort() as string[];
@@ -26,6 +27,7 @@ export default function Explore() {
   const [activeDistrict, setActiveDistrict] = useState<string>('All');
   const [sortKey, setSortKey] = useState<SortKey>('default');
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [page, setPage] = useState(1);
 
   const filteredPlaces = useMemo(() => {
     let list = ALL_PLACES.filter((p) => {
@@ -43,6 +45,20 @@ export default function Explore() {
     return list;
   }, [searchTerm, activeCategory, activeDistrict, sortKey]);
 
+  const totalPages = Math.max(1, Math.ceil(filteredPlaces.length / PAGE_SIZE));
+  const paginatedPlaces = useMemo(
+    () => filteredPlaces.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE),
+    [filteredPlaces, page]
+  );
+
+  useEffect(() => {
+    setPage(1);
+  }, [searchTerm, activeCategory, activeDistrict, sortKey]);
+
+  useEffect(() => {
+    if (page > totalPages) setPage(totalPages);
+  }, [totalPages, page]);
+
   const activeFilterCount = (activeCategory !== 'All' ? 1 : 0) + (activeDistrict !== 'All' ? 1 : 0) + (searchTerm ? 1 : 0);
 
   const clearFilters = () => {
@@ -56,7 +72,7 @@ export default function Explore() {
       {/* Header */}
       <div className="mb-10 text-center">
         <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Explore Bangladesh</span>
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Tourist Places</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-heading">Tourist Places</h1>
         <p className="text-muted mb-8 max-w-2xl mx-auto text-lg">
           {ALL_PLACES.length}+ handpicked destinations across the country &mdash; filter by category, district, or search for a place.
         </p>
@@ -150,14 +166,15 @@ export default function Explore() {
       </div>
 
       <p className="text-sm text-muted mb-6">
-        Showing <span className="text-heading font-semibold">{filteredPlaces.length}</span> of {ALL_PLACES.length} places
+        Showing <span className="text-heading font-semibold">{paginatedPlaces.length}</span> of {filteredPlaces.length} places
+        {totalPages > 1 && <span> &middot; Page {page} of {totalPages}</span>}
       </p>
 
       {/* Grid */}
       <AnimatePresence mode="popLayout">
-        {filteredPlaces.length > 0 ? (
+        {paginatedPlaces.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredPlaces.map((place, index) => (
+            {paginatedPlaces.map((place, index) => (
               <Link to={`/explore/${place.id}`} key={place.id}>
                 <motion.div
                   layout
@@ -171,6 +188,8 @@ export default function Explore() {
                     <img
                       src={place.image}
                       alt={place.name}
+                      loading="lazy"
+                      decoding="async"
                       className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100"
                       onError={(e) => (e.currentTarget.style.opacity = '0')}
                     />
@@ -205,6 +224,39 @@ export default function Explore() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-2 mt-12 flex-wrap">
+          <button
+            onClick={() => { setPage((p) => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+            disabled={page === 1}
+            className="flex items-center gap-1 px-4 py-2 rounded-full text-sm font-medium border border-line/15 text-body hover:border-brand-green/50 hover:text-heading disabled:opacity-30 disabled:pointer-events-none transition-all"
+          >
+            <ChevronLeft size={15} /> Prev
+          </button>
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+            <button
+              key={p}
+              onClick={() => { setPage(p); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+              className={`w-9 h-9 rounded-full text-sm font-medium border transition-all ${
+                page === p
+                  ? 'bg-brand-green text-black border-brand-green'
+                  : 'bg-transparent text-body border-line/15 hover:border-brand-green/50 hover:text-heading'
+              }`}
+            >
+              {p}
+            </button>
+          ))}
+          <button
+            onClick={() => { setPage((p) => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+            disabled={page === totalPages}
+            className="flex items-center gap-1 px-4 py-2 rounded-full text-sm font-medium border border-line/15 text-body hover:border-brand-green/50 hover:text-heading disabled:opacity-30 disabled:pointer-events-none transition-all"
+          >
+            Next <ChevronRight size={15} />
+          </button>
+        </div>
+      )}
     </div>
   );
 }
