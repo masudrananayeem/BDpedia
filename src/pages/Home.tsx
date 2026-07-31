@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('hero');
-  const sections = ['hero', 'about', 'featured', 'stats'];
+  const sections = ['hero', 'about', 'facts', 'featured', 'video'];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,13 +38,13 @@ export default function Home() {
   ];
 
   return (
-    <div className="relative bg-[#0a0a0a]">
+    <div className="relative bg-base">
       {/* Scroll Dots */}
       <div className="fixed right-8 top-1/2 -translate-y-1/2 z-50 hidden md:flex flex-col gap-4">
         {sections.map((sec) => (
           <button 
             key={sec} onClick={() => scrollTo(sec)}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${activeSection === sec ? 'bg-brand-green scale-125 shadow-[0_0_10px_#8EE656]' : 'border-[1.5px] border-white/70 hover:bg-white/50'}`}
+            className={`w-3 h-3 rounded-full transition-all duration-300 ${activeSection === sec ? 'bg-brand-green scale-125 shadow-[0_0_10px_#8EE656]' : 'border-[1.5px] border-line/70 hover:bg-line/50'}`}
             title={`Scroll to ${sec}`}
           />
         ))}
@@ -58,31 +58,31 @@ export default function Home() {
         </div>
 
         <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 1, ease: "easeOut", delay: 0.2 }} className="relative z-10 max-w-3xl mt-20">
-          <h1 className="text-5xl md:text-[5.5rem] font-extrabold text-white leading-[1.05] tracking-tight">
+          <h1 className="text-5xl md:text-[5.5rem] font-extrabold text-heading leading-[1.05] tracking-tight">
             Discover <br /> The Beauty of <br /> <span className="text-brand-green">Bangladesh</span>
           </h1>
           
-          <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.6 }} className="mt-8 text-lg md:text-xl text-gray-200/90 max-w-lg leading-relaxed font-medium">
+          <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.6 }} className="mt-8 text-lg md:text-xl text-body/90 max-w-lg leading-relaxed font-medium">
             From the mighty rivers to the green hills,<br />from rich history to diverse culture—<br />explore everything that makes Bangladesh unique.
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.8 }} className="mt-10 flex flex-wrap items-center gap-5">
-            <Link to="/explore" className="group flex items-center gap-2 bg-brand-dark hover:bg-green-500 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-[0_0_30px_rgba(34,197,94,0.3)] hover:shadow-[0_0_40px_rgba(34,197,94,0.5)]">
+            <Link to="/explore" className="group flex items-center gap-2 bg-brand-dark hover:bg-green-500 text-heading px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-[0_0_30px_rgba(34,197,94,0.3)] hover:shadow-[0_0_40px_rgba(34,197,94,0.5)]">
               Explore Bangladesh <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
         </motion.div>
 
         <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 1 }} className="absolute bottom-8 left-6 right-6 lg:left-24 lg:right-24 z-20">
-          <div className="bg-[#0f2110]/40 backdrop-blur-xl border border-white/10 rounded-[2rem] p-6 lg:px-10 lg:py-8 shadow-2xl">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-8 gap-x-4 lg:divide-x divide-white/10">
+          <div className="bg-[#0f2110]/40 backdrop-blur-xl border border-line/10 rounded-[2rem] p-6 lg:px-10 lg:py-8 shadow-2xl">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-8 gap-x-4 lg:divide-x divide-line/10">
               {statsIcons.map((stat, index) => (
                 <motion.div key={index} whileHover={{ scale: 1.05 }} className="flex flex-col items-center justify-center text-center px-4 group cursor-default">
                   <div className="flex items-center gap-3 mb-2">
-                    <div className="p-2 bg-white/5 rounded-lg group-hover:bg-white/10 transition-colors">{stat.icon}</div>
-                    <h3 className="text-3xl font-extrabold text-white tracking-tight">{stat.count}</h3>
+                    <div className="p-2 bg-line/5 rounded-lg group-hover:bg-line/10 transition-colors">{stat.icon}</div>
+                    <h3 className="text-3xl font-extrabold text-heading tracking-tight">{stat.count}</h3>
                   </div>
-                  <p className="text-sm font-medium text-gray-400 group-hover:text-gray-300 transition-colors">{stat.label}</p>
+                  <p className="text-sm font-medium text-muted group-hover:text-body transition-colors">{stat.label}</p>
                 </motion.div>
               ))}
             </div>
@@ -90,7 +90,7 @@ export default function Home() {
         </motion.div>
       </section>
 
-      <section id="about" className="py-32 px-6 lg:px-24 bg-[#0a0a0a]">
+      <section id="about" className="py-32 px-6 lg:px-24 bg-base">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Discover the Essence</h2>
@@ -103,10 +103,10 @@ export default function Home() {
               { title: "Rich History", desc: "From ancient to modern eras.", icon: <Landmark size={40} className="text-brand-green" />, link: "/history" },
               { title: "Culture", desc: "A melting pot of diversity.", icon: <Users size={40} className="text-brand-green" />, link: "/culture" }
             ].map((item, i) => (
-              <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-[#111] p-8 rounded-2xl border border-white/5 hover:border-brand-green/30 transition-colors group">
-                <div className="mb-6 bg-white/5 w-16 h-16 flex items-center justify-center rounded-xl group-hover:scale-110 transition-transform">{item.icon}</div>
+              <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="bg-surface p-8 rounded-2xl border border-line/5 hover:border-brand-green/30 transition-colors group">
+                <div className="mb-6 bg-line/5 w-16 h-16 flex items-center justify-center rounded-xl group-hover:scale-110 transition-transform">{item.icon}</div>
                 <h3 className="text-xl font-bold mb-2">{item.title}</h3>
-                <p className="text-gray-400 mb-6">{item.desc}</p>
+                <p className="text-muted mb-6">{item.desc}</p>
                 <Link to={item.link} className="text-brand-green text-sm font-semibold flex items-center gap-1 group-hover:gap-2 transition-all">Learn more <ArrowRight size={14} /></Link>
               </motion.div>
             ))}
@@ -114,14 +114,57 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="featured" className="py-32 px-6 lg:px-24 bg-[#111]">
+      <section id="facts" className="py-32 px-6 lg:px-24 bg-base">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Know Bangladesh</span>
+            <h2 className="text-4xl font-bold mb-4">Quick Facts About Bangladesh</h2>
+            <div className="w-20 h-1 bg-brand-green mx-auto rounded-full"></div>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+            <div className="lg:col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-5">
+              {[
+                { label: "Capital", value: "Dhaka" },
+                { label: "Official Language", value: "Bangla" },
+                { label: "Currency", value: "Bangladeshi Taka (৳)" },
+                { label: "Independence Day", value: "26 March, 1971" },
+                { label: "Victory Day", value: "16 December, 1971" },
+                { label: "Area", value: "147,570 km²" },
+                { label: "National Flower", value: "Water Lily (Shapla)" },
+                { label: "National Fruit", value: "Jackfruit (Kathal)" },
+                { label: "National Sport", value: "Kabaddi" },
+                { label: "Longest Beach", value: "Cox's Bazar" },
+                { label: "Main Religion", value: "Islam (majority)" },
+                { label: "Time Zone", value: "GMT +6 (BST)" },
+              ].map((fact) => (
+                <div key={fact.label} className="bg-surface border border-line/10 rounded-2xl p-5 hover:border-brand-green/30 transition-colors">
+                  <p className="text-[11px] uppercase tracking-wide text-muted mb-1">{fact.label}</p>
+                  <p className="font-bold text-heading">{fact.value}</p>
+                </div>
+              ))}
+            </div>
+            <div className="bg-brand-green/10 border border-brand-green/30 rounded-3xl p-8">
+              <h3 className="text-2xl font-bold mb-4 text-brand-green">Why Visit Bangladesh?</h3>
+              <ul className="space-y-3 text-sm text-body leading-relaxed">
+                <li>🌊 Home to the world's longest natural sea beach, Cox's Bazar.</li>
+                <li>🌳 The Sundarbans — the largest mangrove forest and home of the Royal Bengal Tiger.</li>
+                <li>🏞️ Endless tea gardens across Sylhet and the hill tracts.</li>
+                <li>🕌 Centuries of Mughal, Sultanate, and colonial heritage sites.</li>
+                <li>🍛 A vibrant food culture built around rice, fish, and legendary sweets.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured" className="py-32 px-6 lg:px-24 bg-surface">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
           <div className="flex-1">
-             <motion.img initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} src="/images/hero/featured.jpg" alt="Featured" className="w-full rounded-2xl shadow-2xl border border-white/10 aspect-video object-cover bg-gray-800" />
+             <motion.img initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} src="/images/hero/featured.jpg" alt="Featured" className="w-full rounded-2xl shadow-2xl border border-line/10 aspect-video object-cover bg-surfacealt" />
           </div>
           <div className="flex-1">
             <h2 className="text-4xl font-bold mb-6">A Land of Vibrant Culture & Diversity</h2>
-            <p className="text-gray-300 mb-6 text-lg leading-relaxed">
+            <p className="text-body mb-6 text-lg leading-relaxed">
               Bangladesh is home to numerous ethnic groups, each with their own unique traditions, languages, and festivals. From the bustling streets of Dhaka to the peaceful hills of Bandarban, every corner tells a story.
             </p>
             <Link to="/culture" className="inline-block border border-brand-green text-brand-green hover:bg-brand-green hover:text-black px-8 py-3 rounded-full font-semibold transition-colors">
@@ -129,6 +172,31 @@ export default function Home() {
             </Link>
           </div>
         </div>
+      </section>
+
+      <section id="video" className="relative h-[70vh] md:h-[85vh] overflow-hidden flex items-center justify-center">
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src="/videos/bangladesh-nature.mp4"
+          poster="/images/hero/bg-image.jpg"
+          autoPlay loop muted playsInline
+        />
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-t from-base via-black/20 to-black/40" />
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}
+          className="relative z-10 text-center px-6 max-w-3xl"
+        >
+          <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-4">Feel It Yourself</span>
+          <h2 className="text-4xl md:text-6xl font-extrabold text-heading mb-6 drop-shadow-lg">Nature in Motion</h2>
+          <p className="text-body text-lg mb-10 leading-relaxed">
+            Rolling tea gardens, winding rivers and endless green &mdash; watch the natural beauty of Bangladesh come alive.
+          </p>
+          <Link to="/explore" className="inline-flex items-center gap-2 bg-brand-green text-black px-8 py-4 rounded-full font-semibold hover:bg-white transition-colors">
+            <Play size={18} fill="currentColor" /> Start Exploring
+          </Link>
+        </motion.div>
       </section>
     </div>
   );
