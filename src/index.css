@@ -1,6 +1,35 @@
-@tailwind base; @tailwind components; @tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Theme tokens ---------- */
+/* Night mode (default) */
+:root {
+  --c-base: 10 10 10;         /* page background */
+  --c-navbar: 5 5 5;          /* navbar background */
+  --c-surface: 17 17 17;      /* card / panel background */
+  --c-surfacealt: 31 41 55;   /* image placeholders etc */
+  --c-line: 255 255 255;      /* border / divider base (used with opacity) */
+  --c-heading: 255 255 255;   /* headings / strong text */
+  --c-body: 209 213 219;      /* body text */
+  --c-muted: 156 163 175;     /* muted / secondary text */
+}
+
+/* Day mode */
+html.light {
+  --c-base: 246 247 245;
+  --c-navbar: 255 255 255;
+  --c-surface: 255 255 255;
+  --c-surfacealt: 226 232 224;
+  --c-line: 15 23 20;
+  --c-heading: 10 15 12;
+  --c-body: 55 65 61;
+  --c-muted: 100 112 106;
+}
+
 html { scroll-behavior: smooth; }
-body { background-color: #0a0a0a; color: white; }
+body { background-color: rgb(var(--c-base)); color: rgb(var(--c-heading)); transition: background-color .3s ease, color .3s ease; }
+
 ::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-track { background: rgb(var(--c-base)); }
 ::-webkit-scrollbar-thumb { background: #22C55E; border-radius: 4px; }
