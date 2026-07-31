@@ -10,6 +10,9 @@ import Culture from './pages/Culture';
 import TravelGuide from './pages/TravelGuide';
 import Blog from './pages/Blog';
 import Gallery from './pages/Gallery';
+import Rivers from './pages/Rivers';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
           <Route path="guide" element={<TravelGuide />} />
           <Route path="blog" element={<Blog />} />
           <Route path="gallery" element={<Gallery />} />
+          <Route path="rivers" element={<Rivers />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
