@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ocean-paradise-coxsbazar",
+    "name": "Ocean Paradise Hotel & Resort",
+    "district": "Cox's Bazar",
+    "category": "Luxury",
+    "priceRange": "\u09f3\u09f3\u09f3\u09f3",
+    "rating": 4.4,
+    "amenities": ["Sea View", "Pool", "Spa", "Restaurant"],
+    "description": "A beachfront luxury resort with panoramic views of the world's longest sea beach."
+  },
+  {
+    "id": "sayeman-beach-resort",
+    "name": "Sayeman Beach Resort",
+    "district": "Cox's Bazar",
+    "category": "Luxury",
+    "priceRange": "\u09f3\u09f3\u09f3\u09f3",
+    "rating": 4.2,
+    "amenities": ["Sea View", "Pool", "Conference Hall"],
+    "description": "A well-known beachfront resort popular with families and business travelers."
+  },
+  {
+    "id": "seagull-hotel",
+    "name": "Hotel Sea Gull",
+    "district": "Cox's Bazar",
+    "category": "Mid-range",
+    "priceRange": "\u09f3\u09f3\u09f3",
+    "rating": 4.0,
+    "amenities": ["Sea View", "Restaurant", "Free Wi-Fi"],
+    "description": "One of the oldest and most trusted hotel chains right on Cox's Bazar beach road."
+  },
+  {
+    "id": "royal-tulip-sea-pearl",
+    "name": "Royal Tulip Sea Pearl Beach Resort",
+    "district": "Cox's Bazar",
+    "category": "Luxury",
+    "priceRange": "\u09f3\u09f3\u09f3\u09f3\u09f3",
+    "rating": 4.5,
+    "amenities": ["Private Beach", "Pool", "Spa", "Multiple Restaurants"],
+    "description": "A 5-star international resort chain located in Inani, south of Cox's Bazar town."
+  },
+  {
+    "id": "grand-sultan-srimangal",
+    "name": "Grand Sultan Tea Resort & Golf",
+    "district": "Moulvibazar",
+    "category": "Luxury",
+    "priceRange": "\u09f3\u09f3\u09f3\u09f3",
+    "rating": 4.3,
+    "amenities": ["Tea Garden View", "Golf Course", "Pool", "Spa"],
+    "description": "A resort set amid the tea gardens of Sreemangal, ideal for a relaxed nature getaway."
+  },
+  {
+    "id": "nishorgo-sajek",
+    "name": "Sajek Resort",
+    "district": "Rangamati",
+    "category": "Budget",
+    "priceRange": "\u09f3\u09f3",
+    "rating": 4.1,
+    "amenities": ["Cloud View", "Mountain View", "Cottage Stay"],
+    "description": "Cottage-style accommodation on Sajek Valley's ridge, famous for its sea of clouds."
+  },
+  {
+    "id": "hotel-agrabad-ctg",
+    "name": "Hotel Agrabad",
+    "district": "Chattogram",
+    "category": "Mid-range",
+    "priceRange": "\u09f3\u09f3\u09f3",
+    "rating": 4.0,
+    "amenities": ["City View", "Restaurant", "Business Center"],
+    "description": "A centrally located business hotel in the commercial heart of Chattogram city."
+  },
+  {
+    "id": "radisson-blu-dhaka",
+    "name": "Radisson Blu Dhaka Water Garden",
+    "district": "Dhaka",
+    "category": "Luxury",
+    "priceRange": "\u09f3\u09f3\u09f3\u09f3\u09f3",
+    "rating": 4.6,
+    "amenities": ["Pool", "Spa", "Multiple Restaurants", "Gym"],
+    "description": "A landmark 5-star hotel near the airport with lush water-garden landscaping."
+  },
+  {
+    "id": "pan-pacific-sonargaon",
+    "name": "Pan Pacific Sonargaon Dhaka",
+    "district": "Dhaka",
+    "category": "Luxury",
+    "priceRange": "\u09f3\u09f3\u09f3\u09f3\u09f3",
+    "rating": 4.5,
+    "amenities": ["Pool", "Spa", "Fine Dining", "Gym"],
+    "description": "One of Dhaka's most iconic 5-star hotels, centrally located near Karwan Bazar."
+  },
+  {
+    "id": "hotel-noor-int-sylhet",
+    "name": "Hotel Noor International",
+    "district": "Sylhet",
+    "category": "Mid-range",
+    "priceRange": "\u09f3\u09f3\u09f3",
+    "rating": 3.9,
+    "amenities": ["City View", "Restaurant", "Free Wi-Fi"],
+    "description": "A comfortable mid-range base for exploring Jaflong, Bisanakandi and Ratargul."
+  },
+  {
+    "id": "kuakata-grand-hotel",
+    "name": "Kuakata Grand Hotel",
+    "district": "Patuakhali",
+    "category": "Budget",
+    "priceRange": "\u09f3\u09f3",
+    "rating": 3.8,
+    "amenities": ["Sea View", "Restaurant"],
+    "description": "An affordable beachfront option near Kuakata's famous sunrise-sunset point."
+  },
+  {
+    "id": "hillview-bandarban",
+    "name": "Hillview Resort",
+    "district": "Bandarban",
+    "category": "Mid-range",
+    "priceRange": "\u09f3\u09f3\u09f3",
+    "rating": 4.0,
+    "amenities": ["Mountain View", "Restaurant", "Trekking Desk"],
+    "description": "A hillside resort convenient for trips to Nilgiri, Chimbuk and Boga Lake."
+  }
+]

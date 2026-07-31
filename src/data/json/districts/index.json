@@ -3,384 +3,448 @@
     "id": "dhaka",
     "name": "Dhaka",
     "image": "/images/districts/dhaka.jpg",
-    "history": "Rich history of Dhaka, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Dhaka, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "faridpur",
     "name": "Faridpur",
     "image": "/images/districts/faridpur.jpg",
-    "history": "Rich history of Faridpur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Faridpur, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "gazipur",
     "name": "Gazipur",
     "image": "/images/districts/gazipur.jpg",
-    "history": "Rich history of Gazipur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Gazipur, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "gopalganj",
     "name": "Gopalganj",
     "image": "/images/districts/gopalganj.jpg",
-    "history": "Rich history of Gopalganj, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Gopalganj, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "kishoreganj",
     "name": "Kishoreganj",
     "image": "/images/districts/kishoreganj.jpg",
-    "history": "Rich history of Kishoreganj, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Kishoreganj, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "madaripur",
     "name": "Madaripur",
     "image": "/images/districts/madaripur.jpg",
-    "history": "Rich history of Madaripur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Madaripur, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "manikganj",
     "name": "Manikganj",
     "image": "/images/districts/manikganj.jpg",
-    "history": "Rich history of Manikganj, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Manikganj, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "munshiganj",
     "name": "Munshiganj",
     "image": "/images/districts/munshiganj.jpg",
-    "history": "Rich history of Munshiganj, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Munshiganj, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "narayanganj",
     "name": "Narayanganj",
     "image": "/images/districts/narayanganj.jpg",
-    "history": "Rich history of Narayanganj, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Narayanganj, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "narsingdi",
     "name": "Narsingdi",
     "image": "/images/districts/narsingdi.jpg",
-    "history": "Rich history of Narsingdi, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Narsingdi, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "rajbari",
     "name": "Rajbari",
     "image": "/images/districts/rajbari.jpg",
-    "history": "Rich history of Rajbari, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Rajbari, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "shariatpur",
     "name": "Shariatpur",
     "image": "/images/districts/shariatpur.jpg",
-    "history": "Rich history of Shariatpur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Shariatpur, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "tangail",
     "name": "Tangail",
     "image": "/images/districts/tangail.jpg",
-    "history": "Rich history of Tangail, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Tangail, playing a vital role in the region's cultural and economic development.",
+    "division": "Dhaka"
   },
   {
     "id": "bogura",
     "name": "Bogura",
     "image": "/images/districts/bogura.jpg",
-    "history": "Rich history of Bogura, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Bogura, playing a vital role in the region's cultural and economic development.",
+    "division": "Rajshahi"
   },
   {
     "id": "joypurhat",
     "name": "Joypurhat",
     "image": "/images/districts/joypurhat.jpg",
-    "history": "Rich history of Joypurhat, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Joypurhat, playing a vital role in the region's cultural and economic development.",
+    "division": "Rajshahi"
   },
   {
     "id": "naogaon",
     "name": "Naogaon",
     "image": "/images/districts/naogaon.jpg",
-    "history": "Rich history of Naogaon, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Naogaon, playing a vital role in the region's cultural and economic development.",
+    "division": "Rajshahi"
   },
   {
     "id": "natore",
     "name": "Natore",
     "image": "/images/districts/natore.jpg",
-    "history": "Rich history of Natore, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Natore, playing a vital role in the region's cultural and economic development.",
+    "division": "Rajshahi"
   },
   {
     "id": "chapainawabganj",
     "name": "Chapainawabganj",
     "image": "/images/districts/chapainawabganj.jpg",
-    "history": "Rich history of Chapainawabganj, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Chapainawabganj, playing a vital role in the region's cultural and economic development.",
+    "division": "Rajshahi"
   },
   {
     "id": "pabna",
     "name": "Pabna",
     "image": "/images/districts/pabna.jpg",
-    "history": "Rich history of Pabna, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Pabna, playing a vital role in the region's cultural and economic development.",
+    "division": "Rajshahi"
   },
   {
     "id": "rajshahi",
     "name": "Rajshahi",
     "image": "/images/districts/rajshahi.jpg",
-    "history": "Rich history of Rajshahi, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Rajshahi, playing a vital role in the region's cultural and economic development.",
+    "division": "Rajshahi"
   },
   {
     "id": "sirajganj",
     "name": "Sirajganj",
     "image": "/images/districts/sirajganj.jpg",
-    "history": "Rich history of Sirajganj, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Sirajganj, playing a vital role in the region's cultural and economic development.",
+    "division": "Rajshahi"
   },
   {
     "id": "dinajpur",
     "name": "Dinajpur",
     "image": "/images/districts/dinajpur.jpg",
-    "history": "Rich history of Dinajpur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Dinajpur, playing a vital role in the region's cultural and economic development.",
+    "division": "Rangpur"
   },
   {
     "id": "gaibandha",
     "name": "Gaibandha",
     "image": "/images/districts/gaibandha.jpg",
-    "history": "Rich history of Gaibandha, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Gaibandha, playing a vital role in the region's cultural and economic development.",
+    "division": "Rangpur"
   },
   {
     "id": "kurigram",
     "name": "Kurigram",
     "image": "/images/districts/kurigram.jpg",
-    "history": "Rich history of Kurigram, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Kurigram, playing a vital role in the region's cultural and economic development.",
+    "division": "Rangpur"
   },
   {
     "id": "lalmonirhat",
     "name": "Lalmonirhat",
     "image": "/images/districts/lalmonirhat.jpg",
-    "history": "Rich history of Lalmonirhat, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Lalmonirhat, playing a vital role in the region's cultural and economic development.",
+    "division": "Rangpur"
   },
   {
     "id": "nilphamari",
     "name": "Nilphamari",
     "image": "/images/districts/nilphamari.jpg",
-    "history": "Rich history of Nilphamari, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Nilphamari, playing a vital role in the region's cultural and economic development.",
+    "division": "Rangpur"
   },
   {
     "id": "panchagarh",
     "name": "Panchagarh",
     "image": "/images/districts/panchagarh.jpg",
-    "history": "Rich history of Panchagarh, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Panchagarh, playing a vital role in the region's cultural and economic development.",
+    "division": "Rangpur"
   },
   {
     "id": "rangpur",
     "name": "Rangpur",
     "image": "/images/districts/rangpur.jpg",
-    "history": "Rich history of Rangpur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Rangpur, playing a vital role in the region's cultural and economic development.",
+    "division": "Rangpur"
   },
   {
     "id": "thakurgaon",
     "name": "Thakurgaon",
     "image": "/images/districts/thakurgaon.jpg",
-    "history": "Rich history of Thakurgaon, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Thakurgaon, playing a vital role in the region's cultural and economic development.",
+    "division": "Rangpur"
   },
   {
     "id": "barguna",
     "name": "Barguna",
     "image": "/images/districts/barguna.jpg",
-    "history": "Rich history of Barguna, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Barguna, playing a vital role in the region's cultural and economic development.",
+    "division": "Barishal"
   },
   {
     "id": "barishal",
     "name": "Barishal",
     "image": "/images/districts/barishal.jpg",
-    "history": "Rich history of Barishal, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Barishal, playing a vital role in the region's cultural and economic development.",
+    "division": "Barishal"
   },
   {
     "id": "bhola",
     "name": "Bhola",
     "image": "/images/districts/bhola.jpg",
-    "history": "Rich history of Bhola, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Bhola, playing a vital role in the region's cultural and economic development.",
+    "division": "Barishal"
   },
   {
     "id": "jhalokati",
     "name": "Jhalokati",
     "image": "/images/districts/jhalokati.jpg",
-    "history": "Rich history of Jhalokati, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Jhalokati, playing a vital role in the region's cultural and economic development.",
+    "division": "Barishal"
   },
   {
     "id": "patuakhali",
     "name": "Patuakhali",
     "image": "/images/districts/patuakhali.jpg",
-    "history": "Rich history of Patuakhali, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Patuakhali, playing a vital role in the region's cultural and economic development.",
+    "division": "Barishal"
   },
   {
     "id": "pirojpur",
     "name": "Pirojpur",
     "image": "/images/districts/pirojpur.jpg",
-    "history": "Rich history of Pirojpur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Pirojpur, playing a vital role in the region's cultural and economic development.",
+    "division": "Barishal"
   },
   {
     "id": "bandarban",
     "name": "Bandarban",
     "image": "/images/districts/bandarban.jpg",
-    "history": "Rich history of Bandarban, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Bandarban, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "brahmanbaria",
     "name": "Brahmanbaria",
     "image": "/images/districts/brahmanbaria.jpg",
-    "history": "Rich history of Brahmanbaria, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Brahmanbaria, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "chandpur",
     "name": "Chandpur",
     "image": "/images/districts/chandpur.jpg",
-    "history": "Rich history of Chandpur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Chandpur, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "chattogram",
     "name": "Chattogram",
     "image": "/images/districts/chattogram.jpg",
-    "history": "Rich history of Chattogram, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Chattogram, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "cumilla",
     "name": "Cumilla",
     "image": "/images/districts/cumilla.jpg",
-    "history": "Rich history of Cumilla, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Cumilla, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "cox-s-bazar",
     "name": "Cox's Bazar",
     "image": "/images/districts/cox-s-bazar.jpg",
-    "history": "Rich history of Cox's Bazar, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Cox's Bazar, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "feni",
     "name": "Feni",
     "image": "/images/districts/feni.jpg",
-    "history": "Rich history of Feni, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Feni, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "khagrachari",
     "name": "Khagrachari",
     "image": "/images/districts/khagrachari.jpg",
-    "history": "Rich history of Khagrachari, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Khagrachari, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "lakshmipur",
     "name": "Lakshmipur",
     "image": "/images/districts/lakshmipur.jpg",
-    "history": "Rich history of Lakshmipur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Lakshmipur, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "noakhali",
     "name": "Noakhali",
     "image": "/images/districts/noakhali.jpg",
-    "history": "Rich history of Noakhali, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Noakhali, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "rangamati",
     "name": "Rangamati",
     "image": "/images/districts/rangamati.jpg",
-    "history": "Rich history of Rangamati, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Rangamati, playing a vital role in the region's cultural and economic development.",
+    "division": "Chattogram"
   },
   {
     "id": "habiganj",
     "name": "Habiganj",
     "image": "/images/districts/habiganj.jpg",
-    "history": "Rich history of Habiganj, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Habiganj, playing a vital role in the region's cultural and economic development.",
+    "division": "Sylhet"
   },
   {
     "id": "moulvibazar",
     "name": "Moulvibazar",
     "image": "/images/districts/moulvibazar.jpg",
-    "history": "Rich history of Moulvibazar, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Moulvibazar, playing a vital role in the region's cultural and economic development.",
+    "division": "Sylhet"
   },
   {
     "id": "sunamganj",
     "name": "Sunamganj",
     "image": "/images/districts/sunamganj.jpg",
-    "history": "Rich history of Sunamganj, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Sunamganj, playing a vital role in the region's cultural and economic development.",
+    "division": "Sylhet"
   },
   {
     "id": "sylhet",
     "name": "Sylhet",
     "image": "/images/districts/sylhet.jpg",
-    "history": "Rich history of Sylhet, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Sylhet, playing a vital role in the region's cultural and economic development.",
+    "division": "Sylhet"
   },
   {
     "id": "bagerhat",
     "name": "Bagerhat",
     "image": "/images/districts/bagerhat.jpg",
-    "history": "Rich history of Bagerhat, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Bagerhat, playing a vital role in the region's cultural and economic development.",
+    "division": "Khulna"
   },
   {
     "id": "chuadanga",
     "name": "Chuadanga",
     "image": "/images/districts/chuadanga.jpg",
-    "history": "Rich history of Chuadanga, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Chuadanga, playing a vital role in the region's cultural and economic development.",
+    "division": "Khulna"
   },
   {
     "id": "jashore",
     "name": "Jashore",
     "image": "/images/districts/jashore.jpg",
-    "history": "Rich history of Jashore, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Jashore, playing a vital role in the region's cultural and economic development.",
+    "division": "Khulna"
   },
   {
     "id": "jhenaidah",
     "name": "Jhenaidah",
     "image": "/images/districts/jhenaidah.jpg",
-    "history": "Rich history of Jhenaidah, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Jhenaidah, playing a vital role in the region's cultural and economic development.",
+    "division": "Khulna"
   },
   {
     "id": "khulna",
     "name": "Khulna",
     "image": "/images/districts/khulna.jpg",
-    "history": "Rich history of Khulna, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Khulna, playing a vital role in the region's cultural and economic development.",
+    "division": "Khulna"
   },
   {
     "id": "kushtia",
     "name": "Kushtia",
     "image": "/images/districts/kushtia.jpg",
-    "history": "Rich history of Kushtia, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Kushtia, playing a vital role in the region's cultural and economic development.",
+    "division": "Khulna"
   },
   {
     "id": "magura",
     "name": "Magura",
     "image": "/images/districts/magura.jpg",
-    "history": "Rich history of Magura, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Magura, playing a vital role in the region's cultural and economic development.",
+    "division": "Khulna"
   },
   {
     "id": "meherpur",
     "name": "Meherpur",
     "image": "/images/districts/meherpur.jpg",
-    "history": "Rich history of Meherpur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Meherpur, playing a vital role in the region's cultural and economic development.",
+    "division": "Khulna"
   },
   {
     "id": "narail",
     "name": "Narail",
     "image": "/images/districts/narail.jpg",
-    "history": "Rich history of Narail, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Narail, playing a vital role in the region's cultural and economic development.",
+    "division": "Khulna"
   },
   {
     "id": "satkhira",
     "name": "Satkhira",
     "image": "/images/districts/satkhira.jpg",
-    "history": "Rich history of Satkhira, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Satkhira, playing a vital role in the region's cultural and economic development.",
+    "division": "Khulna"
   },
   {
     "id": "jamalpur",
     "name": "Jamalpur",
     "image": "/images/districts/jamalpur.jpg",
-    "history": "Rich history of Jamalpur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Jamalpur, playing a vital role in the region's cultural and economic development.",
+    "division": "Mymensingh"
   },
   {
     "id": "mymensingh",
     "name": "Mymensingh",
     "image": "/images/districts/mymensingh.jpg",
-    "history": "Rich history of Mymensingh, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Mymensingh, playing a vital role in the region's cultural and economic development.",
+    "division": "Mymensingh"
   },
   {
     "id": "netrokona",
     "name": "Netrokona",
     "image": "/images/districts/netrokona.jpg",
-    "history": "Rich history of Netrokona, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Netrokona, playing a vital role in the region's cultural and economic development.",
+    "division": "Mymensingh"
   },
   {
     "id": "sherpur",
     "name": "Sherpur",
     "image": "/images/districts/sherpur.jpg",
-    "history": "Rich history of Sherpur, playing a vital role in the region's cultural and economic development."
+    "history": "Rich history of Sherpur, playing a vital role in the region's cultural and economic development.",
+    "division": "Mymensingh"
   }
 ]
