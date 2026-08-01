@@ -17,8 +17,8 @@ export default function PlaceDetails() {
         const module = await import(`../data/json/places/${slug}.json`);
         setPlace(module.default || module);
       } catch (err) {
-        console.error("Failed to load place data", err);
-        setPlace(null);
+        const fallback = (placesIndex as any[]).find((p) => p.id === slug);
+        setPlace(fallback || null);
       } finally {
         setLoading(false);
       }
