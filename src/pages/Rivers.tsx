@@ -1,13 +1,14 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import rivers from '../data/json/others/rivers.json';
-import { Search, Waves, MapPin, Ruler } from 'lucide-react';
+import { Search, Waves, MapPin, Ruler, ExternalLink, BookOpen } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useSearchParams } from 'react-router-dom';
 
 type River = {
   id: string;
   name: string;
   localName?: string;
-  length_km: number;
+  length_km: number | null;
   origin: string;
   districts: string[];
   description: string;
@@ -17,7 +18,10 @@ type River = {
 const ALL_RIVERS = rivers as River[];
 
 export default function Rivers() {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchParams] = useSearchParams();
+  const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
+  const [currentPage, setCurrentPage] = useState(1);
+  const RIVERS_PER_PAGE = 25;
 
   const filtered = useMemo(() => {
     return ALL_RIVERS.filter(
@@ -26,6 +30,20 @@ export default function Rivers() {
         r.districts.some((d) => d.toLowerCase().includes(searchTerm.toLowerCase()))
     );
   }, [searchTerm]);
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / RIVERS_PER_PAGE));
+  const paginatedRivers = filtered.slice(
+    (currentPage - 1) * RIVERS_PER_PAGE,
+    currentPage * RIVERS_PER_PAGE
+  );
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm]);
+
+  useEffect(() => {
+    if (currentPage > totalPages) setCurrentPage(totalPages);
+  }, [currentPage, totalPages]);
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-12">
@@ -46,12 +64,20 @@ export default function Rivers() {
         </div>
       </div>
 
+      <div className="mb-8 rounded-2xl border border-brand-green/20 bg-brand-green/5 p-5 md:p-6 flex flex-col md:flex-row md:items-center justify-between gap-5">
+        <div>
+          <div className="flex items-center gap-2 text-brand-green font-bold mb-1"><BookOpen size={18} /> Complete River Reference</div>
+          <p className="text-sm text-muted max-w-3xl">River counts vary by source and season. For a broader reference, open Wikipedia’s maintained list of rivers of Bangladesh, including major systems and district-based river lists.</p>
+        </div>
+        <a href="https://en.wikipedia.org/wiki/List_of_rivers_of_Bangladesh" target="_blank" rel="noreferrer" className="shrink-0 inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full bg-brand-green text-black font-semibold hover:opacity-90 transition-opacity">View all on Wikipedia <ExternalLink size={16} /></a>
+      </div>
+
       <p className="text-sm text-muted mb-6">
-        Showing <span className="text-heading font-semibold">{filtered.length}</span> of {ALL_RIVERS.length} rivers
+        Showing <span className="text-heading font-semibold">{filtered.length === 0 ? 0 : (currentPage - 1) * RIVERS_PER_PAGE + 1}–{Math.min(currentPage * RIVERS_PER_PAGE, filtered.length)}</span> of {filtered.length} rivers
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {filtered.map((river, index) => (
+        {paginatedRivers.map((river, index) => (
           <motion.div
             key={river.id}
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: (index % 10) * 0.05 }}
@@ -68,7 +94,7 @@ export default function Rivers() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/10 to-transparent" />
               <span className="absolute bottom-3 right-3 flex items-center gap-1 bg-brand-green/90 text-black text-xs font-semibold px-3 py-1.5 rounded-full whitespace-nowrap">
-                <Ruler size={13} /> {river.length_km} km
+                <Ruler size={13} /> {river.length_km ? `${river.length_km} km` : `Regional river`}
               </span>
             </div>
             <div className="p-6 md:p-7">
@@ -100,6 +126,39 @@ export default function Rivers() {
           </motion.div>
         ))}
       </div>
+
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-2 mt-10">
+          <button
+            type="button"
+            onClick={() => { setCurrentPage((p) => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+            disabled={currentPage === 1}
+            className="px-4 py-2 rounded-full border border-line/15 bg-surface text-heading disabled:opacity-40 disabled:cursor-not-allowed hover:border-brand-green transition-colors"
+          >
+            Previous
+          </button>
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+            <button
+              key={page}
+              type="button"
+              onClick={() => { setCurrentPage(page); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+              className={`w-10 h-10 rounded-full border transition-colors ${currentPage === page ? 'bg-brand-green text-black border-brand-green font-bold' : 'bg-surface text-heading border-line/15 hover:border-brand-green'}`}
+              aria-label={`Go to river page ${page}`}
+              aria-current={currentPage === page ? 'page' : undefined}
+            >
+              {page}
+            </button>
+          ))}
+          <button
+            type="button"
+            onClick={() => { setCurrentPage((p) => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+            disabled={currentPage === totalPages}
+            className="px-4 py-2 rounded-full border border-line/15 bg-surface text-heading disabled:opacity-40 disabled:cursor-not-allowed hover:border-brand-green transition-colors"
+          >
+            Next
+          </button>
+        </div>
+      )}
     </div>
   );
 }
