@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Search, Menu, X, ChevronDown, Waves, BedDouble, Info, Mail, Sun, Moon } from 'lucide-react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import places from '../data/json/places/index.json';
+import districts from '../data/json/districts/index.json';
+import rivers from '../data/json/others/rivers.json';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '../context/ThemeContext';
 
@@ -9,7 +12,10 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
   const [moreOpen, setMoreOpen] = useState(false);
   const [guideOpen, setGuideOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [query, setQuery] = useState('');
   const location = useLocation();
+  const navigate = useNavigate();
   const { mode, toggleMode } = useTheme();
 
   useEffect(() => {
@@ -38,6 +44,14 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
     { name: 'About Us', path: '/about', icon: <Info size={15} /> },
     { name: 'Contact', path: '/contact', icon: <Mail size={15} /> },
   ];
+
+  const searchResults = query.trim().length < 2 ? [] : [
+    ...(places as any[]).filter(p => `${p.name} ${p.district || ''} ${p.category || ''}`.toLowerCase().includes(query.toLowerCase())).slice(0, 6).map(p => ({ label: p.name, meta: `Place · ${p.district || 'Bangladesh'}`, path: `/explore/${p.id}` })),
+    ...(districts as any[]).filter(d => `${d.name} ${d.division || ''}`.toLowerCase().includes(query.toLowerCase())).slice(0, 4).map(d => ({ label: d.name, meta: `District · ${d.division || 'Bangladesh'}`, path: `/districts/${d.id || d.slug}` })),
+    ...(rivers as any[]).filter(r => `${r.name} ${(r.districts || []).join(' ')}`.toLowerCase().includes(query.toLowerCase())).slice(0, 4).map(r => ({ label: r.name, meta: 'River', path: `/rivers?search=${encodeURIComponent(r.name)}` })),
+  ].slice(0, 10);
+
+  const openResult = (path: string) => { setSearchOpen(false); setQuery(''); navigate(path); };
 
   const overHero = isHome && !scrolled;
   const bgClass = overHero ? 'bg-transparent' : 'bg-navbar/90 backdrop-blur-md border-b border-line/10';
@@ -114,10 +128,25 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
               {mode === 'night' ? <Moon size={13} /> : <Sun size={13} />}
             </motion.span>
           </button>
-          <button className={`${linkColor} hover:text-brand-green transition-colors`}><Search size={22} /></button>
+          <button onClick={() => setSearchOpen(true)} aria-label="Search BDpedia" className={`${linkColor} hover:text-brand-green transition-colors`}><Search size={22} /></button>
           <button className={`${linkColor} hover:text-brand-green xl:hidden`} onClick={() => setIsOpen(!isOpen)}>{isOpen ? <X size={24} /> : <Menu size={24} />}</button>
         </div>
       </div>
+
+      <AnimatePresence>
+        {searchOpen && (
+          <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} className="fixed inset-0 z-[70] bg-black/75 backdrop-blur-md p-4 md:p-10" onMouseDown={() => setSearchOpen(false)}>
+            <motion.div initial={{y:-20,opacity:0}} animate={{y:0,opacity:1}} onMouseDown={(e)=>e.stopPropagation()} className="max-w-2xl mx-auto mt-16 bg-surface border border-line/15 rounded-3xl shadow-2xl overflow-hidden">
+              <div className="flex items-center gap-3 p-5 border-b border-line/10"><Search className="text-brand-green" size={22}/><input autoFocus value={query} onChange={(e)=>setQuery(e.target.value)} onKeyDown={(e)=>{if(e.key==='Escape')setSearchOpen(false); if(e.key==='Enter'&&searchResults[0])openResult(searchResults[0].path)}} placeholder="Search places, districts or rivers..." className="flex-1 bg-transparent outline-none text-heading text-lg"/><button onClick={()=>setSearchOpen(false)} className="text-muted hover:text-heading"><X size={22}/></button></div>
+              <div className="max-h-[55vh] overflow-y-auto p-3">
+                {query.trim().length < 2 && <p className="text-sm text-muted p-5 text-center">Type at least 2 characters to search across BDpedia.</p>}
+                {query.trim().length >= 2 && searchResults.length === 0 && <p className="text-sm text-muted p-5 text-center">No matching place, district or river found.</p>}
+                {searchResults.map((r,i)=><button key={`${r.path}-${i}`} onClick={()=>openResult(r.path)} className="w-full text-left px-5 py-3 rounded-xl hover:bg-line/5 transition-colors"><p className="font-semibold text-heading">{r.label}</p><p className="text-xs text-muted">{r.meta}</p></button>)}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Mobile menu */}
       <AnimatePresence>
