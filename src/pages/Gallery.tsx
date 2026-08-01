@@ -1,19 +1,48 @@
+import { useMemo, useState } from 'react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+const PAGE_SIZE = 24;
+const TOTAL_IMAGES = 72;
+
 export default function Gallery() {
-  const images = Array.from({ length: 25 }, (_, i) => `/images/gallery/image_${i + 1}.jpg`);
+  const [page, setPage] = useState(1);
+  const images = useMemo(() => Array.from({ length: TOTAL_IMAGES }, (_, i) => ({
+    src: `https://picsum.photos/seed/bdpedia-bangladesh-${i + 1}/900/650`,
+    number: i + 1,
+  })), []);
+  const totalPages = Math.ceil(images.length / PAGE_SIZE);
+  const visible = images.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  const goTo = (next: number) => {
+    setPage(next);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-6 py-12">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4 text-heading">Photo Gallery</h1>
-        <p className="text-muted">A collection of 25 breathtaking views of Bangladesh.</p>
+        <p className="text-muted">Explore Bangladesh through a clean 3-column gallery — 24 photos per page.</p>
       </div>
-      <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
-        {images.map((src, index) => (
-          <div key={index} className="break-inside-avoid relative group rounded-xl overflow-hidden bg-surfacealt aspect-[3/4] flex items-center justify-center text-center p-4">
-            <span className="text-xs text-muted relative z-10">{src}</span>
-            <img src={src} alt={`Gallery ${index + 1}`} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300" onError={(e) => (e.currentTarget.style.opacity = '0')} />
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+        {visible.map(({ src, number }) => (
+          <div key={number} className="relative group rounded-2xl overflow-hidden bg-surfacealt aspect-[4/3] border border-line/10">
+            <img src={src} alt={`Bangladesh gallery ${number}`} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-transparent" />
+            <span className="absolute bottom-3 left-4 text-white text-sm font-semibold">Photo {number}</span>
           </div>
         ))}
       </div>
+
+      <div className="flex items-center justify-center gap-3 mt-12">
+        <button onClick={() => goTo(page - 1)} disabled={page === 1} className="p-2.5 rounded-full border border-line/15 text-body disabled:opacity-30 hover:border-brand-green"><ChevronLeft size={18}/></button>
+        {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+          <button key={p} onClick={() => goTo(p)} className={`w-10 h-10 rounded-full text-sm font-semibold border ${page === p ? 'bg-brand-green text-black border-brand-green' : 'border-line/15 text-body hover:border-brand-green'}`}>{p}</button>
+        ))}
+        <button onClick={() => goTo(page + 1)} disabled={page === totalPages} className="p-2.5 rounded-full border border-line/15 text-body disabled:opacity-30 hover:border-brand-green"><ChevronRight size={18}/></button>
+      </div>
+      <p className="text-center text-xs text-muted mt-4">Page {page} of {totalPages} · Showing {visible.length} photos</p>
     </div>
   );
 }
