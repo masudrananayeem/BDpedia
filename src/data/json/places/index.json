@@ -686,5 +686,3613 @@
     "description": "An eco-tourism spot at the foothills of the Garo Hills, popular for its scenery and adventure activities.",
     "category": "Nature",
     "district": "Sherpur"
+  },
+  {
+    "id": "anderkilla-shahi-jame-mosque",
+    "name": "Anderkilla Shahi Jame Mosque",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Anderkilla Shahi Jame Mosque is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its religious character, local landscape and regional heritage.",
+    "category": "Religious",
+    "district": "Chattogram"
+  },
+  {
+    "id": "batali-hill",
+    "name": "Batali Hill",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Batali Hill is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its hill & mountain character, local landscape and regional heritage.",
+    "category": "Hill & Mountain",
+    "district": "Chattogram"
+  },
+  {
+    "id": "dc-hill",
+    "name": "DC Hill",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "DC Hill is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its park & nature character, local landscape and regional heritage.",
+    "category": "Park & Nature",
+    "district": "Chattogram"
+  },
+  {
+    "id": "chattogram-war-cemetery",
+    "name": "Chattogram War Cemetery",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chattogram War Cemetery is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Chattogram"
+  },
+  {
+    "id": "ethnological-museum-chattogram",
+    "name": "Ethnological Museum Chattogram",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ethnological Museum Chattogram is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its museum character, local landscape and regional heritage.",
+    "category": "Museum",
+    "district": "Chattogram"
+  },
+  {
+    "id": "parki-beach",
+    "name": "Parki Beach",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Parki Beach is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its beach character, local landscape and regional heritage.",
+    "category": "Beach",
+    "district": "Chattogram"
+  },
+  {
+    "id": "banshbaria-sea-beach",
+    "name": "Banshbaria Sea Beach",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Banshbaria Sea Beach is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its beach character, local landscape and regional heritage.",
+    "category": "Beach",
+    "district": "Chattogram"
+  },
+  {
+    "id": "khoiyachora-waterfall",
+    "name": "Khoiyachora Waterfall",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Khoiyachora Waterfall is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Chattogram"
+  },
+  {
+    "id": "napittachora-trail",
+    "name": "Napittachora Trail",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Napittachora Trail is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its adventure character, local landscape and regional heritage.",
+    "category": "Adventure",
+    "district": "Chattogram"
+  },
+  {
+    "id": "sahasradhara-waterfall",
+    "name": "Sahasradhara Waterfall",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sahasradhara Waterfall is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Chattogram"
+  },
+  {
+    "id": "chandranath-temple",
+    "name": "Chandranath Temple",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chandranath Temple is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its religious character, local landscape and regional heritage.",
+    "category": "Religious",
+    "district": "Chattogram"
+  },
+  {
+    "id": "mohamaya-lake",
+    "name": "Mohamaya Lake",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mohamaya Lake is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its lake character, local landscape and regional heritage.",
+    "category": "Lake",
+    "district": "Chattogram"
+  },
+  {
+    "id": "maheshkhali-island",
+    "name": "Maheshkhali Island",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Maheshkhali Island is a notable destination in Cox's Bazar, offering visitors a memorable glimpse of Bangladesh through its island character, local landscape and regional heritage.",
+    "category": "Island",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "adinath-temple",
+    "name": "Adinath Temple",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Adinath Temple is a notable destination in Cox's Bazar, offering visitors a memorable glimpse of Bangladesh through its religious character, local landscape and regional heritage.",
+    "category": "Religious",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "sonadia-island",
+    "name": "Sonadia Island",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sonadia Island is a notable destination in Cox's Bazar, offering visitors a memorable glimpse of Bangladesh through its island character, local landscape and regional heritage.",
+    "category": "Island",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "dulahazra-safari-park",
+    "name": "Dulahazra Safari Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dulahazra Safari Park is a notable destination in Cox's Bazar, offering visitors a memorable glimpse of Bangladesh through its wildlife character, local landscape and regional heritage.",
+    "category": "Wildlife",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "radiant-fish-world",
+    "name": "Radiant Fish World",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Radiant Fish World is a notable destination in Cox's Bazar, offering visitors a memorable glimpse of Bangladesh through its family character, local landscape and regional heritage.",
+    "category": "Family",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "shamlapur-beach",
+    "name": "Shamlapur Beach",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shamlapur Beach is a notable destination in Cox's Bazar, offering visitors a memorable glimpse of Bangladesh through its beach character, local landscape and regional heritage.",
+    "category": "Beach",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "teknaf-wildlife-sanctuary",
+    "name": "Teknaf Wildlife Sanctuary",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Teknaf Wildlife Sanctuary is a notable destination in Cox's Bazar, offering visitors a memorable glimpse of Bangladesh through its wildlife character, local landscape and regional heritage.",
+    "category": "Wildlife",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "shahporir-dwip",
+    "name": "Shahporir Dwip",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shahporir Dwip is a notable destination in Cox's Bazar, offering visitors a memorable glimpse of Bangladesh through its island character, local landscape and regional heritage.",
+    "category": "Island",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "andharmanik",
+    "name": "Andharmanik",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Andharmanik is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its adventure character, local landscape and regional heritage.",
+    "category": "Adventure",
+    "district": "Bandarban"
+  },
+  {
+    "id": "debotakhum",
+    "name": "Debotakhum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Debotakhum is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Bandarban"
+  },
+  {
+    "id": "velakhum",
+    "name": "Velakhum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Velakhum is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its adventure character, local landscape and regional heritage.",
+    "category": "Adventure",
+    "district": "Bandarban"
+  },
+  {
+    "id": "satvaikhum",
+    "name": "Satvaikhum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Satvaikhum is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its adventure character, local landscape and regional heritage.",
+    "category": "Adventure",
+    "district": "Bandarban"
+  },
+  {
+    "id": "tindu",
+    "name": "Tindu",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tindu is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its hill & mountain character, local landscape and regional heritage.",
+    "category": "Hill & Mountain",
+    "district": "Bandarban"
+  },
+  {
+    "id": "remakri",
+    "name": "Remakri",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Remakri is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Bandarban"
+  },
+  {
+    "id": "thanchi",
+    "name": "Thanchi",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Thanchi is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its hill & mountain character, local landscape and regional heritage.",
+    "category": "Hill & Mountain",
+    "district": "Bandarban"
+  },
+  {
+    "id": "prantik-lake",
+    "name": "Prantik Lake",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Prantik Lake is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its lake character, local landscape and regional heritage.",
+    "category": "Lake",
+    "district": "Bandarban"
+  },
+  {
+    "id": "meghla-tourist-complex",
+    "name": "Meghla Tourist Complex",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Meghla Tourist Complex is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its park & nature character, local landscape and regional heritage.",
+    "category": "Park & Nature",
+    "district": "Bandarban"
+  },
+  {
+    "id": "shoilo-propat",
+    "name": "Shoilo Propat",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shoilo Propat is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Bandarban"
+  },
+  {
+    "id": "jadipai-waterfall",
+    "name": "Jadipai Waterfall",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jadipai Waterfall is a notable destination in Bandarban, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Bandarban"
+  },
+  {
+    "id": "dumlong-mountain",
+    "name": "Dumlong Mountain",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dumlong Mountain is a notable destination in Rangamati, offering visitors a memorable glimpse of Bangladesh through its hill & mountain character, local landscape and regional heritage.",
+    "category": "Hill & Mountain",
+    "district": "Rangamati"
+  },
+  {
+    "id": "polwel-park",
+    "name": "Polwel Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Polwel Park is a notable destination in Rangamati, offering visitors a memorable glimpse of Bangladesh through its park & nature character, local landscape and regional heritage.",
+    "category": "Park & Nature",
+    "district": "Rangamati"
+  },
+  {
+    "id": "shuvolong-waterfall",
+    "name": "Shuvolong Waterfall",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shuvolong Waterfall is a notable destination in Rangamati, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Rangamati"
+  },
+  {
+    "id": "rajban-vihara",
+    "name": "Rajban Vihara",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rajban Vihara is a notable destination in Rangamati, offering visitors a memorable glimpse of Bangladesh through its religious character, local landscape and regional heritage.",
+    "category": "Religious",
+    "district": "Rangamati"
+  },
+  {
+    "id": "peda-ting-ting",
+    "name": "Peda Ting Ting",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Peda Ting Ting is a notable destination in Rangamati, offering visitors a memorable glimpse of Bangladesh through its island character, local landscape and regional heritage.",
+    "category": "Island",
+    "district": "Rangamati"
+  },
+  {
+    "id": "hazachora-waterfall",
+    "name": "Hazachora Waterfall",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hazachora Waterfall is a notable destination in Rangamati, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Rangamati"
+  },
+  {
+    "id": "mayabini-lake",
+    "name": "Mayabini Lake",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mayabini Lake is a notable destination in Khagrachari, offering visitors a memorable glimpse of Bangladesh through its lake character, local landscape and regional heritage.",
+    "category": "Lake",
+    "district": "Khagrachari"
+  },
+  {
+    "id": "horticulture-heritage-park",
+    "name": "Horticulture Heritage Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Horticulture Heritage Park is a notable destination in Khagrachari, offering visitors a memorable glimpse of Bangladesh through its park & nature character, local landscape and regional heritage.",
+    "category": "Park & Nature",
+    "district": "Khagrachari"
+  },
+  {
+    "id": "debotar-pukur",
+    "name": "Debotar Pukur",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Debotar Pukur is a notable destination in Khagrachari, offering visitors a memorable glimpse of Bangladesh through its lake character, local landscape and regional heritage.",
+    "category": "Lake",
+    "district": "Khagrachari"
+  },
+  {
+    "id": "taindong-hill",
+    "name": "Taindong Hill",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Taindong Hill is a notable destination in Khagrachari, offering visitors a memorable glimpse of Bangladesh through its hill & mountain character, local landscape and regional heritage.",
+    "category": "Hill & Mountain",
+    "district": "Khagrachari"
+  },
+  {
+    "id": "new-zealand-para",
+    "name": "New Zealand Para",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "New Zealand Para is a notable destination in Khagrachari, offering visitors a memorable glimpse of Bangladesh through its hill & mountain character, local landscape and regional heritage.",
+    "category": "Hill & Mountain",
+    "district": "Khagrachari"
+  },
+  {
+    "id": "risangk-jhorna",
+    "name": "Risangk Jhorna",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Risangk Jhorna is a notable destination in Khagrachari, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Khagrachari"
+  },
+  {
+    "id": "madhabpur-lake",
+    "name": "Madhabpur Lake",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Madhabpur Lake is a notable destination in Moulvibazar, offering visitors a memorable glimpse of Bangladesh through its lake character, local landscape and regional heritage.",
+    "category": "Lake",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "baikka-beel",
+    "name": "Baikka Beel",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Baikka Beel is a notable destination in Moulvibazar, offering visitors a memorable glimpse of Bangladesh through its forest & wetland character, local landscape and regional heritage.",
+    "category": "Forest & Wetland",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "ham-ham-waterfall",
+    "name": "Ham Ham Waterfall",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ham Ham Waterfall is a notable destination in Moulvibazar, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "hum-hum-trail",
+    "name": "Hum Hum Trail",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hum Hum Trail is a notable destination in Moulvibazar, offering visitors a memorable glimpse of Bangladesh through its adventure character, local landscape and regional heritage.",
+    "category": "Adventure",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "tea-museum-sreemangal",
+    "name": "Tea Museum Sreemangal",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tea Museum Sreemangal is a notable destination in Moulvibazar, offering visitors a memorable glimpse of Bangladesh through its museum character, local landscape and regional heritage.",
+    "category": "Museum",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "manipuri-para",
+    "name": "Manipuri Para",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Manipuri Para is a notable destination in Moulvibazar, offering visitors a memorable glimpse of Bangladesh through its culture character, local landscape and regional heritage.",
+    "category": "Culture",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "seven-layer-tea-cabin-area",
+    "name": "Seven Layer Tea Cabin Area",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Seven Layer Tea Cabin Area is a notable destination in Moulvibazar, offering visitors a memorable glimpse of Bangladesh through its culture character, local landscape and regional heritage.",
+    "category": "Culture",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "madhabpur-tea-estate",
+    "name": "Madhabpur Tea Estate",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Madhabpur Tea Estate is a notable destination in Moulvibazar, offering visitors a memorable glimpse of Bangladesh through its tea garden character, local landscape and regional heritage.",
+    "category": "Tea Garden",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "malnichhara-tea-estate",
+    "name": "Malnichhara Tea Estate",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Malnichhara Tea Estate is a notable destination in Sylhet, offering visitors a memorable glimpse of Bangladesh through its tea garden character, local landscape and regional heritage.",
+    "category": "Tea Garden",
+    "district": "Sylhet"
+  },
+  {
+    "id": "khadimnagar-national-park",
+    "name": "Khadimnagar National Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Khadimnagar National Park is a notable destination in Sylhet, offering visitors a memorable glimpse of Bangladesh through its forest & wetland character, local landscape and regional heritage.",
+    "category": "Forest & Wetland",
+    "district": "Sylhet"
+  },
+  {
+    "id": "jaintapur-rajbari",
+    "name": "Jaintapur Rajbari",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jaintapur Rajbari is a notable destination in Sylhet, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Sylhet"
+  },
+  {
+    "id": "tamabil-zero-point",
+    "name": "Tamabil Zero Point",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tamabil Zero Point is a notable destination in Sylhet, offering visitors a memorable glimpse of Bangladesh through its scenic character, local landscape and regional heritage.",
+    "category": "Scenic",
+    "district": "Sylhet"
+  },
+  {
+    "id": "panthumai-waterfall",
+    "name": "Panthumai Waterfall",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Panthumai Waterfall is a notable destination in Sylhet, offering visitors a memorable glimpse of Bangladesh through its waterfall character, local landscape and regional heritage.",
+    "category": "Waterfall",
+    "district": "Sylhet"
+  },
+  {
+    "id": "lakkatura-tea-garden",
+    "name": "Lakkatura Tea Garden",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Lakkatura Tea Garden is a notable destination in Sylhet, offering visitors a memorable glimpse of Bangladesh through its tea garden character, local landscape and regional heritage.",
+    "category": "Tea Garden",
+    "district": "Sylhet"
+  },
+  {
+    "id": "ali-amjad-clock-tower",
+    "name": "Ali Amjad Clock Tower",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ali Amjad Clock Tower is a notable destination in Sylhet, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Sylhet"
+  },
+  {
+    "id": "hasan-raja-museum",
+    "name": "Hasan Raja Museum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hasan Raja Museum is a notable destination in Sunamganj, offering visitors a memorable glimpse of Bangladesh through its museum character, local landscape and regional heritage.",
+    "category": "Museum",
+    "district": "Sunamganj"
+  },
+  {
+    "id": "niladri-lake",
+    "name": "Niladri Lake",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Niladri Lake is a notable destination in Sunamganj, offering visitors a memorable glimpse of Bangladesh through its lake character, local landscape and regional heritage.",
+    "category": "Lake",
+    "district": "Sunamganj"
+  },
+  {
+    "id": "barikka-tila",
+    "name": "Barikka Tila",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Barikka Tila is a notable destination in Sunamganj, offering visitors a memorable glimpse of Bangladesh through its hill & mountain character, local landscape and regional heritage.",
+    "category": "Hill & Mountain",
+    "district": "Sunamganj"
+  },
+  {
+    "id": "jadukata-river-bank",
+    "name": "Jadukata River Bank",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jadukata River Bank is a notable destination in Sunamganj, offering visitors a memorable glimpse of Bangladesh through its river view character, local landscape and regional heritage.",
+    "category": "River View",
+    "district": "Sunamganj"
+  },
+  {
+    "id": "shimultola",
+    "name": "Shimultola",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shimultola is a notable destination in Sunamganj, offering visitors a memorable glimpse of Bangladesh through its park & nature character, local landscape and regional heritage.",
+    "category": "Park & Nature",
+    "district": "Sunamganj"
+  },
+  {
+    "id": "pagla-jame-mosque",
+    "name": "Pagla Jame Mosque",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Pagla Jame Mosque is a notable destination in Sunamganj, offering visitors a memorable glimpse of Bangladesh through its religious character, local landscape and regional heritage.",
+    "category": "Religious",
+    "district": "Sunamganj"
+  },
+  {
+    "id": "banglar-taj-mahal",
+    "name": "Banglar Taj Mahal",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Banglar Taj Mahal is a notable destination in Narayanganj, offering visitors a memorable glimpse of Bangladesh through its architecture character, local landscape and regional heritage.",
+    "category": "Architecture",
+    "district": "Narayanganj"
+  },
+  {
+    "id": "goaldi-mosque",
+    "name": "Goaldi Mosque",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Goaldi Mosque is a notable destination in Narayanganj, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Narayanganj"
+  },
+  {
+    "id": "zinda-park",
+    "name": "Zinda Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Zinda Park is a notable destination in Narayanganj, offering visitors a memorable glimpse of Bangladesh through its park & nature character, local landscape and regional heritage.",
+    "category": "Park & Nature",
+    "district": "Narayanganj"
+  },
+  {
+    "id": "murapara-rajbari",
+    "name": "Murapara Rajbari",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Murapara Rajbari is a notable destination in Narayanganj, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Narayanganj"
+  },
+  {
+    "id": "hajiganj-fort",
+    "name": "Hajiganj Fort",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hajiganj Fort is a notable destination in Narayanganj, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Narayanganj"
+  },
+  {
+    "id": "sonakanda-fort",
+    "name": "Sonakanda Fort",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sonakanda Fort is a notable destination in Narayanganj, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Narayanganj"
+  },
+  {
+    "id": "idrakpur-fort",
+    "name": "Idrakpur Fort",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Idrakpur Fort is a notable destination in Munshiganj, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Munshiganj"
+  },
+  {
+    "id": "baba-adam-mosque",
+    "name": "Baba Adam Mosque",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Baba Adam Mosque is a notable destination in Munshiganj, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Munshiganj"
+  },
+  {
+    "id": "arial-beel",
+    "name": "Arial Beel",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Arial Beel is a notable destination in Munshiganj, offering visitors a memorable glimpse of Bangladesh through its forest & wetland character, local landscape and regional heritage.",
+    "category": "Forest & Wetland",
+    "district": "Munshiganj"
+  },
+  {
+    "id": "mawa-padma-riverfront",
+    "name": "Mawa Padma Riverfront",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mawa Padma Riverfront is a notable destination in Munshiganj, offering visitors a memorable glimpse of Bangladesh through its river view character, local landscape and regional heritage.",
+    "category": "River View",
+    "district": "Munshiganj"
+  },
+  {
+    "id": "padma-bridge-viewpoint",
+    "name": "Padma Bridge Viewpoint",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Padma Bridge Viewpoint is a notable destination in Munshiganj, offering visitors a memorable glimpse of Bangladesh through its architecture character, local landscape and regional heritage.",
+    "category": "Architecture",
+    "district": "Munshiganj"
+  },
+  {
+    "id": "bhawal-rajbari",
+    "name": "Bhawal Rajbari",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhawal Rajbari is a notable destination in Gazipur, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Gazipur"
+  },
+  {
+    "id": "bangabandhu-safari-park",
+    "name": "Bangabandhu Safari Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bangabandhu Safari Park is a notable destination in Gazipur, offering visitors a memorable glimpse of Bangladesh through its wildlife character, local landscape and regional heritage.",
+    "category": "Wildlife",
+    "district": "Gazipur"
+  },
+  {
+    "id": "belai-beel",
+    "name": "Belai Beel",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Belai Beel is a notable destination in Gazipur, offering visitors a memorable glimpse of Bangladesh through its forest & wetland character, local landscape and regional heritage.",
+    "category": "Forest & Wetland",
+    "district": "Gazipur"
+  },
+  {
+    "id": "bhawal-palace",
+    "name": "Bhawal Palace",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhawal Palace is a notable destination in Gazipur, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Gazipur"
+  },
+  {
+    "id": "fantasy-kingdom",
+    "name": "Fantasy Kingdom",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Fantasy Kingdom is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its family character, local landscape and regional heritage.",
+    "category": "Family",
+    "district": "Dhaka"
+  },
+  {
+    "id": "ramna-park",
+    "name": "Ramna Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ramna Park is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its park & nature character, local landscape and regional heritage.",
+    "category": "Park & Nature",
+    "district": "Dhaka"
+  },
+  {
+    "id": "suhrawardy-udyan",
+    "name": "Suhrawardy Udyan",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Suhrawardy Udyan is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "hatirjheel",
+    "name": "Hatirjheel",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hatirjheel is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its lake character, local landscape and regional heritage.",
+    "category": "Lake",
+    "district": "Dhaka"
+  },
+  {
+    "id": "dhanmondi-lake",
+    "name": "Dhanmondi Lake",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dhanmondi Lake is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its lake character, local landscape and regional heritage.",
+    "category": "Lake",
+    "district": "Dhaka"
+  },
+  {
+    "id": "bangladesh-air-force-museum",
+    "name": "Bangladesh Air Force Museum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bangladesh Air Force Museum is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its museum character, local landscape and regional heritage.",
+    "category": "Museum",
+    "district": "Dhaka"
+  },
+  {
+    "id": "bangladesh-military-museum",
+    "name": "Bangladesh Military Museum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bangladesh Military Museum is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its museum character, local landscape and regional heritage.",
+    "category": "Museum",
+    "district": "Dhaka"
+  },
+  {
+    "id": "novo-theatre",
+    "name": "Novo Theatre",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Novo Theatre is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its museum character, local landscape and regional heritage.",
+    "category": "Museum",
+    "district": "Dhaka"
+  },
+  {
+    "id": "botanical-garden-mirpur",
+    "name": "Botanical Garden Mirpur",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Botanical Garden Mirpur is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its park & nature character, local landscape and regional heritage.",
+    "category": "Park & Nature",
+    "district": "Dhaka"
+  },
+  {
+    "id": "national-zoo-mirpur",
+    "name": "National Zoo Mirpur",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "National Zoo Mirpur is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its wildlife character, local landscape and regional heritage.",
+    "category": "Wildlife",
+    "district": "Dhaka"
+  },
+  {
+    "id": "tsc-dhaka-university",
+    "name": "TSC Dhaka University",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "TSC Dhaka University is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its culture character, local landscape and regional heritage.",
+    "category": "Culture",
+    "district": "Dhaka"
+  },
+  {
+    "id": "central-shaheed-minar",
+    "name": "Central Shaheed Minar",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Central Shaheed Minar is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "aparajeyo-bangla",
+    "name": "Aparajeyo Bangla",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Aparajeyo Bangla is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "beauty-boarding",
+    "name": "Beauty Boarding",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Beauty Boarding is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its heritage character, local landscape and regional heritage.",
+    "category": "Heritage",
+    "district": "Dhaka"
+  },
+  {
+    "id": "northbrook-hall",
+    "name": "Northbrook Hall",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Northbrook Hall is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "ruplal-house",
+    "name": "Ruplal House",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ruplal House is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "nimtali-deuri",
+    "name": "Nimtali Deuri",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nimtali Deuri is a notable destination in Dhaka, offering visitors a memorable glimpse of Bangladesh through its historical character, local landscape and regional heritage.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "bichanakandi-zero-point",
+    "name": "Bichanakandi Zero Point",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bichanakandi Zero Point is a notable destination in Sylhet, offering visitors a memorable glimpse of Bangladesh through its scenic character, local landscape and regional heritage.",
+    "category": "Scenic",
+    "district": "Sylhet"
+  },
+  {
+    "id": "anderkilla-buddhist-monastery",
+    "name": "Anderkilla Buddhist Monastery",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Anderkilla Buddhist Monastery is a notable destination in Chattogram, offering visitors a memorable glimpse of Bangladesh through its religious character, local landscape and regional heritage.",
+    "category": "Religious",
+    "district": "Chattogram"
+  },
+  {
+    "id": "chhera-dwip",
+    "name": "Chhera Dwip",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chhera Dwip is a notable destination in Cox's Bazar, offering visitors a memorable glimpse of Bangladesh through its island character, local landscape and regional heritage.",
+    "category": "Island",
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "karamjal-wildlife-center",
+    "name": "Karamjal Wildlife Center",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Karamjal Wildlife Center is a notable destination in Bagerhat, offering visitors a memorable glimpse of Bangladesh through its wildlife character, local landscape and regional heritage.",
+    "category": "Wildlife",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "ahsan-manzil-museum",
+    "name": "Ahsan Manzil Museum",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ahsan Manzil Museum is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "armenian-church-dhaka",
+    "name": "Armenian Church Dhaka",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Armenian Church Dhaka is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "bahadur-shah-park",
+    "name": "Bahadur Shah Park",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bahadur Shah Park is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "choto-katra",
+    "name": "Choto Katra",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Choto Katra is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "hussaini-dalan",
+    "name": "Hussaini Dalan",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hussaini Dalan is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "khan-mohammad-mridha-mosque",
+    "name": "Khan Mohammad Mridha Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Khan Mohammad Mridha Mosque is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "sat-gambuj-mosque-dhaka",
+    "name": "Sat Gambuj Mosque Dhaka",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sat Gambuj Mosque Dhaka is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Dhaka"
+  },
+  {
+    "id": "old-high-court-building",
+    "name": "Old High Court Building",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Old High Court Building is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "dhakeshwari-national-temple",
+    "name": "Dhakeshwari National Temple",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dhakeshwari National Temple is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Dhaka"
+  },
+  {
+    "id": "ramna-kali-mandir",
+    "name": "Ramna Kali Mandir",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ramna Kali Mandir is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Dhaka"
+  },
+  {
+    "id": "martyred-intellectuals-memorial",
+    "name": "Martyred Intellectuals Memorial",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Martyred Intellectuals Memorial is part of the rich travel landscape of Dhaka, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Dhaka"
+  },
+  {
+    "id": "sonargaon-folk-art-museum",
+    "name": "Sonargaon Folk Art Museum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sonargaon Folk Art Museum is part of the rich travel landscape of Narayanganj, highlighting Bangladesh’s museum heritage, local character and regional identity.",
+    "category": "Museum",
+    "district": "Narayanganj"
+  },
+  {
+    "id": "sonarang-twin-temples",
+    "name": "Sonarang Twin Temples",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sonarang Twin Temples is part of the rich travel landscape of Munshiganj, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Munshiganj"
+  },
+  {
+    "id": "bikrampur-museum",
+    "name": "Bikrampur Museum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bikrampur Museum is part of the rich travel landscape of Munshiganj, highlighting Bangladesh’s museum heritage, local character and regional identity.",
+    "category": "Museum",
+    "district": "Munshiganj"
+  },
+  {
+    "id": "wari-bateshwar",
+    "name": "Wari Bateshwar",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Wari Bateshwar is part of the rich travel landscape of Narsingdi, highlighting Bangladesh’s archaeological heritage, local character and regional identity.",
+    "category": "Archaeological",
+    "district": "Narsingdi"
+  },
+  {
+    "id": "bangabandhu-safari-park-gazipur",
+    "name": "Bangabandhu Safari Park Gazipur",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bangabandhu Safari Park Gazipur is part of the rich travel landscape of Gazipur, highlighting Bangladesh’s wildlife heritage, local character and regional identity.",
+    "category": "Wildlife",
+    "district": "Gazipur"
+  },
+  {
+    "id": "mohera-zamindar-bari",
+    "name": "Mohera Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mohera Zamindar Bari is part of the rich travel landscape of Tangail, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Tangail"
+  },
+  {
+    "id": "atia-mosque",
+    "name": "Atia Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Atia Mosque is part of the rich travel landscape of Tangail, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Tangail"
+  },
+  {
+    "id": "dhanbari-nawab-palace",
+    "name": "Dhanbari Nawab Palace",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dhanbari Nawab Palace is part of the rich travel landscape of Tangail, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Tangail"
+  },
+  {
+    "id": "pakutia-zamindar-bari",
+    "name": "Pakutia Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Pakutia Zamindar Bari is part of the rich travel landscape of Tangail, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Tangail"
+  },
+  {
+    "id": "madhupur-national-park",
+    "name": "Madhupur National Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Madhupur National Park is part of the rich travel landscape of Tangail, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Tangail"
+  },
+  {
+    "id": "teota-zamindar-bari",
+    "name": "Teota Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Teota Zamindar Bari is part of the rich travel landscape of Manikganj, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Manikganj"
+  },
+  {
+    "id": "mathurapur-deul",
+    "name": "Mathurapur Deul",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mathurapur Deul is part of the rich travel landscape of Faridpur, highlighting Bangladesh’s archaeological heritage, local character and regional identity.",
+    "category": "Archaeological",
+    "district": "Faridpur"
+  },
+  {
+    "id": "gerda-mosque",
+    "name": "Gerda Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gerda Mosque is part of the rich travel landscape of Faridpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Faridpur"
+  },
+  {
+    "id": "raja-sitaram-palace-ruins",
+    "name": "Raja Sitaram Palace Ruins",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Raja Sitaram Palace Ruins is part of the rich travel landscape of Magura, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Magura"
+  },
+  {
+    "id": "mujibnagar-memorial-complex",
+    "name": "Mujibnagar Memorial Complex",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mujibnagar Memorial Complex is part of the rich travel landscape of Meherpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Meherpur"
+  },
+  {
+    "id": "amjhupi-neelkuthi",
+    "name": "Amjhupi Neelkuthi",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Amjhupi Neelkuthi is part of the rich travel landscape of Meherpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Meherpur"
+  },
+  {
+    "id": "lalon-shah-mazar",
+    "name": "Lalon Shah Mazar",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Lalon Shah Mazar is part of the rich travel landscape of Kushtia, highlighting Bangladesh’s cultural heritage, local character and regional identity.",
+    "category": "Cultural",
+    "district": "Kushtia"
+  },
+  {
+    "id": "tagore-lodge-kushtia",
+    "name": "Tagore Lodge Kushtia",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tagore Lodge Kushtia is part of the rich travel landscape of Kushtia, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Kushtia"
+  },
+  {
+    "id": "hardinge-bridge-viewpoint",
+    "name": "Hardinge Bridge Viewpoint",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hardinge Bridge Viewpoint is part of the rich travel landscape of Pabna, highlighting Bangladesh’s architecture heritage, local character and regional identity.",
+    "category": "Architecture",
+    "district": "Pabna"
+  },
+  {
+    "id": "paksey-railway-heritage-area",
+    "name": "Paksey Railway Heritage Area",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Paksey Railway Heritage Area is part of the rich travel landscape of Pabna, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Pabna"
+  },
+  {
+    "id": "jor-bangla-temple-pabna",
+    "name": "Jor Bangla Temple Pabna",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jor Bangla Temple Pabna is part of the rich travel landscape of Pabna, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Pabna"
+  },
+  {
+    "id": "hemayetpur-mental-hospital-heritage-campus",
+    "name": "Hemayetpur Mental Hospital Heritage Campus",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hemayetpur Mental Hospital Heritage Campus is part of the rich travel landscape of Pabna, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Pabna"
+  },
+  {
+    "id": "natore-rajbari",
+    "name": "Natore Rajbari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Natore Rajbari is part of the rich travel landscape of Natore, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Natore"
+  },
+  {
+    "id": "dighapatia-rajbari-uttara-ganabhaban",
+    "name": "Dighapatia Rajbari Uttara Ganabhaban",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dighapatia Rajbari Uttara Ganabhaban is part of the rich travel landscape of Natore, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Natore"
+  },
+  {
+    "id": "rani-bhabani-palace-complex",
+    "name": "Rani Bhabani Palace Complex",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rani Bhabani Palace Complex is part of the rich travel landscape of Natore, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Natore"
+  },
+  {
+    "id": "bagha-mosque",
+    "name": "Bagha Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bagha Mosque is part of the rich travel landscape of Rajshahi, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Rajshahi"
+  },
+  {
+    "id": "shah-makhdum-mazar",
+    "name": "Shah Makhdum Mazar",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shah Makhdum Mazar is part of the rich travel landscape of Rajshahi, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Rajshahi"
+  },
+  {
+    "id": "choto-sona-mosque",
+    "name": "Choto Sona Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Choto Sona Mosque is part of the rich travel landscape of Chapainawabganj, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Chapainawabganj"
+  },
+  {
+    "id": "darasbari-mosque",
+    "name": "Darasbari Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Darasbari Mosque is part of the rich travel landscape of Chapainawabganj, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Chapainawabganj"
+  },
+  {
+    "id": "khania-dighi-mosque",
+    "name": "Khania Dighi Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Khania Dighi Mosque is part of the rich travel landscape of Chapainawabganj, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Chapainawabganj"
+  },
+  {
+    "id": "tahkhana-complex",
+    "name": "Tahkhana Complex",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tahkhana Complex is part of the rich travel landscape of Chapainawabganj, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Chapainawabganj"
+  },
+  {
+    "id": "kusumba-mosque",
+    "name": "Kusumba Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kusumba Mosque is part of the rich travel landscape of Naogaon, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Naogaon"
+  },
+  {
+    "id": "jagaddala-mahavihara",
+    "name": "Jagaddala Mahavihara",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jagaddala Mahavihara is part of the rich travel landscape of Naogaon, highlighting Bangladesh’s archaeological heritage, local character and regional identity.",
+    "category": "Archaeological",
+    "district": "Naogaon"
+  },
+  {
+    "id": "dubalhati-rajbari",
+    "name": "Dubalhati Rajbari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dubalhati Rajbari is part of the rich travel landscape of Naogaon, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Naogaon"
+  },
+  {
+    "id": "govinda-bhita",
+    "name": "Govinda Bhita",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Govinda Bhita is part of the rich travel landscape of Bogura, highlighting Bangladesh’s archaeological heritage, local character and regional identity.",
+    "category": "Archaeological",
+    "district": "Bogura"
+  },
+  {
+    "id": "gokul-medh",
+    "name": "Gokul Medh",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gokul Medh is part of the rich travel landscape of Bogura, highlighting Bangladesh’s archaeological heritage, local character and regional identity.",
+    "category": "Archaeological",
+    "district": "Bogura"
+  },
+  {
+    "id": "vasu-bihar",
+    "name": "Vasu Bihar",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Vasu Bihar is part of the rich travel landscape of Bogura, highlighting Bangladesh’s archaeological heritage, local character and regional identity.",
+    "category": "Archaeological",
+    "district": "Bogura"
+  },
+  {
+    "id": "kherua-mosque",
+    "name": "Kherua Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kherua Mosque is part of the rich travel landscape of Bogura, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Bogura"
+  },
+  {
+    "id": "nayabad-mosque",
+    "name": "Nayabad Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nayabad Mosque is part of the rich travel landscape of Dinajpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Dinajpur"
+  },
+  {
+    "id": "ramsagar-national-park",
+    "name": "Ramsagar National Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ramsagar National Park is part of the rich travel landscape of Dinajpur, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Dinajpur"
+  },
+  {
+    "id": "dinajpur-rajbari",
+    "name": "Dinajpur Rajbari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dinajpur Rajbari is part of the rich travel landscape of Dinajpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Dinajpur"
+  },
+  {
+    "id": "sitakot-vihara",
+    "name": "Sitakot Vihara",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sitakot Vihara is part of the rich travel landscape of Dinajpur, highlighting Bangladesh’s archaeological heritage, local character and regional identity.",
+    "category": "Archaeological",
+    "district": "Dinajpur"
+  },
+  {
+    "id": "carmichael-college-heritage-campus",
+    "name": "Carmichael College Heritage Campus",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Carmichael College Heritage Campus is part of the rich travel landscape of Rangpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Rangpur"
+  },
+  {
+    "id": "itakumari-zamindar-bari",
+    "name": "Itakumari Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Itakumari Zamindar Bari is part of the rich travel landscape of Rangpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Rangpur"
+  },
+  {
+    "id": "pirgacha-zamindar-bari",
+    "name": "Pirgacha Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Pirgacha Zamindar Bari is part of the rich travel landscape of Rangpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Rangpur"
+  },
+  {
+    "id": "teesta-barrage",
+    "name": "Teesta Barrage",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Teesta Barrage is part of the rich travel landscape of Lalmonirhat, highlighting Bangladesh’s architecture heritage, local character and regional identity.",
+    "category": "Architecture",
+    "district": "Lalmonirhat"
+  },
+  {
+    "id": "tin-bigha-corridor-view-area",
+    "name": "Tin Bigha Corridor View Area",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tin Bigha Corridor View Area is part of the rich travel landscape of Lalmonirhat, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Lalmonirhat"
+  },
+  {
+    "id": "burimari-border-landscape",
+    "name": "Burimari Border Landscape",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Burimari Border Landscape is part of the rich travel landscape of Lalmonirhat, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Lalmonirhat"
+  },
+  {
+    "id": "chini-mosque",
+    "name": "Chini Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chini Mosque is part of the rich travel landscape of Nilphamari, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Nilphamari"
+  },
+  {
+    "id": "nil-sagar",
+    "name": "Nil Sagar",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nil Sagar is part of the rich travel landscape of Nilphamari, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Nilphamari"
+  },
+  {
+    "id": "teesta-barrage-dalia",
+    "name": "Teesta Barrage Dalia",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Teesta Barrage Dalia is part of the rich travel landscape of Nilphamari, highlighting Bangladesh’s architecture heritage, local character and regional identity.",
+    "category": "Architecture",
+    "district": "Nilphamari"
+  },
+  {
+    "id": "shopnopuri-artificial-amusement-park",
+    "name": "Shopnopuri Artificial Amusement Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shopnopuri Artificial Amusement Park is part of the rich travel landscape of Dinajpur, highlighting Bangladesh’s recreation heritage, local character and regional identity.",
+    "category": "Recreation",
+    "district": "Dinajpur"
+  },
+  {
+    "id": "patenga-sea-beach",
+    "name": "Patenga Sea Beach",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "description": "Patenga Sea Beach is part of the rich travel landscape of Chattogram, highlighting Bangladesh’s beach heritage, local character and regional identity.",
+    "category": "Beach",
+    "district": "Chattogram"
+  },
+  {
+    "id": "sitakunda-eco-park",
+    "name": "Sitakunda Eco Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sitakunda Eco Park is part of the rich travel landscape of Chattogram, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Chattogram"
+  },
+  {
+    "id": "guliakhali-sea-beach",
+    "name": "Guliakhali Sea Beach",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "description": "Guliakhali Sea Beach is part of the rich travel landscape of Chattogram, highlighting Bangladesh’s beach heritage, local character and regional identity.",
+    "category": "Beach",
+    "district": "Chattogram"
+  },
+  {
+    "id": "bashbaria-sea-beach",
+    "name": "Bashbaria Sea Beach",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bashbaria Sea Beach is part of the rich travel landscape of Chattogram, highlighting Bangladesh’s beach heritage, local character and regional identity.",
+    "category": "Beach",
+    "district": "Chattogram"
+  },
+  {
+    "id": "napittachora-waterfall-trail",
+    "name": "Napittachora Waterfall Trail",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Napittachora Waterfall Trail is part of the rich travel landscape of Chattogram, highlighting Bangladesh’s waterfall heritage, local character and regional identity.",
+    "category": "Waterfall",
+    "district": "Chattogram"
+  },
+  {
+    "id": "hanging-bridge-rangamati",
+    "name": "Hanging Bridge Rangamati",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hanging Bridge Rangamati is part of the rich travel landscape of Rangamati, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Rangamati"
+  },
+  {
+    "id": "nilgiri-hills",
+    "name": "Nilgiri Hills",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nilgiri Hills is part of the rich travel landscape of Bandarban, highlighting Bangladesh’s hill heritage, local character and regional identity.",
+    "category": "Hill",
+    "district": "Bandarban"
+  },
+  {
+    "id": "nilachal",
+    "name": "Nilachal",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nilachal is part of the rich travel landscape of Bandarban, highlighting Bangladesh’s hill heritage, local character and regional identity.",
+    "category": "Hill",
+    "district": "Bandarban"
+  },
+  {
+    "id": "nafakhum-waterfall",
+    "name": "Nafakhum Waterfall",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nafakhum Waterfall is part of the rich travel landscape of Bandarban, highlighting Bangladesh’s waterfall heritage, local character and regional identity.",
+    "category": "Waterfall",
+    "district": "Bandarban"
+  },
+  {
+    "id": "amiakhum-waterfall",
+    "name": "Amiakhum Waterfall",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Amiakhum Waterfall is part of the rich travel landscape of Bandarban, highlighting Bangladesh’s waterfall heritage, local character and regional identity.",
+    "category": "Waterfall",
+    "district": "Bandarban"
+  },
+  {
+    "id": "buddha-dhatu-jadi",
+    "name": "Buddha Dhatu Jadi",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Buddha Dhatu Jadi is part of the rich travel landscape of Bandarban, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Bandarban"
+  },
+  {
+    "id": "bichanakandi",
+    "name": "Bichanakandi",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bichanakandi is part of the rich travel landscape of Sylhet, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Sylhet"
+  },
+  {
+    "id": "hazrat-shah-jalal-mazar",
+    "name": "Hazrat Shah Jalal Mazar",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hazrat Shah Jalal Mazar is part of the rich travel landscape of Sylhet, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Sylhet"
+  },
+  {
+    "id": "hazrat-shah-paran-mazar",
+    "name": "Hazrat Shah Paran Mazar",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hazrat Shah Paran Mazar is part of the rich travel landscape of Sylhet, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Sylhet"
+  },
+  {
+    "id": "malnicherra-tea-estate",
+    "name": "Malnicherra Tea Estate",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Malnicherra Tea Estate is part of the rich travel landscape of Sylhet, highlighting Bangladesh’s tea garden heritage, local character and regional identity.",
+    "category": "Tea Garden",
+    "district": "Sylhet"
+  },
+  {
+    "id": "rema-kalenga-wildlife-sanctuary",
+    "name": "Rema Kalenga Wildlife Sanctuary",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rema Kalenga Wildlife Sanctuary is part of the rich travel landscape of Habiganj, highlighting Bangladesh’s wildlife heritage, local character and regional identity.",
+    "category": "Wildlife",
+    "district": "Habiganj"
+  },
+  {
+    "id": "satchari-national-park",
+    "name": "Satchari National Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Satchari National Park is part of the rich travel landscape of Habiganj, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Habiganj"
+  },
+  {
+    "id": "bithangal-akhra",
+    "name": "Bithangal Akhra",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bithangal Akhra is part of the rich travel landscape of Habiganj, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Habiganj"
+  },
+  {
+    "id": "anderkilla-shahi-mosque",
+    "name": "Anderkilla Shahi Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Anderkilla Shahi Mosque is part of the rich travel landscape of Chattogram, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Chattogram"
+  },
+  {
+    "id": "shalban-vihara",
+    "name": "Shalban Vihara",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shalban Vihara is part of the rich travel landscape of Cumilla, highlighting Bangladesh’s archaeological heritage, local character and regional identity.",
+    "category": "Archaeological",
+    "district": "Cumilla"
+  },
+  {
+    "id": "mainamati-museum",
+    "name": "Mainamati Museum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mainamati Museum is part of the rich travel landscape of Cumilla, highlighting Bangladesh’s museum heritage, local character and regional identity.",
+    "category": "Museum",
+    "district": "Cumilla"
+  },
+  {
+    "id": "dharmasagar",
+    "name": "Dharmasagar",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dharmasagar is part of the rich travel landscape of Cumilla, highlighting Bangladesh’s lake heritage, local character and regional identity.",
+    "category": "Lake",
+    "district": "Cumilla"
+  },
+  {
+    "id": "rupban-mura",
+    "name": "Rupban Mura",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rupban Mura is part of the rich travel landscape of Cumilla, highlighting Bangladesh’s archaeological heritage, local character and regional identity.",
+    "category": "Archaeological",
+    "district": "Cumilla"
+  },
+  {
+    "id": "itakhola-mura",
+    "name": "Itakhola Mura",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Itakhola Mura is part of the rich travel landscape of Cumilla, highlighting Bangladesh’s archaeological heritage, local character and regional identity.",
+    "category": "Archaeological",
+    "district": "Cumilla"
+  },
+  {
+    "id": "war-cemetery-cumilla",
+    "name": "War Cemetery Cumilla",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "War Cemetery Cumilla is part of the rich travel landscape of Cumilla, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Cumilla"
+  },
+  {
+    "id": "bijoy-singh-dighi",
+    "name": "Bijoy Singh Dighi",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bijoy Singh Dighi is part of the rich travel landscape of Feni, highlighting Bangladesh’s lake heritage, local character and regional identity.",
+    "category": "Lake",
+    "district": "Feni"
+  },
+  {
+    "id": "muhuri-project",
+    "name": "Muhuri Project",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Muhuri Project is part of the rich travel landscape of Feni, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Feni"
+  },
+  {
+    "id": "chandranath-eco-trail",
+    "name": "Chandranath Eco Trail",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chandranath Eco Trail is part of the rich travel landscape of Chattogram, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Chattogram"
+  },
+  {
+    "id": "andhar-manik-cave",
+    "name": "Andhar Manik Cave",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Andhar Manik Cave is part of the rich travel landscape of Bandarban, highlighting Bangladesh’s cave heritage, local character and regional identity.",
+    "category": "Cave",
+    "district": "Bandarban"
+  },
+  {
+    "id": "nijhum-dwip-national-park",
+    "name": "Nijhum Dwip National Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nijhum Dwip National Park is part of the rich travel landscape of Noakhali, highlighting Bangladesh’s island heritage, local character and regional identity.",
+    "category": "Island",
+    "district": "Noakhali"
+  },
+  {
+    "id": "bajra-shahi-mosque",
+    "name": "Bajra Shahi Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bajra Shahi Mosque is part of the rich travel landscape of Noakhali, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Noakhali"
+  },
+  {
+    "id": "gandhi-ashram-trust",
+    "name": "Gandhi Ashram Trust",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gandhi Ashram Trust is part of the rich travel landscape of Noakhali, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Noakhali"
+  },
+  {
+    "id": "hatia-island",
+    "name": "Hatia Island",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hatia Island is part of the rich travel landscape of Noakhali, highlighting Bangladesh’s island heritage, local character and regional identity.",
+    "category": "Island",
+    "district": "Noakhali"
+  },
+  {
+    "id": "char-kukri-mukri",
+    "name": "Char Kukri Mukri",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Char Kukri Mukri is part of the rich travel landscape of Bhola, highlighting Bangladesh’s island heritage, local character and regional identity.",
+    "category": "Island",
+    "district": "Bhola"
+  },
+  {
+    "id": "monpura-island",
+    "name": "Monpura Island",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Monpura Island is part of the rich travel landscape of Bhola, highlighting Bangladesh’s island heritage, local character and regional identity.",
+    "category": "Island",
+    "district": "Bhola"
+  },
+  {
+    "id": "jacob-tower",
+    "name": "Jacob Tower",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jacob Tower is part of the rich travel landscape of Bhola, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Bhola"
+  },
+  {
+    "id": "kuakata-sea-beach",
+    "name": "Kuakata Sea Beach",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kuakata Sea Beach is part of the rich travel landscape of Patuakhali, highlighting Bangladesh’s beach heritage, local character and regional identity.",
+    "category": "Beach",
+    "district": "Patuakhali"
+  },
+  {
+    "id": "fatrar-char",
+    "name": "Fatrar Char",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Fatrar Char is part of the rich travel landscape of Patuakhali, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Patuakhali"
+  },
+  {
+    "id": "lebur-char",
+    "name": "Lebur Char",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "description": "Lebur Char is part of the rich travel landscape of Patuakhali, highlighting Bangladesh’s beach heritage, local character and regional identity.",
+    "category": "Beach",
+    "district": "Patuakhali"
+  },
+  {
+    "id": "rakhine-cultural-area-kuakata",
+    "name": "Rakhine Cultural Area Kuakata",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rakhine Cultural Area Kuakata is part of the rich travel landscape of Patuakhali, highlighting Bangladesh’s cultural heritage, local character and regional identity.",
+    "category": "Cultural",
+    "district": "Patuakhali"
+  },
+  {
+    "id": "sonar-char",
+    "name": "Sonar Char",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sonar Char is part of the rich travel landscape of Patuakhali, highlighting Bangladesh’s island heritage, local character and regional identity.",
+    "category": "Island",
+    "district": "Patuakhali"
+  },
+  {
+    "id": "oxford-mission-church",
+    "name": "Oxford Mission Church",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Oxford Mission Church is part of the rich travel landscape of Barishal, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Barishal"
+  },
+  {
+    "id": "floating-guava-market",
+    "name": "Floating Guava Market",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Floating Guava Market is part of the rich travel landscape of Jhalokathi, highlighting Bangladesh’s cultural heritage, local character and regional identity.",
+    "category": "Cultural",
+    "district": "Jhalokathi"
+  },
+  {
+    "id": "gabkhan-bridge",
+    "name": "Gabkhan Bridge",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gabkhan Bridge is part of the rich travel landscape of Jhalokathi, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Jhalokathi"
+  },
+  {
+    "id": "saturia-zamindar-bari",
+    "name": "Saturia Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Saturia Zamindar Bari is part of the rich travel landscape of Jhalokathi, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Jhalokathi"
+  },
+  {
+    "id": "bagerhat-sixty-dome-mosque",
+    "name": "Bagerhat Sixty Dome Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bagerhat Sixty Dome Mosque is part of the rich travel landscape of Bagerhat, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "khan-jahan-ali-mazar",
+    "name": "Khan Jahan Ali Mazar",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Khan Jahan Ali Mazar is part of the rich travel landscape of Bagerhat, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "nine-dome-mosque",
+    "name": "Nine Dome Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nine Dome Mosque is part of the rich travel landscape of Bagerhat, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "singair-mosque-bagerhat",
+    "name": "Singair Mosque Bagerhat",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Singair Mosque Bagerhat is part of the rich travel landscape of Bagerhat, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "bibi-begni-mosque",
+    "name": "Bibi Begni Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bibi Begni Mosque is part of the rich travel landscape of Bagerhat, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "chunakhola-mosque",
+    "name": "Chunakhola Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chunakhola Mosque is part of the rich travel landscape of Bagerhat, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "sundarbans-east-wildlife-sanctuary",
+    "name": "Sundarbans East Wildlife Sanctuary",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sundarbans East Wildlife Sanctuary is part of the rich travel landscape of Bagerhat, highlighting Bangladesh’s wildlife heritage, local character and regional identity.",
+    "category": "Wildlife",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "karamjal",
+    "name": "Karamjal",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Karamjal is part of the rich travel landscape of Bagerhat, highlighting Bangladesh’s wildlife heritage, local character and regional identity.",
+    "category": "Wildlife",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "hiron-point",
+    "name": "Hiron Point",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hiron Point is part of the rich travel landscape of Khulna, highlighting Bangladesh’s wildlife heritage, local character and regional identity.",
+    "category": "Wildlife",
+    "district": "Khulna"
+  },
+  {
+    "id": "dublar-char",
+    "name": "Dublar Char",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dublar Char is part of the rich travel landscape of Bagerhat, highlighting Bangladesh’s island heritage, local character and regional identity.",
+    "category": "Island",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "katka-beach",
+    "name": "Katka Beach",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "description": "Katka Beach is part of the rich travel landscape of Bagerhat, highlighting Bangladesh’s beach heritage, local character and regional identity.",
+    "category": "Beach",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "sheikh-abu-naser-memorial-museum-area",
+    "name": "Sheikh Abu Naser Memorial Museum Area",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sheikh Abu Naser Memorial Museum Area is part of the rich travel landscape of Khulna, highlighting Bangladesh’s museum heritage, local character and regional identity.",
+    "category": "Museum",
+    "district": "Khulna"
+  },
+  {
+    "id": "rabindranath-memorial-museum-shahzadpur",
+    "name": "Rabindranath Memorial Museum Shahzadpur",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rabindranath Memorial Museum Shahzadpur is part of the rich travel landscape of Sirajganj, highlighting Bangladesh’s museum heritage, local character and regional identity.",
+    "category": "Museum",
+    "district": "Sirajganj"
+  },
+  {
+    "id": "bangabandhu-jamuna-eco-park",
+    "name": "Bangabandhu Jamuna Eco Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bangabandhu Jamuna Eco Park is part of the rich travel landscape of Sirajganj, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Sirajganj"
+  },
+  {
+    "id": "navaratna-temple-hatikumrul",
+    "name": "Navaratna Temple Hatikumrul",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Navaratna Temple Hatikumrul is part of the rich travel landscape of Sirajganj, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Sirajganj"
+  },
+  {
+    "id": "jamuna-bridge-viewpoint",
+    "name": "Jamuna Bridge Viewpoint",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jamuna Bridge Viewpoint is part of the rich travel landscape of Sirajganj, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Sirajganj"
+  },
+  {
+    "id": "muktagacha-rajbari",
+    "name": "Muktagacha Rajbari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Muktagacha Rajbari is part of the rich travel landscape of Mymensingh, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Mymensingh"
+  },
+  {
+    "id": "alexander-castle",
+    "name": "Alexander Castle",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Alexander Castle is part of the rich travel landscape of Mymensingh, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Mymensingh"
+  },
+  {
+    "id": "bangladesh-agricultural-university-botanical-garden",
+    "name": "Bangladesh Agricultural University Botanical Garden",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bangladesh Agricultural University Botanical Garden is part of the rich travel landscape of Mymensingh, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Mymensingh"
+  },
+  {
+    "id": "zainul-abedin-museum",
+    "name": "Zainul Abedin Museum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Zainul Abedin Museum is part of the rich travel landscape of Mymensingh, highlighting Bangladesh’s museum heritage, local character and regional identity.",
+    "category": "Museum",
+    "district": "Mymensingh"
+  },
+  {
+    "id": "birishiri-ceramic-hill",
+    "name": "Birishiri Ceramic Hill",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Birishiri Ceramic Hill is part of the rich travel landscape of Netrokona, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Netrokona"
+  },
+  {
+    "id": "someshwari-river-birishiri",
+    "name": "Someshwari River Birishiri",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Someshwari River Birishiri is part of the rich travel landscape of Netrokona, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Netrokona"
+  },
+  {
+    "id": "durgapur-tribal-cultural-academy",
+    "name": "Durgapur Tribal Cultural Academy",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Durgapur Tribal Cultural Academy is part of the rich travel landscape of Netrokona, highlighting Bangladesh’s cultural heritage, local character and regional identity.",
+    "category": "Cultural",
+    "district": "Netrokona"
+  },
+  {
+    "id": "china-clay-hills-durgapur",
+    "name": "China Clay Hills Durgapur",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "China Clay Hills Durgapur is part of the rich travel landscape of Netrokona, highlighting Bangladesh’s hill heritage, local character and regional identity.",
+    "category": "Hill",
+    "district": "Netrokona"
+  },
+  {
+    "id": "garo-hills-border-landscape",
+    "name": "Garo Hills Border Landscape",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Garo Hills Border Landscape is part of the rich travel landscape of Sherpur, highlighting Bangladesh’s hill heritage, local character and regional identity.",
+    "category": "Hill",
+    "district": "Sherpur"
+  },
+  {
+    "id": "madhutila-eco-park",
+    "name": "Madhutila Eco Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Madhutila Eco Park is part of the rich travel landscape of Sherpur, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Sherpur"
+  },
+  {
+    "id": "gazni-leisure-center",
+    "name": "Gazni Leisure Center",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gazni Leisure Center is part of the rich travel landscape of Sherpur, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Sherpur"
+  },
+  {
+    "id": "lauchapra-picnic-spot",
+    "name": "Lauchapra Picnic Spot",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Lauchapra Picnic Spot is part of the rich travel landscape of Jamalpur, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Jamalpur"
+  },
+  {
+    "id": "gandhi-ashram-jamalpur",
+    "name": "Gandhi Ashram Jamalpur",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gandhi Ashram Jamalpur is part of the rich travel landscape of Jamalpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Jamalpur"
+  },
+  {
+    "id": "anderson-canal-heritage-area",
+    "name": "Anderson Canal Heritage Area",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Anderson Canal Heritage Area is part of the rich travel landscape of Jamalpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Jamalpur"
+  },
+  {
+    "id": "bhawal-national-park-salna-gate",
+    "name": "Bhawal National Park Salna Gate",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhawal National Park Salna Gate is part of the rich travel landscape of Gazipur, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Gazipur"
+  },
+  {
+    "id": "maynamati-war-cemetery",
+    "name": "Maynamati War Cemetery",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Maynamati War Cemetery is part of the rich travel landscape of Cumilla, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Cumilla"
+  },
+  {
+    "id": "chandpur-three-rivers-estuary",
+    "name": "Chandpur Three Rivers Estuary",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chandpur Three Rivers Estuary is part of the rich travel landscape of Chandpur, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Chandpur"
+  },
+  {
+    "id": "boro-station-riverfront",
+    "name": "Boro Station Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Boro Station Riverfront is part of the rich travel landscape of Chandpur, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Chandpur"
+  },
+  {
+    "id": "anderkilla-heritage-quarter",
+    "name": "Anderkilla Heritage Quarter",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Anderkilla Heritage Quarter is part of the rich travel landscape of Chattogram, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Chattogram"
+  },
+  {
+    "id": "feni-river-scenic-belt",
+    "name": "Feni River Scenic Belt",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Feni River Scenic Belt is part of the rich travel landscape of Feni, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Feni"
+  },
+  {
+    "id": "parshuram-border-landscape",
+    "name": "Parshuram Border Landscape",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Parshuram Border Landscape is part of the rich travel landscape of Feni, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Feni"
+  },
+  {
+    "id": "lakshmipur-dalal-bazar-zamindar-house",
+    "name": "Lakshmipur Dalal Bazar Zamindar House",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Lakshmipur Dalal Bazar Zamindar House is part of the rich travel landscape of Lakshmipur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Lakshmipur"
+  },
+  {
+    "id": "ramgati-meghna-riverfront",
+    "name": "Ramgati Meghna Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ramgati Meghna Riverfront is part of the rich travel landscape of Lakshmipur, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Lakshmipur"
+  },
+  {
+    "id": "noakhali-zilla-school-heritage-area",
+    "name": "Noakhali Zilla School Heritage Area",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Noakhali Zilla School Heritage Area is part of the rich travel landscape of Noakhali, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Noakhali"
+  },
+  {
+    "id": "bhairab-railway-bridge-view",
+    "name": "Bhairab Railway Bridge View",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhairab Railway Bridge View is part of the rich travel landscape of Kishoreganj, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Kishoreganj"
+  },
+  {
+    "id": "nikli-haor",
+    "name": "Nikli Haor",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nikli Haor is part of the rich travel landscape of Kishoreganj, highlighting Bangladesh’s wetland heritage, local character and regional identity.",
+    "category": "Wetland",
+    "district": "Kishoreganj"
+  },
+  {
+    "id": "mithamain-haor-road",
+    "name": "Mithamain Haor Road",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mithamain Haor Road is part of the rich travel landscape of Kishoreganj, highlighting Bangladesh’s wetland heritage, local character and regional identity.",
+    "category": "Wetland",
+    "district": "Kishoreganj"
+  },
+  {
+    "id": "austagram-haor",
+    "name": "Austagram Haor",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Austagram Haor is part of the rich travel landscape of Kishoreganj, highlighting Bangladesh’s wetland heritage, local character and regional identity.",
+    "category": "Wetland",
+    "district": "Kishoreganj"
+  },
+  {
+    "id": "egarosindur-fort-area",
+    "name": "Egarosindur Fort Area",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Egarosindur Fort Area is part of the rich travel landscape of Kishoreganj, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Kishoreganj"
+  },
+  {
+    "id": "pagla-mosque",
+    "name": "Pagla Mosque",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Pagla Mosque is part of the rich travel landscape of Kishoreganj, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Kishoreganj"
+  },
+  {
+    "id": "gopalganj-orakandi-thakurbari",
+    "name": "Gopalganj Orakandi Thakurbari",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gopalganj Orakandi Thakurbari is part of the rich travel landscape of Gopalganj, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Gopalganj"
+  },
+  {
+    "id": "madhumati-riverfront-gopalganj",
+    "name": "Madhumati Riverfront Gopalganj",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Madhumati Riverfront Gopalganj is part of the rich travel landscape of Gopalganj, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Gopalganj"
+  },
+  {
+    "id": "sheikh-rasel-eco-park-gopalganj",
+    "name": "Sheikh Rasel Eco Park Gopalganj",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sheikh Rasel Eco Park Gopalganj is part of the rich travel landscape of Gopalganj, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Gopalganj"
+  },
+  {
+    "id": "rajoir-mathurapur-deul-area",
+    "name": "Rajoir Mathurapur Deul Area",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rajoir Mathurapur Deul Area is part of the rich travel landscape of Madaripur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Madaripur"
+  },
+  {
+    "id": "shakuni-lake",
+    "name": "Shakuni Lake",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shakuni Lake is part of the rich travel landscape of Madaripur, highlighting Bangladesh’s lake heritage, local character and regional identity.",
+    "category": "Lake",
+    "district": "Madaripur"
+  },
+  {
+    "id": "padma-river-shibchar",
+    "name": "Padma River Shibchar",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Padma River Shibchar is part of the rich travel landscape of Madaripur, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Madaripur"
+  },
+  {
+    "id": "naria-padma-riverbank",
+    "name": "Naria Padma Riverbank",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Naria Padma Riverbank is part of the rich travel landscape of Shariatpur, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Shariatpur"
+  },
+  {
+    "id": "sureshwar-darbar-sharif",
+    "name": "Sureshwar Darbar Sharif",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sureshwar Darbar Sharif is part of the rich travel landscape of Shariatpur, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Shariatpur"
+  },
+  {
+    "id": "goalanda-ghat",
+    "name": "Goalanda Ghat",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Goalanda Ghat is part of the rich travel landscape of Rajbari, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Rajbari"
+  },
+  {
+    "id": "daulatdia-riverfront",
+    "name": "Daulatdia Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Daulatdia Riverfront is part of the rich travel landscape of Rajbari, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Rajbari"
+  },
+  {
+    "id": "mir-mosharraf-hossain-memorial",
+    "name": "Mir Mosharraf Hossain Memorial",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mir Mosharraf Hossain Memorial is part of the rich travel landscape of Rajbari, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Rajbari"
+  },
+  {
+    "id": "lalon-bridge-viewpoint",
+    "name": "Lalon Bridge Viewpoint",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Lalon Bridge Viewpoint is part of the rich travel landscape of Kushtia, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Kushtia"
+  },
+  {
+    "id": "gorai-riverfront-kushtia",
+    "name": "Gorai Riverfront Kushtia",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gorai Riverfront Kushtia is part of the rich travel landscape of Kushtia, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Kushtia"
+  },
+  {
+    "id": "meherpur-mango-grove-heritage-trail",
+    "name": "Meherpur Mango Grove Heritage Trail",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Meherpur Mango Grove Heritage Trail is part of the rich travel landscape of Meherpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Meherpur"
+  },
+  {
+    "id": "chuadanga-mathabhanga-riverfront",
+    "name": "Chuadanga Mathabhanga Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chuadanga Mathabhanga Riverfront is part of the rich travel landscape of Chuadanga, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Chuadanga"
+  },
+  {
+    "id": "karpasdanga-neelkuthi",
+    "name": "Karpasdanga Neelkuthi",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Karpasdanga Neelkuthi is part of the rich travel landscape of Chuadanga, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Chuadanga"
+  },
+  {
+    "id": "jhenaidah-naldanga-temple-complex",
+    "name": "Jhenaidah Naldanga Temple Complex",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jhenaidah Naldanga Temple Complex is part of the rich travel landscape of Jhenaidah, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Jhenaidah"
+  },
+  {
+    "id": "pagla-kanai-memorial",
+    "name": "Pagla Kanai Memorial",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Pagla Kanai Memorial is part of the rich travel landscape of Jhenaidah, highlighting Bangladesh’s cultural heritage, local character and regional identity.",
+    "category": "Cultural",
+    "district": "Jhenaidah"
+  },
+  {
+    "id": "narail-victoria-college-heritage-area",
+    "name": "Narail Victoria College Heritage Area",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Narail Victoria College Heritage Area is part of the rich travel landscape of Narail, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Narail"
+  },
+  {
+    "id": "sm-sultan-memorial-complex",
+    "name": "SM Sultan Memorial Complex",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "SM Sultan Memorial Complex is part of the rich travel landscape of Narail, highlighting Bangladesh’s museum heritage, local character and regional identity.",
+    "category": "Museum",
+    "district": "Narail"
+  },
+  {
+    "id": "chitra-riverfront-narail",
+    "name": "Chitra Riverfront Narail",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chitra Riverfront Narail is part of the rich travel landscape of Narail, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Narail"
+  },
+  {
+    "id": "michael-madhusudan-dutt-house-sagardari",
+    "name": "Michael Madhusudan Dutt House Sagardari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Michael Madhusudan Dutt House Sagardari is part of the rich travel landscape of Jashore, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Jashore"
+  },
+  {
+    "id": "jessore-collectorate-heritage-building",
+    "name": "Jessore Collectorate Heritage Building",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jessore Collectorate Heritage Building is part of the rich travel landscape of Jashore, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Jashore"
+  },
+  {
+    "id": "godkhali-flower-fields",
+    "name": "Godkhali Flower Fields",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Godkhali Flower Fields is part of the rich travel landscape of Jashore, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Jashore"
+  },
+  {
+    "id": "benapole-border-gateway",
+    "name": "Benapole Border Gateway",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Benapole Border Gateway is part of the rich travel landscape of Jashore, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Jashore"
+  },
+  {
+    "id": "satkhira-tetulia-jame-mosque",
+    "name": "Satkhira Tetulia Jame Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Satkhira Tetulia Jame Mosque is part of the rich travel landscape of Satkhira, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Satkhira"
+  },
+  {
+    "id": "ishwaripur-jeshoreshwari-kali-temple",
+    "name": "Ishwaripur Jeshoreshwari Kali Temple",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ishwaripur Jeshoreshwari Kali Temple is part of the rich travel landscape of Satkhira, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Satkhira"
+  },
+  {
+    "id": "kaliganj-prabajpur-shahi-mosque",
+    "name": "Kaliganj Prabajpur Shahi Mosque",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kaliganj Prabajpur Shahi Mosque is part of the rich travel landscape of Satkhira, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Satkhira"
+  },
+  {
+    "id": "munshiganj-sundarbans-gateway",
+    "name": "Munshiganj Sundarbans Gateway",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Munshiganj Sundarbans Gateway is part of the rich travel landscape of Satkhira, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Satkhira"
+  },
+  {
+    "id": "shyamnagar-mangrove-edge",
+    "name": "Shyamnagar Mangrove Edge",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shyamnagar Mangrove Edge is part of the rich travel landscape of Satkhira, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Satkhira"
+  },
+  {
+    "id": "khulna-divisional-museum",
+    "name": "Khulna Divisional Museum",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Khulna Divisional Museum is part of the rich travel landscape of Khulna, highlighting Bangladesh’s museum heritage, local character and regional identity.",
+    "category": "Museum",
+    "district": "Khulna"
+  },
+  {
+    "id": "gallamari-memorial",
+    "name": "Gallamari Memorial",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gallamari Memorial is part of the rich travel landscape of Khulna, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Khulna"
+  },
+  {
+    "id": "rupsha-riverfront",
+    "name": "Rupsha Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rupsha Riverfront is part of the rich travel landscape of Khulna, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Khulna"
+  },
+  {
+    "id": "dakop-sundarbans-gateway",
+    "name": "Dakop Sundarbans Gateway",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dakop Sundarbans Gateway is part of the rich travel landscape of Khulna, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Khulna"
+  },
+  {
+    "id": "paikgacha-river-landscape",
+    "name": "Paikgacha River Landscape",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Paikgacha River Landscape is part of the rich travel landscape of Khulna, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Khulna"
+  },
+  {
+    "id": "barguna-tengragiri-wildlife-sanctuary",
+    "name": "Barguna Tengragiri Wildlife Sanctuary",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Barguna Tengragiri Wildlife Sanctuary is part of the rich travel landscape of Barguna, highlighting Bangladesh’s wildlife heritage, local character and regional identity.",
+    "category": "Wildlife",
+    "district": "Barguna"
+  },
+  {
+    "id": "haringhata-forest",
+    "name": "Haringhata Forest",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Haringhata Forest is part of the rich travel landscape of Barguna, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Barguna"
+  },
+  {
+    "id": "patharghata-sea-coast",
+    "name": "Patharghata Sea Coast",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "description": "Patharghata Sea Coast is part of the rich travel landscape of Barguna, highlighting Bangladesh’s beach heritage, local character and regional identity.",
+    "category": "Beach",
+    "district": "Barguna"
+  },
+  {
+    "id": "bishkhali-riverfront-barguna",
+    "name": "Bishkhali Riverfront Barguna",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bishkhali Riverfront Barguna is part of the rich travel landscape of Barguna, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Barguna"
+  },
+  {
+    "id": "pirojpur-rayerkathi-zamindar-bari",
+    "name": "Pirojpur Rayerkathi Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Pirojpur Rayerkathi Zamindar Bari is part of the rich travel landscape of Pirojpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Pirojpur"
+  },
+  {
+    "id": "bhandaria-river-landscape",
+    "name": "Bhandaria River Landscape",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhandaria River Landscape is part of the rich travel landscape of Pirojpur, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Pirojpur"
+  },
+  {
+    "id": "swarupkathi-timber-market",
+    "name": "Swarupkathi Timber Market",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Swarupkathi Timber Market is part of the rich travel landscape of Pirojpur, highlighting Bangladesh’s cultural heritage, local character and regional identity.",
+    "category": "Cultural",
+    "district": "Pirojpur"
+  },
+  {
+    "id": "nesarabad-floating-market",
+    "name": "Nesarabad Floating Market",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nesarabad Floating Market is part of the rich travel landscape of Pirojpur, highlighting Bangladesh’s cultural heritage, local character and regional identity.",
+    "category": "Cultural",
+    "district": "Pirojpur"
+  },
+  {
+    "id": "jhalokathi-kirttipasha-zamindar-bari",
+    "name": "Jhalokathi Kirttipasha Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jhalokathi Kirttipasha Zamindar Bari is part of the rich travel landscape of Jhalokathi, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Jhalokathi"
+  },
+  {
+    "id": "bhola-meghna-riverfront",
+    "name": "Bhola Meghna Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhola Meghna Riverfront is part of the rich travel landscape of Bhola, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Bhola"
+  },
+  {
+    "id": "char-fasson-coastal-landscape",
+    "name": "Char Fasson Coastal Landscape",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Char Fasson Coastal Landscape is part of the rich travel landscape of Bhola, highlighting Bangladesh’s nature heritage, local character and regional identity.",
+    "category": "Nature",
+    "district": "Bhola"
+  },
+  {
+    "id": "burhanuddin-meghna-bank",
+    "name": "Burhanuddin Meghna Bank",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Burhanuddin Meghna Bank is part of the rich travel landscape of Bhola, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Bhola"
+  },
+  {
+    "id": "patuakhali-payra-riverfront",
+    "name": "Patuakhali Payra Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Patuakhali Payra Riverfront is part of the rich travel landscape of Patuakhali, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Patuakhali"
+  },
+  {
+    "id": "payra-sea-port-view-area",
+    "name": "Payra Sea Port View Area",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Payra Sea Port View Area is part of the rich travel landscape of Patuakhali, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Patuakhali"
+  },
+  {
+    "id": "barishal-kirtankhola-riverfront",
+    "name": "Barishal Kirtankhola Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Barishal Kirtankhola Riverfront is part of the rich travel landscape of Barishal, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Barishal"
+  },
+  {
+    "id": "bell-s-park-barishal",
+    "name": "Bell's Park Barishal",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bell's Park Barishal is part of the rich travel landscape of Barishal, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Barishal"
+  },
+  {
+    "id": "brahmanbaria-titas-riverfront",
+    "name": "Brahmanbaria Titas Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Brahmanbaria Titas Riverfront is part of the rich travel landscape of Brahmanbaria, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Brahmanbaria"
+  },
+  {
+    "id": "kal-bhairab-temple",
+    "name": "Kal Bhairab Temple",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kal Bhairab Temple is part of the rich travel landscape of Brahmanbaria, highlighting Bangladesh’s religious heritage, local character and regional identity.",
+    "category": "Religious",
+    "district": "Brahmanbaria"
+  },
+  {
+    "id": "akhaura-border-heritage-area",
+    "name": "Akhaura Border Heritage Area",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Akhaura Border Heritage Area is part of the rich travel landscape of Brahmanbaria, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Brahmanbaria"
+  },
+  {
+    "id": "haripur-zamindar-bari",
+    "name": "Haripur Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Haripur Zamindar Bari is part of the rich travel landscape of Brahmanbaria, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Brahmanbaria"
+  },
+  {
+    "id": "narsingdi-dream-holiday-park",
+    "name": "Narsingdi Dream Holiday Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Narsingdi Dream Holiday Park is part of the rich travel landscape of Narsingdi, highlighting Bangladesh’s recreation heritage, local character and regional identity.",
+    "category": "Recreation",
+    "district": "Narsingdi"
+  },
+  {
+    "id": "meghna-riverfront-narsingdi",
+    "name": "Meghna Riverfront Narsingdi",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Meghna Riverfront Narsingdi is part of the rich travel landscape of Narsingdi, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Narsingdi"
+  },
+  {
+    "id": "manikganj-aricha-ghat",
+    "name": "Manikganj Aricha Ghat",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Manikganj Aricha Ghat is part of the rich travel landscape of Manikganj, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Manikganj"
+  },
+  {
+    "id": "singair-heritage-countryside",
+    "name": "Singair Heritage Countryside",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Singair Heritage Countryside is part of the rich travel landscape of Manikganj, highlighting Bangladesh’s cultural heritage, local character and regional identity.",
+    "category": "Cultural",
+    "district": "Manikganj"
+  },
+  {
+    "id": "faridpur-river-research-institute-area",
+    "name": "Faridpur River Research Institute Area",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Faridpur River Research Institute Area is part of the rich travel landscape of Faridpur, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Faridpur"
+  },
+  {
+    "id": "jasimuddin-house-ambikapur",
+    "name": "Jasimuddin House Ambikapur",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jasimuddin House Ambikapur is part of the rich travel landscape of Faridpur, highlighting Bangladesh’s cultural heritage, local character and regional identity.",
+    "category": "Cultural",
+    "district": "Faridpur"
+  },
+  {
+    "id": "rajendra-college-heritage-campus",
+    "name": "Rajendra College Heritage Campus",
+    "image": "https://images.unsplash.com/photo-1609948543911-7f01ff385be5?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rajendra College Heritage Campus is part of the rich travel landscape of Faridpur, highlighting Bangladesh’s historical heritage, local character and regional identity.",
+    "category": "Historical",
+    "district": "Faridpur"
+  },
+  {
+    "id": "madaripur-arial-khan-riverfront",
+    "name": "Madaripur Arial Khan Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Madaripur Arial Khan Riverfront is part of the rich travel landscape of Madaripur, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Madaripur"
+  },
+  {
+    "id": "shariatpur-padma-bridge-approach-view",
+    "name": "Shariatpur Padma Bridge Approach View",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shariatpur Padma Bridge Approach View is part of the rich travel landscape of Shariatpur, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Shariatpur"
+  },
+  {
+    "id": "rajbari-padma-riverfront",
+    "name": "Rajbari Padma Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rajbari Padma Riverfront is part of the rich travel landscape of Rajbari, highlighting Bangladesh’s river heritage, local character and regional identity.",
+    "category": "River",
+    "district": "Rajbari"
+  },
+  {
+    "id": "kushtia-hardinge-bridge-river-view",
+    "name": "Kushtia Hardinge Bridge River View",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kushtia Hardinge Bridge River View is part of the rich travel landscape of Kushtia, highlighting Bangladesh’s landmark heritage, local character and regional identity.",
+    "category": "Landmark",
+    "district": "Kushtia"
+  },
+  {
+    "id": "hatirjheel-lakefront",
+    "name": "Hatirjheel Lakefront",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hatirjheel Lakefront in Dhaka is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Dhaka"
+  },
+  {
+    "id": "bangladesh-national-zoo",
+    "name": "Bangladesh National Zoo",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bangladesh National Zoo in Dhaka is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Dhaka"
+  },
+  {
+    "id": "bhawal-national-park-gate-area",
+    "name": "Bhawal National Park Gate Area",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhawal National Park Gate Area in Gazipur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Gazipur"
+  },
+  {
+    "id": "hemnagar-rajbari",
+    "name": "Hemnagar Rajbari",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hemnagar Rajbari in Tangail is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Tangail"
+  },
+  {
+    "id": "betila-zamindar-bari",
+    "name": "Betila Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Betila Zamindar Bari in Manikganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Manikganj"
+  },
+  {
+    "id": "aricha-ghat",
+    "name": "Aricha Ghat",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Aricha Ghat in Manikganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Manikganj"
+  },
+  {
+    "id": "baliati-palace-complex",
+    "name": "Baliati Palace Complex",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Baliati Palace Complex in Manikganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Manikganj"
+  },
+  {
+    "id": "sholakia-eidgah",
+    "name": "Sholakia Eidgah",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sholakia Eidgah in Kishoreganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Kishoreganj"
+  },
+  {
+    "id": "jangalbari-fort",
+    "name": "Jangalbari Fort",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jangalbari Fort in Kishoreganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Kishoreganj"
+  },
+  {
+    "id": "wari-bateshwar-archaeological-site",
+    "name": "Wari-Bateshwar Archaeological Site",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Wari-Bateshwar Archaeological Site in Narsingdi is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Narsingdi"
+  },
+  {
+    "id": "dream-holiday-park",
+    "name": "Dream Holiday Park",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dream Holiday Park in Narsingdi is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Narsingdi"
+  },
+  {
+    "id": "padma-riverfront-faridpur",
+    "name": "Padma Riverfront Faridpur",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Padma Riverfront Faridpur in Faridpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Faridpur"
+  },
+  {
+    "id": "tungipara-mausoleum-complex",
+    "name": "Tungipara Mausoleum Complex",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tungipara Mausoleum Complex in Gopalganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Gopalganj"
+  },
+  {
+    "id": "orakandi-thakurbari",
+    "name": "Orakandi Thakurbari",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Orakandi Thakurbari in Gopalganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Gopalganj"
+  },
+  {
+    "id": "madhumati-riverfront",
+    "name": "Madhumati Riverfront",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Madhumati Riverfront in Gopalganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Gopalganj"
+  },
+  {
+    "id": "senapati-dighi",
+    "name": "Senapati Dighi",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Senapati Dighi in Madaripur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Madaripur"
+  },
+  {
+    "id": "arial-khan-riverfront",
+    "name": "Arial Khan Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Arial Khan Riverfront in Madaripur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Madaripur"
+  },
+  {
+    "id": "padma-riverfront-rajbari",
+    "name": "Padma Riverfront Rajbari",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Padma Riverfront Rajbari in Rajbari is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Rajbari"
+  },
+  {
+    "id": "kalyan-dighi",
+    "name": "Kalyan Dighi",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kalyan Dighi in Rajbari is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Rajbari"
+  },
+  {
+    "id": "padma-riverbank-zajira",
+    "name": "Padma Riverbank Zajira",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Padma Riverbank Zajira in Shariatpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Shariatpur"
+  },
+  {
+    "id": "naria-padma-riverfront",
+    "name": "Naria Padma Riverfront",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Naria Padma Riverfront in Shariatpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Shariatpur"
+  },
+  {
+    "id": "crb-hill",
+    "name": "CRB Hill",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "CRB Hill in Chattogram is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Chattogram"
+  },
+  {
+    "id": "naval-beach-chattogram",
+    "name": "Naval Beach Chattogram",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Naval Beach Chattogram in Chattogram is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Chattogram"
+  },
+  {
+    "id": "maheshkhali-adinath-temple",
+    "name": "Maheshkhali Adinath Temple",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Maheshkhali Adinath Temple in Cox’s Bazar is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Cox’s Bazar"
+  },
+  {
+    "id": "teknaf-sea-beach",
+    "name": "Teknaf Sea Beach",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Teknaf Sea Beach in Cox’s Bazar is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Cox’s Bazar"
+  },
+  {
+    "id": "rijuk-waterfall",
+    "name": "Rijuk Waterfall",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rijuk Waterfall in Bandarban is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Bandarban"
+  },
+  {
+    "id": "kaptai-national-park",
+    "name": "Kaptai National Park",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kaptai National Park in Rangamati is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Rangamati"
+  },
+  {
+    "id": "matai-pukhiri",
+    "name": "Matai Pukhiri",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Matai Pukhiri in Khagrachari is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Khagrachari"
+  },
+  {
+    "id": "debota-pukur",
+    "name": "Debota Pukur",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Debota Pukur in Khagrachari is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Khagrachari"
+  },
+  {
+    "id": "charpatra-mura",
+    "name": "Charpatra Mura",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Charpatra Mura in Cumilla is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Cumilla"
+  },
+  {
+    "id": "anderson-canal",
+    "name": "Anderson Canal",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Anderson Canal in Brahmanbaria is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Brahmanbaria"
+  },
+  {
+    "id": "titas-riverfront-brahmanbaria",
+    "name": "Titas Riverfront Brahmanbaria",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Titas Riverfront Brahmanbaria in Brahmanbaria is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Brahmanbaria"
+  },
+  {
+    "id": "boro-station-three-rivers-estuary",
+    "name": "Boro Station Three Rivers Estuary",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Boro Station Three Rivers Estuary in Chandpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Chandpur"
+  },
+  {
+    "id": "chandpur-riverfront",
+    "name": "Chandpur Riverfront",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chandpur Riverfront in Chandpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Chandpur"
+  },
+  {
+    "id": "hajiganj-historic-mosque",
+    "name": "Hajiganj Historic Mosque",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hajiganj Historic Mosque in Chandpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Chandpur"
+  },
+  {
+    "id": "shamsher-gazi-pond",
+    "name": "Shamsher Gazi Pond",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shamsher Gazi Pond in Feni is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Feni"
+  },
+  {
+    "id": "noakhali-zilla-jame-mosque",
+    "name": "Noakhali Zilla Jame Mosque",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Noakhali Zilla Jame Mosque in Noakhali is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Noakhali"
+  },
+  {
+    "id": "dalal-bazar-zamindar-bari",
+    "name": "Dalal Bazar Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dalal Bazar Zamindar Bari in Lakshmipur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Lakshmipur"
+  },
+  {
+    "id": "kamalnagar-meghna-riverbank",
+    "name": "Kamalnagar Meghna Riverbank",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kamalnagar Meghna Riverbank in Lakshmipur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Lakshmipur"
+  },
+  {
+    "id": "keane-bridge",
+    "name": "Keane Bridge",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Keane Bridge in Sylhet is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Sylhet"
+  },
+  {
+    "id": "hum-hum-waterfall",
+    "name": "Hum Hum Waterfall",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hum Hum Waterfall in Moulvibazar is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "ham-ham-trail",
+    "name": "Ham Ham Trail",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Ham Ham Trail in Moulvibazar is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "tea-museum-srimangal",
+    "name": "Tea Museum Srimangal",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tea Museum Srimangal in Moulvibazar is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Moulvibazar"
+  },
+  {
+    "id": "rema-kalenga-wildlife-sanctuary",
+    "name": "Rema-Kalenga Wildlife Sanctuary",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rema-Kalenga Wildlife Sanctuary in Habiganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Habiganj"
+  },
+  {
+    "id": "baniachong-ancient-rajbari-area",
+    "name": "Baniachong Ancient Rajbari Area",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Baniachong Ancient Rajbari Area in Habiganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Habiganj"
+  },
+  {
+    "id": "jadukata-river",
+    "name": "Jadukata River",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jadukata River in Sunamganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Sunamganj"
+  },
+  {
+    "id": "shimuler-bagan",
+    "name": "Shimuler Bagan",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Shimuler Bagan in Sunamganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Sunamganj"
+  },
+  {
+    "id": "hason-raja-museum",
+    "name": "Hason Raja Museum",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hason Raja Museum in Sunamganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Sunamganj"
+  },
+  {
+    "id": "talaimari-padma-riverfront",
+    "name": "Talaimari Padma Riverfront",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Talaimari Padma Riverfront in Rajshahi is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Rajshahi"
+  },
+  {
+    "id": "jagaddal-vihara",
+    "name": "Jagaddal Vihara",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jagaddal Vihara in Naogaon is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Naogaon"
+  },
+  {
+    "id": "dibar-dighi",
+    "name": "Dibar Dighi",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dibar Dighi in Naogaon is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Naogaon"
+  },
+  {
+    "id": "altadighi-national-park",
+    "name": "Altadighi National Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Altadighi National Park in Naogaon is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Naogaon"
+  },
+  {
+    "id": "uttara-ganabhaban",
+    "name": "Uttara Ganabhaban",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Uttara Ganabhaban in Natore is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Natore"
+  },
+  {
+    "id": "chalan-beel-natore",
+    "name": "Chalan Beel Natore",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chalan Beel Natore in Natore is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Natore"
+  },
+  {
+    "id": "dighapatia-rajbari",
+    "name": "Dighapatia Rajbari",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dighapatia Rajbari in Natore is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Natore"
+  },
+  {
+    "id": "kotwali-gate",
+    "name": "Kotwali Gate",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kotwali Gate in Chapainawabganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Chapainawabganj"
+  },
+  {
+    "id": "tarash-rajbari",
+    "name": "Tarash Rajbari",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tarash Rajbari in Pabna is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Pabna"
+  },
+  {
+    "id": "pakshi-railway-heritage-area",
+    "name": "Pakshi Railway Heritage Area",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Pakshi Railway Heritage Area in Pabna is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Pabna"
+  },
+  {
+    "id": "bangabandhu-bridge-west-riverfront",
+    "name": "Bangabandhu Bridge West Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bangabandhu Bridge West Riverfront in Sirajganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Sirajganj"
+  },
+  {
+    "id": "rabindranath-kachharibari-shahjadpur",
+    "name": "Rabindranath Kachharibari Shahjadpur",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rabindranath Kachharibari Shahjadpur in Sirajganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Sirajganj"
+  },
+  {
+    "id": "hatikumrul-navaratna-temple",
+    "name": "Hatikumrul Navaratna Temple",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hatikumrul Navaratna Temple in Sirajganj is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Sirajganj"
+  },
+  {
+    "id": "vasu-vihara",
+    "name": "Vasu Vihara",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Vasu Vihara in Bogura is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Bogura"
+  },
+  {
+    "id": "mahasthangarh-museum",
+    "name": "Mahasthangarh Museum",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mahasthangarh Museum in Bogura is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Bogura"
+  },
+  {
+    "id": "swapnapuri-artificial-amusement-park",
+    "name": "Swapnapuri Artificial Amusement Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Swapnapuri Artificial Amusement Park in Dinajpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Dinajpur"
+  },
+  {
+    "id": "begum-rokeya-memorial",
+    "name": "Begum Rokeya Memorial",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Begum Rokeya Memorial in Rangpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Rangpur"
+  },
+  {
+    "id": "nilsagar",
+    "name": "Nilsagar",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nilsagar in Nilphamari is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Nilphamari"
+  },
+  {
+    "id": "teesta-barrage-viewpoint",
+    "name": "Teesta Barrage Viewpoint",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Teesta Barrage Viewpoint in Nilphamari is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Nilphamari"
+  },
+  {
+    "id": "saidpur-railway-workshop-heritage",
+    "name": "Saidpur Railway Workshop Heritage",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Saidpur Railway Workshop Heritage in Nilphamari is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Nilphamari"
+  },
+  {
+    "id": "tetulia-zero-point",
+    "name": "Tetulia Zero Point",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tetulia Zero Point in Panchagarh is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Panchagarh"
+  },
+  {
+    "id": "banglabandha-zero-point",
+    "name": "Banglabandha Zero Point",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Banglabandha Zero Point in Panchagarh is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Panchagarh"
+  },
+  {
+    "id": "bhitargarh-archaeological-site",
+    "name": "Bhitargarh Archaeological Site",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhitargarh Archaeological Site in Panchagarh is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Panchagarh"
+  },
+  {
+    "id": "maharaja-dighi",
+    "name": "Maharaja Dighi",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Maharaja Dighi in Panchagarh is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Panchagarh"
+  },
+  {
+    "id": "tangon-barrage",
+    "name": "Tangon Barrage",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tangon Barrage in Thakurgaon is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Thakurgaon"
+  },
+  {
+    "id": "haripur-rajbari",
+    "name": "Haripur Rajbari",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Haripur Rajbari in Thakurgaon is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Thakurgaon"
+  },
+  {
+    "id": "jamalpur-zamindar-bari-mosque",
+    "name": "Jamalpur Zamindar Bari Mosque",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jamalpur Zamindar Bari Mosque in Thakurgaon is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Thakurgaon"
+  },
+  {
+    "id": "chilmari-river-port",
+    "name": "Chilmari River Port",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chilmari River Port in Kurigram is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Kurigram"
+  },
+  {
+    "id": "dharla-bridge-riverfront",
+    "name": "Dharla Bridge Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dharla Bridge Riverfront in Kurigram is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Kurigram"
+  },
+  {
+    "id": "sonahat-land-port-area",
+    "name": "Sonahat Land Port Area",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sonahat Land Port Area in Kurigram is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Kurigram"
+  },
+  {
+    "id": "tushbhandar-zamindar-bari",
+    "name": "Tushbhandar Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Tushbhandar Zamindar Bari in Lalmonirhat is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Lalmonirhat"
+  },
+  {
+    "id": "kakina-zamindar-bari",
+    "name": "Kakina Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kakina Zamindar Bari in Lalmonirhat is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Lalmonirhat"
+  },
+  {
+    "id": "teesta-railway-bridge-view",
+    "name": "Teesta Railway Bridge View",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Teesta Railway Bridge View in Lalmonirhat is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Lalmonirhat"
+  },
+  {
+    "id": "balasi-ghat",
+    "name": "Balasi Ghat",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Balasi Ghat in Gaibandha is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Gaibandha"
+  },
+  {
+    "id": "bharatkhali-kasthali",
+    "name": "Bharatkhali Kasthali",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bharatkhali Kasthali in Gaibandha is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Gaibandha"
+  },
+  {
+    "id": "vobaniganj-post-office-heritage",
+    "name": "Vobaniganj Post Office Heritage",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Vobaniganj Post Office Heritage in Gaibandha is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Gaibandha"
+  },
+  {
+    "id": "rupsha-bridge-riverfront",
+    "name": "Rupsha Bridge Riverfront",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rupsha Bridge Riverfront in Khulna is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Khulna"
+  },
+  {
+    "id": "singair-mosque",
+    "name": "Singair Mosque",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Singair Mosque in Bagerhat is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "khan-jahan-ali-dighi",
+    "name": "Khan Jahan Ali Dighi",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Khan Jahan Ali Dighi in Bagerhat is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Bagerhat"
+  },
+  {
+    "id": "karamjol-sundarbans-gateway",
+    "name": "Karamjol Sundarbans Gateway",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Karamjol Sundarbans Gateway in Satkhira is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Satkhira"
+  },
+  {
+    "id": "kalagachia-eco-tourism-centre",
+    "name": "Kalagachia Eco Tourism Centre",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kalagachia Eco Tourism Centre in Satkhira is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Satkhira"
+  },
+  {
+    "id": "jahajghata-riverfront",
+    "name": "Jahajghata Riverfront",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jahajghata Riverfront in Satkhira is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Satkhira"
+  },
+  {
+    "id": "sagardari-michael-madhusudan-memorial",
+    "name": "Sagardari Michael Madhusudan Memorial",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Sagardari Michael Madhusudan Memorial in Jashore is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Jashore"
+  },
+  {
+    "id": "chanchra-shiva-temple",
+    "name": "Chanchra Shiva Temple",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chanchra Shiva Temple in Jashore is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Jashore"
+  },
+  {
+    "id": "godkhali-flower-gardens",
+    "name": "Godkhali Flower Gardens",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Godkhali Flower Gardens in Jashore is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Jashore"
+  },
+  {
+    "id": "lalon-academy-complex",
+    "name": "Lalon Academy Complex",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Lalon Academy Complex in Kushtia is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Kushtia"
+  },
+  {
+    "id": "islamic-university-lake-area",
+    "name": "Islamic University Lake Area",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Islamic University Lake Area in Kushtia is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Kushtia"
+  },
+  {
+    "id": "naldanga-temple-complex",
+    "name": "Naldanga Temple Complex",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Naldanga Temple Complex in Jhenaidah is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Jhenaidah"
+  },
+  {
+    "id": "dhol-samudra-dighi",
+    "name": "Dhol Samudra Dighi",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Dhol Samudra Dighi in Jhenaidah is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Jhenaidah"
+  },
+  {
+    "id": "chitra-riverfront",
+    "name": "Chitra Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Chitra Riverfront in Narail is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Narail"
+  },
+  {
+    "id": "niribili-picnic-spot",
+    "name": "Niribili Picnic Spot",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Niribili Picnic Spot in Narail is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Narail"
+  },
+  {
+    "id": "siddheshwari-math",
+    "name": "Siddheshwari Math",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Siddheshwari Math in Magura is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Magura"
+  },
+  {
+    "id": "nabganga-riverfront",
+    "name": "Nabganga Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Nabganga Riverfront in Magura is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Magura"
+  },
+  {
+    "id": "carew-co-heritage-area",
+    "name": "Carew & Co Heritage Area",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Carew & Co Heritage Area in Chuadanga is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Chuadanga"
+  },
+  {
+    "id": "meherun-park",
+    "name": "Meherun Park",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Meherun Park in Chuadanga is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Chuadanga"
+  },
+  {
+    "id": "mathabhanga-riverfront",
+    "name": "Mathabhanga Riverfront",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mathabhanga Riverfront in Chuadanga is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Chuadanga"
+  },
+  {
+    "id": "bhatpara-neelkuthi",
+    "name": "Bhatpara Neelkuthi",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhatpara Neelkuthi in Meherpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Meherpur"
+  },
+  {
+    "id": "mujibnagar-mango-grove",
+    "name": "Mujibnagar Mango Grove",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mujibnagar Mango Grove in Meherpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Meherpur"
+  },
+  {
+    "id": "bell-s-park",
+    "name": "Bell’s Park",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bell’s Park in Barishal is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Barishal"
+  },
+  {
+    "id": "30-godown-freedom-fighters-memorial",
+    "name": "30 Godown Freedom Fighters Memorial",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "30 Godown Freedom Fighters Memorial in Barishal is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Barishal"
+  },
+  {
+    "id": "kirtankhola-riverfront",
+    "name": "Kirtankhola Riverfront",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kirtankhola Riverfront in Barishal is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Barishal"
+  },
+  {
+    "id": "char-kukri-mukri-wildlife-sanctuary",
+    "name": "Char Kukri Mukri Wildlife Sanctuary",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Char Kukri Mukri Wildlife Sanctuary in Bhola is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Bhola"
+  },
+  {
+    "id": "monpura-mangrove-area",
+    "name": "Monpura Mangrove Area",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Monpura Mangrove Area in Bhola is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Bhola"
+  },
+  {
+    "id": "kuakata-buddhist-temple",
+    "name": "Kuakata Buddhist Temple",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kuakata Buddhist Temple in Patuakhali is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Patuakhali"
+  },
+  {
+    "id": "gangamati-reserved-forest",
+    "name": "Gangamati Reserved Forest",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gangamati Reserved Forest in Patuakhali is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Patuakhali"
+  },
+  {
+    "id": "taltali-tengragiri-eco-park",
+    "name": "Taltali Tengragiri Eco Park",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Taltali Tengragiri Eco Park in Barguna is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Barguna"
+  },
+  {
+    "id": "bishkhali-riverfront",
+    "name": "Bishkhali Riverfront",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bishkhali Riverfront in Barguna is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Barguna"
+  },
+  {
+    "id": "rayerkathi-zamindar-bari",
+    "name": "Rayerkathi Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rayerkathi Zamindar Bari in Pirojpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Pirojpur"
+  },
+  {
+    "id": "bhandaria-floating-market",
+    "name": "Bhandaria Floating Market",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhandaria Floating Market in Pirojpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Pirojpur"
+  },
+  {
+    "id": "baleshwar-riverfront",
+    "name": "Baleshwar Riverfront",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Baleshwar Riverfront in Pirojpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Pirojpur"
+  },
+  {
+    "id": "gabkhan-channel",
+    "name": "Gabkhan Channel",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Gabkhan Channel in Jhalokati is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Jhalokati"
+  },
+  {
+    "id": "bhimruli-floating-guava-market",
+    "name": "Bhimruli Floating Guava Market",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Bhimruli Floating Guava Market in Jhalokati is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Jhalokati"
+  },
+  {
+    "id": "kirtipasha-zamindar-bari",
+    "name": "Kirtipasha Zamindar Bari",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Kirtipasha Zamindar Bari in Jhalokati is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Jhalokati"
+  },
+  {
+    "id": "mymensingh-museum",
+    "name": "Mymensingh Museum",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Mymensingh Museum in Mymensingh is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Mymensingh"
+  },
+  {
+    "id": "brahmaputra-riverfront",
+    "name": "Brahmaputra Riverfront",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Brahmaputra Riverfront in Mymensingh is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Mymensingh"
+  },
+  {
+    "id": "botanical-garden-bau",
+    "name": "Botanical Garden BAU",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Botanical Garden BAU in Mymensingh is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Mymensingh"
+  },
+  {
+    "id": "durgapur-ceramic-hill",
+    "name": "Durgapur Ceramic Hill",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Durgapur Ceramic Hill in Netrokona is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Netrokona"
+  },
+  {
+    "id": "someshwari-river",
+    "name": "Someshwari River",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Someshwari River in Netrokona is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Netrokona"
+  },
+  {
+    "id": "susang-durgapur-rajbari-ruins",
+    "name": "Susang Durgapur Rajbari Ruins",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Susang Durgapur Rajbari Ruins in Netrokona is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Historical",
+    "district": "Netrokona"
+  },
+  {
+    "id": "hazrat-shah-jamal-shrine",
+    "name": "Hazrat Shah Jamal Shrine",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Hazrat Shah Jamal Shrine in Jamalpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Jamalpur"
+  },
+  {
+    "id": "jamuna-riverfront-jamalpur",
+    "name": "Jamuna Riverfront Jamalpur",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    "description": "Jamuna Riverfront Jamalpur in Jamalpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "River & Wetland",
+    "district": "Jamalpur"
+  },
+  {
+    "id": "panihata-tarani-hills",
+    "name": "Panihata-Tarani Hills",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "description": "Panihata-Tarani Hills in Sherpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Sherpur"
+  },
+  {
+    "id": "rajar-pahar",
+    "name": "Rajar Pahar",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "description": "Rajar Pahar in Sherpur is a notable destination for exploring the local landscape, heritage and culture of Bangladesh.",
+    "category": "Nature & Local",
+    "district": "Sherpur"
   }
 ]

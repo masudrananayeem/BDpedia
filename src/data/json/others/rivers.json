@@ -357,5 +357,2830 @@
     ],
     "description": "A historic river of southwestern Bangladesh, once a major trade route, now largely reliant on seasonal flow and water management.",
     "image": "/images/rivers/bhairab.jpg"
+  },
+  {
+    "id": "karatoya",
+    "name": "Karatoya River",
+    "localName": "করতোয়া",
+    "length_km": 187,
+    "origin": "Himalayan foothill river system",
+    "districts": [
+      "Panchagarh",
+      "Bogura"
+    ],
+    "description": "A historic northern river associated with ancient settlements and the wider Teesta-Brahmaputra system.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "titas",
+    "name": "Titas River",
+    "localName": "তিতাস",
+    "length_km": 98,
+    "origin": "Meghna river system",
+    "districts": [
+      "Brahmanbaria",
+      "Cumilla"
+    ],
+    "description": "A well-known river of eastern Bangladesh celebrated in literature and closely tied to fishing and riverine communities.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "ariyal-khan",
+    "name": "Arial Khan River",
+    "localName": "আড়িয়াল খাঁ",
+    "length_km": 160,
+    "origin": "Distributary of the Padma",
+    "districts": [
+      "Faridpur",
+      "Madaripur",
+      "Barishal"
+    ],
+    "description": "An important south-central river supporting agriculture, fisheries and navigation.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "baleshwar",
+    "name": "Baleshwar River",
+    "localName": "বলেশ্বর",
+    "length_km": 146,
+    "origin": "Lower Ganges distributary system",
+    "districts": [
+      "Pirojpur",
+      "Bagerhat",
+      "Barguna"
+    ],
+    "description": "A broad tidal river flowing toward the Bay of Bengal along the eastern edge of the Sundarbans region.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bishkhali",
+    "name": "Bishkhali River",
+    "localName": "বিষখালী",
+    "length_km": 105,
+    "origin": "Southern deltaic river system",
+    "districts": [
+      "Jhalokati",
+      "Barguna"
+    ],
+    "description": "A major coastal river carrying tidal water through the fertile southern delta.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "payra",
+    "name": "Payra River",
+    "localName": "পায়রা",
+    "length_km": 90,
+    "origin": "Southern deltaic channels",
+    "districts": [
+      "Patuakhali",
+      "Barishal"
+    ],
+    "description": "A coastal river important to local transport, fishing communities and the Payra region.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "andharmanik-river",
+    "name": "Andharmanik River",
+    "localName": "আন্ধারমানিক",
+    "length_km": 40,
+    "origin": "Coastal river network",
+    "districts": [
+      "Patuakhali"
+    ],
+    "description": "A scenic tidal river near Kalapara and Kuakata, surrounded by coastal settlements and mangrove landscapes.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "tentulia",
+    "name": "Tentulia River",
+    "localName": "তেঁতুলিয়া",
+    "length_km": 84,
+    "origin": "Lower Meghna distributary",
+    "districts": [
+      "Bhola",
+      "Patuakhali"
+    ],
+    "description": "A wide distributary of the Meghna that shapes islands and chars in coastal Bangladesh.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bura-gauranga",
+    "name": "Bura Gauranga River",
+    "localName": "বুড়া গৌরাঙ্গ",
+    "length_km": 75,
+    "origin": "Meghna estuarine system",
+    "districts": [
+      "Bhola",
+      "Patuakhali"
+    ],
+    "description": "A tidal coastal river linking island communities and estuarine habitats.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "turag",
+    "name": "Turag River",
+    "localName": "তুরাগ",
+    "length_km": 71,
+    "origin": "Old Brahmaputra-Bangshi system",
+    "districts": [
+      "Gazipur",
+      "Dhaka"
+    ],
+    "description": "A river on the western edge of Dhaka known for the Tongi area and the annual Bishwa Ijtema riverfront.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "balu",
+    "name": "Balu River",
+    "localName": "বালু",
+    "length_km": 44,
+    "origin": "Wetland channels east of Dhaka",
+    "districts": [
+      "Gazipur",
+      "Dhaka",
+      "Narayanganj"
+    ],
+    "description": "An eastern Dhaka river connected with surrounding wetlands and the Shitalakshya system.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bangshi",
+    "name": "Bangshi River",
+    "localName": "বংশী",
+    "length_km": 238,
+    "origin": "Old Brahmaputra system",
+    "districts": [
+      "Jamalpur",
+      "Tangail",
+      "Gazipur",
+      "Dhaka"
+    ],
+    "description": "A long central river flowing through agricultural landscapes before joining the Dhaleshwari system.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kaliganga",
+    "name": "Kaliganga River",
+    "localName": "কালীগঙ্গা",
+    "length_km": 78,
+    "origin": "Distributary network of central Bangladesh",
+    "districts": [
+      "Manikganj",
+      "Munshiganj"
+    ],
+    "description": "A central delta river serving rural settlements, farming and local navigation.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kumari",
+    "name": "Kumar River",
+    "localName": "কুমার",
+    "length_km": 162,
+    "origin": "Gorai-Madhumati distributary network",
+    "districts": [
+      "Kushtia",
+      "Jhenaidah",
+      "Magura",
+      "Faridpur"
+    ],
+    "description": "A southwestern river flowing through fertile agricultural districts and historic market towns.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "nabaganga",
+    "name": "Nabaganga River",
+    "localName": "নবগঙ্গা",
+    "length_km": 230,
+    "origin": "Mathabhanga-Gorai river system",
+    "districts": [
+      "Jhenaidah",
+      "Magura",
+      "Narail"
+    ],
+    "description": "A meandering southwestern river closely connected with rural transport, farming and local culture.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "chitra",
+    "name": "Chitra River",
+    "localName": "চিত্রা",
+    "length_km": 170,
+    "origin": "Southwestern distributary system",
+    "districts": [
+      "Magura",
+      "Narail"
+    ],
+    "description": "A picturesque river flowing through Narail and associated with the landscapes painted by artist S. M. Sultan.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kobadak",
+    "name": "Kobadak River",
+    "localName": "কপোতাক্ষ",
+    "length_km": 260,
+    "origin": "Mathabhanga river system",
+    "districts": [
+      "Jashore",
+      "Satkhira",
+      "Khulna"
+    ],
+    "description": "A historic southwestern river immortalized in Bengali literature and flowing toward the coastal delta.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "betna",
+    "name": "Betna River",
+    "localName": "বেতনা",
+    "length_km": 191,
+    "origin": "Southwestern tidal river system",
+    "districts": [
+      "Jashore",
+      "Satkhira"
+    ],
+    "description": "A tidal river supporting fisheries and agriculture across the southwest.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "muhuri",
+    "name": "Muhuri River",
+    "localName": "মুহুরী",
+    "length_km": 91,
+    "origin": "Tripura Hills, India",
+    "districts": [
+      "Feni",
+      "Chattogram"
+    ],
+    "description": "A southeastern border-region river known for the Muhuri irrigation project and surrounding scenic embankments.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dakatia",
+    "name": "Dakatia River",
+    "localName": "ডাকাতিয়া",
+    "length_km": 207,
+    "origin": "Meghna basin channels",
+    "districts": [
+      "Cumilla",
+      "Chandpur",
+      "Lakshmipur"
+    ],
+    "description": "An important river of the southeast that passes through Chandpur and supports irrigation and navigation.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bangali",
+    "name": "Bangali River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bangali is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "baral",
+    "name": "Baral River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Baral is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "chiknai",
+    "name": "Chiknai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Chiknai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dhanshiri",
+    "name": "Dhanshiri River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dhanshiri is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dhanu",
+    "name": "Dhanu River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dhanu is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dharla",
+    "name": "Dharla River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dharla is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dhepa",
+    "name": "Dhepa River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dhepa is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "gorai",
+    "name": "Gorai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Gorai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "gomoti",
+    "name": "Gomoti River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Gomoti is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "ichhamati",
+    "name": "Ichhamati River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Ichhamati is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "jaldhaka",
+    "name": "Jaldhaka River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Jaldhaka is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "jinai",
+    "name": "Jinai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Jinai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kangsha",
+    "name": "Kangsha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kangsha is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kazipur",
+    "name": "Kazipur River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kazipur is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "khowai",
+    "name": "Khowai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Khowai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kopothakho",
+    "name": "Kopothakho River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kopothakho is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "louhajang",
+    "name": "Louhajang River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Louhajang is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "manu",
+    "name": "Manu River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Manu is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "madhumati",
+    "name": "Madhumati River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Madhumati is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "mathabhanga",
+    "name": "Mathabhanga River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Mathabhanga is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "nagar",
+    "name": "Nagar River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Nagar is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "naleya",
+    "name": "Naleya River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Naleya is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "punarbhaba",
+    "name": "Punarbhaba River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Punarbhaba is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "pasur",
+    "name": "Pasur River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Pasur is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "salda",
+    "name": "Salda River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Salda is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "shitalakshya",
+    "name": "Shitalakshya River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Shitalakshya is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "tulshiganga",
+    "name": "Tulshiganga River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Tulshiganga is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kholpetua",
+    "name": "Kholpetua River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kholpetua is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "mayur",
+    "name": "Mayur River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Mayur is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "jhopjhopiya",
+    "name": "Jhopjhopiya River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Jhopjhopiya is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "shibsa",
+    "name": "Shibsa River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Shibsa is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bhodra",
+    "name": "Bhodra River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bhodra is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "monas",
+    "name": "Monas River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Monas is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "charkadaha",
+    "name": "Charkadaha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Charkadaha is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "khamati",
+    "name": "Khamati River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Khamati is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "tarai",
+    "name": "Tarai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Tarai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "pakhria",
+    "name": "Pakhria River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Pakhria is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "little-feni",
+    "name": "Little Feni River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Little Feni is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "selonia",
+    "name": "Selonia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Selonia is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "hurasagar",
+    "name": "Hurasagar River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Hurasagar is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "gur",
+    "name": "Gur River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Gur is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "musakhan",
+    "name": "Musakhan River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Musakhan is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "nandakuja",
+    "name": "Nandakuja River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Nandakuja is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "gumani",
+    "name": "Gumani River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Gumani is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "baralai",
+    "name": "Baralai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Baralai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "narad",
+    "name": "Narad River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Narad is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "pungli",
+    "name": "Pungli River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Pungli is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "khiru",
+    "name": "Khiru River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Khiru is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "nanglai",
+    "name": "Nanglai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Nanglai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "atia",
+    "name": "Atia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Atia is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "jhinai",
+    "name": "Jhinai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Jhinai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "donai",
+    "name": "Donai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Donai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "charalkata",
+    "name": "Charalkata River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Charalkata is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "jamuneswari",
+    "name": "Jamuneswari River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Jamuneswari is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "gurgumari",
+    "name": "Gurgumari River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Gurgumari is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "ghagat",
+    "name": "Ghagat River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Ghagat is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "boulai",
+    "name": "Boulai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Boulai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "ghor",
+    "name": "Ghor River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Ghor is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bhogai",
+    "name": "Bhogai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bhogai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kapotaksha",
+    "name": "Kapotaksha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kapotaksha is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "banshi",
+    "name": "Banshi River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Banshi is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bhadra",
+    "name": "Bhadra River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bhadra is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kholpotua",
+    "name": "Kholpotua River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kholpotua is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "banar",
+    "name": "Banar River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Banar is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dudhkumar",
+    "name": "Dudhkumar River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dudhkumar is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sutlej-khali",
+    "name": "Sutlej Khali River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sutlej Khali is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "agunmukha",
+    "name": "Agunmukha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Agunmukha is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "lohalia",
+    "name": "Lohalia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Lohalia is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "burishwar",
+    "name": "Burishwar River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Burishwar is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kacha",
+    "name": "Kacha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kacha is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sandhya",
+    "name": "Sandhya River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sandhya is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sugandha",
+    "name": "Sugandha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sugandha is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "gabkhan",
+    "name": "Gabkhan River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Gabkhan is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kirtipasha",
+    "name": "Kirtipasha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kirtipasha is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "khakdon",
+    "name": "Khakdon River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Khakdon is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "haringhata",
+    "name": "Haringhata River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Haringhata is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bamna",
+    "name": "Bamna River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bamna is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "boleshwar",
+    "name": "Boleshwar River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Boleshwar is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "panguchi",
+    "name": "Panguchi River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Panguchi is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "mongla",
+    "name": "Mongla River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Mongla is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "chunkuri",
+    "name": "Chunkuri River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Chunkuri is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sibsa",
+    "name": "Sibsa River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sibsa is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "arpangachhia",
+    "name": "Arpangachhia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Arpangachhia is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "malancha",
+    "name": "Malancha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Malancha is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "raimangal",
+    "name": "Raimangal River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Raimangal is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kalindi",
+    "name": "Kalindi River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kalindi is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "hariabhanga",
+    "name": "Hariabhanga River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Hariabhanga is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "korotoa",
+    "name": "Korotoa River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Korotoa is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "tangan",
+    "name": "Tangan River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Tangan is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kulikh",
+    "name": "Kulikh River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kulikh is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dahuk",
+    "name": "Dahuk River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dahuk is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "pathraj",
+    "name": "Pathraj River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Pathraj is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "talma",
+    "name": "Talma River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Talma is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "ghoramara",
+    "name": "Ghoramara River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Ghoramara is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "saniajan",
+    "name": "Saniajan River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Saniajan is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sati",
+    "name": "Sati River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sati is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "gangadhar",
+    "name": "Gangadhar River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Gangadhar is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "jinjiram",
+    "name": "Jinjiram River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Jinjiram is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "netai",
+    "name": "Netai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Netai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "mahadeo",
+    "name": "Mahadeo River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Mahadeo is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "mogra",
+    "name": "Mogra River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Mogra is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kangsa",
+    "name": "Kangsa River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kangsa is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "baulai",
+    "name": "Baulai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Baulai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "ghorautra",
+    "name": "Ghorautra River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Ghorautra is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kalni",
+    "name": "Kalni River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kalni is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "jadukata",
+    "name": "Jadukata River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Jadukata is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "patlai",
+    "name": "Patlai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Patlai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "rakti",
+    "name": "Rakti River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Rakti is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "piyain",
+    "name": "Piyain River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Piyain is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dauki",
+    "name": "Dauki River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dauki is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dhalai",
+    "name": "Dhalai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dhalai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "juri",
+    "name": "Juri River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Juri is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "longla",
+    "name": "Longla River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Longla is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sonai",
+    "name": "Sonai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sonai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bibiyana",
+    "name": "Bibiyana River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bibiyana is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "barak",
+    "name": "Barak River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Barak is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sutang",
+    "name": "Sutang River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sutang is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "haora",
+    "name": "Haora River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Haora is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "pagli",
+    "name": "Pagli River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Pagli is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kurulia",
+    "name": "Kurulia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kurulia is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bijni",
+    "name": "Bijni River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bijni is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "gumti",
+    "name": "Gumti River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Gumti is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "silonia",
+    "name": "Silonia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Silonia is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kasalong",
+    "name": "Kasalong River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kasalong is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "chengi",
+    "name": "Chengi River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Chengi is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "maini",
+    "name": "Maini River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Maini is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bakkhali",
+    "name": "Bakkhali River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bakkhali is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "reju-khal",
+    "name": "Reju Khal River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Reju Khal is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "akhira",
+    "name": "Akhira River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Akhira River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "angarpara",
+    "name": "Angarpara River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Angarpara River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "boral",
+    "name": "Boral River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Boral River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "burigang",
+    "name": "Burigang River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Burigang River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "choto",
+    "name": "Choto River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Choto River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "daleshwari",
+    "name": "Daleshwari River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Daleshwari River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dhonagoda",
+    "name": "Dhonagoda River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dhonagoda River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "jalangi",
+    "name": "Jalangi River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Jalangi River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kirtonkhola",
+    "name": "Kirtonkhola River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kirtonkhola River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "little",
+    "name": "Little River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Little River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "nageshwari",
+    "name": "Nageshwari River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Nageshwari River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "old",
+    "name": "Old River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Old River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "brahmaputra",
+    "name": "Brahmaputra River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Brahmaputra River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "rupsa",
+    "name": "Rupsa River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Rupsa River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "tetulia",
+    "name": "Tetulia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Tetulia River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "arial",
+    "name": "Arial River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Arial River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "khan",
+    "name": "Khan River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Khan River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "hari",
+    "name": "Hari River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Hari River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sarigoyain",
+    "name": "Sarigoyain River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sarigoyain River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "lubha",
+    "name": "Lubha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Lubha River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dholai",
+    "name": "Dholai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dholai River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "langla",
+    "name": "Langla River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Langla River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "ratna",
+    "name": "Ratna River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Ratna River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "korangi",
+    "name": "Korangi River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Korangi River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "ghoraut",
+    "name": "Ghoraut River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Ghoraut River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "baudha",
+    "name": "Baudha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Baudha River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "satarkhali",
+    "name": "Satarkhali River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Satarkhali River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "narsunda",
+    "name": "Narsunda River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Narsunda River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "singua",
+    "name": "Singua River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Singua River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "upper",
+    "name": "Upper River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Upper River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kakri",
+    "name": "Kakri River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kakri River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kahua",
+    "name": "Kahua River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kahua River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "harina",
+    "name": "Harina River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Harina River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "fulgazi",
+    "name": "Fulgazi River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Fulgazi River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "reju",
+    "name": "Reju River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Reju River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "nafakhum",
+    "name": "Nafakhum River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Nafakhum River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "remakri",
+    "name": "Remakri River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Remakri River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "karnafuli",
+    "name": "Karnafuli River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Karnafuli River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "chattogram",
+    "name": "Chattogram River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Chattogram River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "boalkhali",
+    "name": "Boalkhali River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Boalkhali River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "harbang",
+    "name": "Harbang River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Harbang River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "idgaon",
+    "name": "Idgaon River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Idgaon River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "matamuri",
+    "name": "Matamuri River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Matamuri River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kohelia",
+    "name": "Kohelia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kohelia River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "maheshkhali",
+    "name": "Maheshkhali River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Maheshkhali River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "channel",
+    "name": "Channel River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Channel River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kutubdia",
+    "name": "Kutubdia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kutubdia River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "shahbazpur",
+    "name": "Shahbazpur River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Shahbazpur River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "ilsha",
+    "name": "Ilsha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Ilsha River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "kalabadar",
+    "name": "Kalabadar River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Kalabadar River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "jayanti",
+    "name": "Jayanti River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Jayanti River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "naya",
+    "name": "Naya River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Naya River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bhangani",
+    "name": "Bhangani River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bhangani River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "palardi",
+    "name": "Palardi River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Palardi River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "arialkha",
+    "name": "Arialkha River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Arialkha River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "lower",
+    "name": "Lower River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Lower River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bhubaneswar",
+    "name": "Bhubaneswar River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bhubaneswar River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "chandana",
+    "name": "Chandana River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Chandana River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "barasia",
+    "name": "Barasia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Barasia River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "garai",
+    "name": "Garai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Garai River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "fatki",
+    "name": "Fatki River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Fatki River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "begabati",
+    "name": "Begabati River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Begabati River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bhairab-kobadak",
+    "name": "Bhairab Kobadak River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bhairab Kobadak River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "mukteshwari",
+    "name": "Mukteshwari River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Mukteshwari River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "harihar",
+    "name": "Harihar River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Harihar River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "teka",
+    "name": "Teka River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Teka River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sree",
+    "name": "Sree River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sree River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "morichap",
+    "name": "Morichap River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Morichap River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "pabna",
+    "name": "Pabna River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Pabna River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "chalan",
+    "name": "Chalan River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Chalan River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "bogura",
+    "name": "Bogura River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Bogura River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "manas",
+    "name": "Manas River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Manas River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sankosh",
+    "name": "Sankosh River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sankosh River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "raidak",
+    "name": "Raidak River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Raidak River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "torsa",
+    "name": "Torsa River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Torsa River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "ghaghat",
+    "name": "Ghaghat River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Ghaghat River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "brahmaputra-jamuna",
+    "name": "Brahmaputra Jamuna River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Brahmaputra Jamuna River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "jhenai",
+    "name": "Jhenai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Jhenai River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "mymensingh",
+    "name": "Mymensingh River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Mymensingh River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "sutia",
+    "name": "Sutia River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Sutia River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "dhala",
+    "name": "Dhala River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Dhala River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "nitai",
+    "name": "Nitai River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Nitai River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "maharashi",
+    "name": "Maharashi River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Maharashi River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "malijhi",
+    "name": "Malijhi River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Malijhi River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "chellakhali",
+    "name": "Chellakhali River",
+    "localName": "",
+    "length_km": null,
+    "origin": "Bangladesh river system / regional tributary",
+    "districts": [
+      "Bangladesh"
+    ],
+    "description": "Chellakhali River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
   }
 ]
