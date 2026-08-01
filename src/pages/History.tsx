@@ -1,144 +1,46 @@
 import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Landmark, Swords, Crown, Flag, Sparkles, ScrollText } from 'lucide-react';
+import { Landmark, Swords, Crown, Flag, Sparkles, ScrollText, Building2, BookOpen, MapPinned } from 'lucide-react';
 
 type Era = 'All' | 'Ancient' | 'Medieval' | 'Colonial' | 'Modern';
 
 const periods = [
-  {
-    era: 'Ancient' as Era,
-    icon: <ScrollText size={18} />,
-    title: 'Ancient Period (Pre-1204)',
-    range: 'Before 1204 CE',
-    content: 'The land now known as Bangladesh was part of the ancient Bengal region, ruled successively by the Maurya, Gupta, Pala, and Sena dynasties. The Pala Empire (8th-12th century) made Bengal a centre of Buddhist learning, while the Sena dynasty revived Hindu traditions. Ancient Bengal was renowned for its muslin trade and river-based civilisation.',
-    highlights: ['Pundravardhana, one of the earliest urban centres of Bengal', 'Somapura Mahavihara — a UNESCO World Heritage Buddhist monastery', 'Flourishing river trade with Southeast Asia and the Roman world'],
-  },
-  {
-    era: 'Medieval' as Era,
-    icon: <Crown size={18} />,
-    title: 'Islamic Rule (1204 - 1757)',
-    range: '1204 CE - 1757 CE',
-    content: 'Bakhtiyar Khalji\'s conquest in 1204 began centuries of Muslim rule. The independent Bengal Sultanate (1352-1576) became one of the wealthiest trading nations in the world, followed by Mughal rule which turned Dhaka into a major provincial capital famous for its fine muslin cloth.',
-    highlights: ['Bengal Sultanate minted its own coinage and built the Sixty Dome Mosque', 'Dhaka (Jahangirnagar) served as the Mughal capital of Bengal', 'Bengal muslin became a prized export across the world'],
-  },
-  {
-    era: 'Colonial' as Era,
-    icon: <Swords size={18} />,
-    title: 'British Era (1757 - 1947)',
-    range: '1757 CE - 1947 CE',
-    content: 'The Battle of Plassey in 1757 marked the start of British East India Company rule. Bengal underwent sweeping economic and social change, including the Bengal Renaissance, while also suffering colonial exploitation and famine. The 1947 Partition split Bengal along religious lines.',
-    highlights: ['Battle of Plassey (1757) and the rise of Company rule', 'The Bengal Renaissance in literature, science, and social reform', 'Partition of Bengal (1947) creating East Pakistan'],
-  },
-  {
-    era: 'Modern' as Era,
-    icon: <Flag size={18} />,
-    title: 'Pakistan Period (1947 - 1971)',
-    range: '1947 CE - 1971 CE',
-    content: 'East Bengal became East Pakistan, geographically separated from West Pakistan by 1,600 km of Indian territory. Political and economic marginalisation, along with the 1952 Language Movement defending Bangla, sowed the seeds of Bengali nationalism.',
-    highlights: ['Language Movement of 1952 — Ekushey February', 'Six-Point Movement of 1966 for regional autonomy', 'Growing Bengali nationalist and cultural identity'],
-  },
-  {
-    era: 'Modern' as Era,
-    icon: <Swords size={18} />,
-    title: 'Liberation War (1971)',
-    range: '26 March - 16 December 1971',
-    content: 'Under the leadership of Bangabandhu Sheikh Mujibur Rahman, Bangladesh fought a nine-month war of independence against Pakistan. Millions of freedom fighters (Mukti Bahini) and civilians sacrificed their lives, culminating in victory on 16 December 1971.',
-    highlights: ['Declaration of Independence — 26 March 1971', 'Mukti Bahini freedom-fighter resistance', 'Victory Day — 16 December 1971'],
-  },
-  {
-    era: 'Modern' as Era,
-    icon: <Landmark size={18} />,
-    title: 'Modern Bangladesh (1971 - Present)',
-    range: '1971 CE - Present',
-    content: 'Since independence, Bangladesh has rebuilt from war-torn beginnings into one of the fastest-growing economies in South Asia, driven by its garments industry, agriculture, and a resilient, entrepreneurial population — while preserving its rich Bengali cultural identity.',
-    highlights: ['One of the world\'s fastest-growing economies', 'Global leader in the ready-made garments industry', 'Major strides in health, education, and disaster resilience'],
-  },
+  { era:'Ancient' as Era, icon:<ScrollText size={18}/>, title:'Early Bengal & Ancient Settlements', range:'Before 750 CE', content:'The Bengal delta supported old settlements, trade routes and regional kingdoms for centuries. Pundravardhana and the archaeological landscape around Mahasthangarh preserve evidence of some of the earliest urban life in the territory of present-day Bangladesh.', highlights:['Mahasthangarh and ancient Pundravardhana','River routes connected Bengal with wider Asian trade','Buddhist, Hindu and local traditions shaped early society'] },
+  { era:'Ancient' as Era, icon:<Landmark size={18}/>, title:'Pala & Sena Bengal', range:'c. 750–1204', content:'Under the Pala dynasty, Bengal became an influential centre of Buddhist scholarship and monumental monastic architecture. The later Sena rulers supported Hindu institutions and Sanskrit learning while regional commerce continued to flourish.', highlights:['Somapura Mahavihara at Paharpur','Buddhist learning and trans-Asian cultural exchange','Transition from Pala to Sena political authority'] },
+  { era:'Medieval' as Era, icon:<Crown size={18}/>, title:'Sultanate Bengal', range:'1204–1576', content:'Muslim rule expanded after the early thirteenth century and an independent Bengal Sultanate later emerged. Cities, mosques, coinage, agriculture and overseas trade developed across the delta, leaving major architectural landscapes at Bagerhat and historic Gaur.', highlights:['Independent Bengal Sultanate','Historic Mosque City of Bagerhat','Gaur and its surviving mosque architecture'] },
+  { era:'Medieval' as Era, icon:<Building2 size={18}/>, title:'Mughal Bengal', range:'1576–1757', content:'Bengal became a wealthy Mughal province. Dhaka rose as a major administrative and commercial centre, famed for fine muslin and river trade. Forts, mosques, caravan buildings and merchant quarters transformed the urban landscape.', highlights:['Dhaka known as Jahangirnagar','Lalbagh Fort and Mughal architecture','Global demand for Bengal textiles and muslin'] },
+  { era:'Colonial' as Era, icon:<Swords size={18}/>, title:'Company & British Rule', range:'1757–1905', content:'After the Battle of Plassey, Company power expanded across Bengal and later passed to the British Crown. Colonial revenue systems, railways, education and new institutions changed society while famine, exploitation and resistance left deep marks.', highlights:['Battle of Plassey and Company expansion','Permanent Settlement and changing rural economy','Railways, print culture and modern educational institutions'] },
+  { era:'Colonial' as Era, icon:<BookOpen size={18}/>, title:'Partition, Renaissance & National Politics', range:'1905–1947', content:'The twentieth century brought the 1905 Partition of Bengal, its annulment, anti-colonial movements and rapid political change. Literature, education and social reform interacted with growing debates about representation, identity and self-government.', highlights:['Partition of Bengal in 1905 and annulment in 1911','Anti-colonial and reform movements','1947 Partition created East Bengal within Pakistan'] },
+  { era:'Modern' as Era, icon:<Flag size={18}/>, title:'Language Movement & Bengali Nationalism', range:'1947–1970', content:'East Bengal, later East Pakistan, experienced political and economic inequality. The Language Movement of 1952, mass movements, the Six-Point demand and the 1970 election strengthened Bengali nationalism and demands for democratic self-rule.', highlights:['Language Movement — 21 February 1952','Six-Point Movement of 1966','Mass uprising of 1969 and election of 1970'] },
+  { era:'Modern' as Era, icon:<Swords size={18}/>, title:'Liberation War', range:'1971', content:'Following the political crisis and military crackdown of March 1971, a nine-month Liberation War led to the emergence of independent Bangladesh. The conflict involved freedom fighters, civilians, refugees and allied forces and ended with victory on 16 December.', highlights:['Independence in 1971','Mukti Bahini resistance','Victory Day — 16 December 1971'] },
+  { era:'Modern' as Era, icon:<Landmark size={18}/>, title:'Independent Bangladesh', range:'1972–Present', content:'Independent Bangladesh has passed through reconstruction, political change, rapid urbanisation and major economic and social transformation. Its contemporary identity continues to draw on the Bengali language, the Liberation War, riverine geography and a diverse cultural heritage.', highlights:['Post-war reconstruction and institution building','Growth in agriculture, industry and services','Continuing preservation of archaeological and cultural heritage'] },
 ];
 
-const quickFacts = [
-  { label: 'Independence Declared', value: '26 March 1971' },
-  { label: 'Victory Day', value: '16 December 1971' },
-  { label: 'Founding Leader', value: 'Bangabandhu Sheikh Mujibur Rahman' },
-  { label: 'War Duration', value: '9 Months' },
-  { label: 'Language Movement', value: '21 February 1952' },
-  { label: 'UNESCO Heritage Sites', value: '3 in Bangladesh' },
+const quickFacts=[
+ {label:'Ancient Urban Site',value:'Mahasthangarh'}, {label:'UNESCO Monastery',value:'Paharpur'}, {label:'Historic Mosque City',value:'Bagerhat'},
+ {label:'Language Movement',value:'21 Feb 1952'}, {label:'Independence',value:'1971'}, {label:'Victory Day',value:'16 Dec'}
 ];
+const heritage=[
+ ['Mahasthangarh','Bogura','One of the earliest known urban archaeological sites in Bangladesh.'],
+ ['Somapura Mahavihara','Naogaon','Monumental Buddhist monastic complex and UNESCO World Heritage Site.'],
+ ['Historic Mosque City of Bagerhat','Bagerhat','A remarkable medieval Islamic city associated with Khan Jahan Ali.'],
+ ['Lalbagh Fort','Dhaka','Seventeenth-century Mughal fort complex in Old Dhaka.'],
+ ['Panam Nagar','Narayanganj','Historic streetscape associated with the old Sonargaon region.'],
+ ['Mainamati','Cumilla','Archaeological landscape with important Buddhist remains and museums.'],
+ ['Puthia Temple Complex','Rajshahi','A concentration of ornate historic Hindu temples and estate architecture.'],
+ ['Kantajew Temple','Dinajpur','Celebrated terracotta temple architecture of northern Bangladesh.'],
+ ['Ahsan Manzil','Dhaka','Historic palace on the Buriganga riverfront, now a museum.'],
+];
+const eras:Era[]=['All','Ancient','Medieval','Colonial','Modern'];
 
-const eras: Era[] = ['All', 'Ancient', 'Medieval', 'Colonial', 'Modern'];
-
-export default function History() {
-  const [activeEra, setActiveEra] = useState<Era>('All');
-
-  const filtered = useMemo(
-    () => (activeEra === 'All' ? periods : periods.filter((p) => p.era === activeEra)),
-    [activeEra]
-  );
-
-  return (
-    <div className="max-w-5xl mx-auto px-6 py-12">
-      <div className="text-center mb-10">
-        <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Our Journey</span>
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-brand-green">History of Bangladesh</h1>
-        <p className="text-body max-w-2xl mx-auto leading-relaxed">
-          From ancient river civilisations to a hard-won independence, Bangladesh's history spans dynasties, sultanates,
-          colonial struggle, and a defining Liberation War that forged a nation of over 160 million people.
-        </p>
-      </div>
-
-      {/* Quick facts strip */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-14">
-        {quickFacts.map((f) => (
-          <div key={f.label} className="bg-surface border border-line/10 rounded-2xl p-4 text-center">
-            <p className="text-brand-green font-bold text-sm mb-1">{f.value}</p>
-            <p className="text-[11px] text-muted uppercase tracking-wide">{f.label}</p>
-          </div>
-        ))}
-      </div>
-
-      {/* Era filter */}
-      <div className="flex flex-wrap justify-center gap-2 mb-14">
-        {eras.map((era) => (
-          <button
-            key={era}
-            onClick={() => setActiveEra(era)}
-            className={`px-5 py-2 rounded-full text-sm font-medium border transition-all ${
-              activeEra === era
-                ? 'bg-brand-green text-black border-brand-green'
-                : 'bg-transparent text-body border-line/15 hover:border-brand-green/50 hover:text-brand-green'
-            }`}
-          >
-            {era}
-          </button>
-        ))}
-      </div>
-
-      <div className="space-y-10 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-brand-green/20">
-        {filtered.map((period, i) => (
-          <motion.div
-            key={period.title}
-            initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.05 }}
-            className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"
-          >
-            <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-base bg-brand-green text-black shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
-              {period.icon}
-            </div>
-            <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-surface border border-line/5 hover:border-brand-green/30 transition-colors">
-              <div className="flex items-center justify-between gap-3 mb-2 flex-wrap">
-                <h3 className="font-bold text-xl text-heading">{period.title}</h3>
-                <span className="text-[11px] text-brand-green bg-brand-green/10 px-2.5 py-1 rounded-full whitespace-nowrap">{period.range}</span>
-              </div>
-              <p className="text-muted text-sm leading-relaxed mb-4">{period.content}</p>
-              <ul className="space-y-1.5">
-                {period.highlights.map((h) => (
-                  <li key={h} className="flex items-start gap-2 text-xs text-body">
-                    <Sparkles size={12} className="text-brand-green shrink-0 mt-0.5" /> {h}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </motion.div>
-        ))}
-      </div>
-    </div>
-  );
+export default function History(){
+ const [activeEra,setActiveEra]=useState<Era>('All');
+ const filtered=useMemo(()=>activeEra==='All'?periods:periods.filter(p=>p.era===activeEra),[activeEra]);
+ return <div className="max-w-6xl mx-auto px-6 py-12">
+  <div className="text-center mb-10"><span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">From Ancient Bengal to Today</span><h1 className="text-4xl md:text-5xl font-bold mb-6 text-brand-green">History of Bangladesh</h1><p className="text-body max-w-3xl mx-auto leading-relaxed">Explore the long historical journey of the Bengal delta — ancient cities and Buddhist centres, sultanate and Mughal architecture, colonial transformation, the Language Movement, the Liberation War and independent Bangladesh.</p></div>
+  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-14">{quickFacts.map(f=><div key={f.label} className="bg-surface border border-line/10 rounded-2xl p-4 text-center"><p className="text-brand-green font-bold text-sm mb-1">{f.value}</p><p className="text-[11px] text-muted uppercase tracking-wide">{f.label}</p></div>)}</div>
+  <div className="flex flex-wrap justify-center gap-2 mb-14">{eras.map(era=><button key={era} onClick={()=>setActiveEra(era)} className={`px-5 py-2 rounded-full text-sm font-medium border transition-all ${activeEra===era?'bg-brand-green text-black border-brand-green':'bg-transparent text-body border-line/15 hover:border-brand-green/50 hover:text-brand-green'}`}>{era}</button>)}</div>
+  <div className="space-y-10 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-brand-green/20">{filtered.map((period,i)=><motion.div key={period.title} initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:i*.04}} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"><div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-base bg-brand-green text-black shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">{period.icon}</div><div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-surface border border-line/5 hover:border-brand-green/30 transition-colors"><div className="flex items-center justify-between gap-3 mb-2 flex-wrap"><h3 className="font-bold text-xl text-heading">{period.title}</h3><span className="text-[11px] text-brand-green bg-brand-green/10 px-2.5 py-1 rounded-full">{period.range}</span></div><p className="text-muted text-sm leading-relaxed mb-4">{period.content}</p><ul className="space-y-1.5">{period.highlights.map(h=><li key={h} className="flex items-start gap-2 text-xs text-body"><Sparkles size={12} className="text-brand-green shrink-0 mt-0.5"/>{h}</li>)}</ul></div></motion.div>)}</div>
+  <section className="mt-20"><div className="text-center mb-8"><span className="text-xs uppercase tracking-[.25em] text-brand-green font-semibold">Heritage Highlights</span><h2 className="text-3xl font-bold text-heading mt-2">Historical Places to Explore</h2><p className="text-muted mt-3">A quick gateway to some of the country’s best-known archaeological and architectural heritage.</p></div><div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">{heritage.map(([name,place,desc])=><div key={name} className="bg-surface border border-line/10 rounded-2xl p-6 hover:border-brand-green/40 transition-colors"><MapPinned className="text-brand-green mb-4" size={24}/><h3 className="text-lg font-bold text-heading">{name}</h3><p className="text-xs text-brand-green mt-1 mb-3">{place}</p><p className="text-sm text-muted leading-relaxed">{desc}</p></div>)}</div></section>
+ </div>
 }
