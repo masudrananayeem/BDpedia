@@ -1,9 +1,29 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Instagram, Youtube, MapPin, Mail, Phone, ArrowUp, Send } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Youtube, MapPin, Mail, Phone, ArrowUp, Send, Check, Loader2 } from 'lucide-react';
+import { useState, FormEvent } from 'react';
+import api from '../lib/api';
 
 export default function Footer() {
   const year = new Date().getFullYear();
   const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  const [email, setEmail] = useState('');
+  const [status, setStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
+  const [error, setError] = useState('');
+
+  const handleSubscribe = async (e: FormEvent) => {
+    e.preventDefault();
+    setStatus('loading');
+    setError('');
+    try {
+      await api.post('/newsletter/subscribe', { email });
+      setStatus('done');
+      setEmail('');
+    } catch (err: any) {
+      setStatus('error');
+      setError(err.message || 'Failed to subscribe');
+    }
+  };
 
   return (
     <footer className="relative bg-navbar border-t border-line/10 pt-16 pb-6 px-6 lg:px-24 text-muted mt-20">
@@ -22,15 +42,26 @@ export default function Footer() {
             <h3 className="text-heading text-xl font-bold mb-1">Stay in the loop</h3>
             <p className="text-sm text-muted">Get new destinations, travel tips and district guides in your inbox.</p>
           </div>
-          <form onSubmit={(e) => e.preventDefault()} className="flex w-full lg:w-auto gap-3">
-            <input
-              type="email" required placeholder="Enter your email"
-              className="flex-1 lg:w-72 bg-black/40 border border-line/15 rounded-full px-5 py-3 text-sm text-heading focus:outline-none focus:border-brand-green"
-            />
-            <button type="submit" className="bg-brand-green text-black px-5 py-3 rounded-full font-semibold text-sm flex items-center gap-2 hover:bg-green-400 transition-colors shrink-0">
-              <Send size={15} /> Subscribe
-            </button>
-          </form>
+          {status === 'done' ? (
+            <div className="flex items-center gap-2 text-brand-green font-semibold text-sm w-full lg:w-auto justify-center">
+              <Check size={18} /> Subscribed, thank you!
+            </div>
+          ) : (
+            <form onSubmit={handleSubscribe} className="flex flex-col w-full lg:w-auto">
+              <div className="flex w-full lg:w-auto gap-3">
+                <input
+                  type="email" required placeholder="Enter your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="flex-1 lg:w-72 bg-base border border-line/15 rounded-full px-5 py-3 text-sm text-heading placeholder:text-muted focus:outline-none focus:border-brand-green"
+                />
+                <button type="submit" disabled={status === 'loading'} className="bg-brand-green text-black px-5 py-3 rounded-full font-semibold text-sm flex items-center gap-2 hover:bg-green-400 transition-colors shrink-0 disabled:opacity-60">
+                  {status === 'loading' ? <Loader2 size={15} className="animate-spin" /> : <Send size={15} />} Subscribe
+                </button>
+              </div>
+              {status === 'error' && <p className="text-xs text-red-400 mt-2">{error}</p>}
+            </form>
+          )}
         </div>
 
         {/* Link columns */}
@@ -93,8 +124,8 @@ export default function Footer() {
         <div className="border-t border-line/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted">
           <p>&copy; {year} BDpedia. All rights reserved.</p>
           <div className="flex items-center gap-6">
-            <a href="#" className="hover:text-brand-green transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-brand-green transition-colors">Terms of Service</a>
+            <Link to="/privacy-policy" className="hover:text-brand-green transition-colors">Privacy Policy</Link>
+            <Link to="/terms-of-service" className="hover:text-brand-green transition-colors">Terms of Service</Link>
           </div>
           <p>Made with <span className="text-brand-green">♥</span> for Bangladesh</p>
         </div>
