@@ -14,7 +14,8 @@
       "Munshiganj"
     ],
     "description": "The Padma is the main distributary of the Ganges and one of the three mightiest rivers of Bangladesh. It merges with the Jamuna near Goalundo before joining the Meghna, and is famous for hilsa fishing and the Padma Bridge.",
-    "image": "/images/rivers/padma.jpg"
+    "image": "/images/rivers/padma.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Padma_River"
   },
   {
     "id": "jamuna",
@@ -31,7 +32,8 @@
       "Manikganj"
     ],
     "description": "The Jamuna is the Bangladeshi name for the lower course of the Brahmaputra. It is one of the widest braided rivers in the world and is crossed by the Bangabandhu Jamuna Multi-Purpose Bridge.",
-    "image": "/images/rivers/jamuna.jpg"
+    "image": "/images/rivers/jamuna.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Jamuna_River,_Bangladesh"
   },
   {
     "id": "meghna",
@@ -47,7 +49,8 @@
       "Bhola"
     ],
     "description": "The Meghna is one of the largest rivers by discharge volume in Bangladesh, carrying the combined waters of the Ganges-Padma and Brahmaputra-Jamuna systems into the Bay of Bengal.",
-    "image": "/images/rivers/meghna.jpg"
+    "image": "/images/rivers/meghna.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Meghna_River"
   },
   {
     "id": "brahmaputra",
@@ -62,7 +65,8 @@
       "Netrokona"
     ],
     "description": "The Old Brahmaputra was the main channel before the river shifted course to form the Jamuna in the late 18th century. It still flows through Mymensingh and Jamalpur, supporting agriculture and river life.",
-    "image": "/images/rivers/brahmaputra.jpg"
+    "image": "/images/rivers/brahmaputra.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Brahmaputra_River"
   },
   {
     "id": "surma",
@@ -77,7 +81,8 @@
       "Kishoreganj"
     ],
     "description": "The Surma flows through the scenic haor basin of greater Sylhet and is central to the region's fishing communities and boat culture, feeding wetlands like Tanguar Haor.",
-    "image": "/images/rivers/surma.jpg"
+    "image": "/images/rivers/surma.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Surma_River"
   },
   {
     "id": "karnaphuli",
@@ -90,7 +95,8 @@
       "Chattogram"
     ],
     "description": "The lifeline of the Chattogram Hill Tracts, the Karnaphuli feeds the Kaptai Lake and Kaptai Hydroelectric Dam, and its estuary forms the natural harbour of Chattogram Port.",
-    "image": "/images/rivers/karnaphuli.jpg"
+    "image": "/images/rivers/karnaphuli.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Karnaphuli_River"
   },
   {
     "id": "teesta",
@@ -105,7 +111,8 @@
       "Gaibandha"
     ],
     "description": "A major transboundary river of the north, the Teesta is central to a long-running water-sharing discussion between Bangladesh and India and supports irrigation across greater Rangpur.",
-    "image": "/images/rivers/teesta.jpg"
+    "image": "/images/rivers/teesta.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Teesta_River"
   },
   {
     "id": "buriganga",
@@ -117,7 +124,8 @@
       "Dhaka"
     ],
     "description": "Once the main channel of the Ganges, the Buriganga flows past Old Dhaka and Sadarghat and has historically been the lifeline of the capital's river trade, though it now faces heavy pollution.",
-    "image": "/images/rivers/buriganga.jpg"
+    "image": "/images/rivers/buriganga.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Buriganga_River"
   },
   {
     "id": "dhaleshwari",
@@ -170,7 +178,8 @@
       "Chattogram"
     ],
     "description": "One of the only rivers in the world that hosts natural breeding grounds for carp fish, the Halda is ecologically vital to Chattogram's fisheries and hatchery industry.",
-    "image": "/images/rivers/halda.jpg"
+    "image": "/images/rivers/halda.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Halda_River"
   },
   {
     "id": "naf",
@@ -182,7 +191,8 @@
       "Cox's Bazar"
     ],
     "description": "Forming the natural border between Bangladesh and Myanmar, the Naf River empties into the Bay of Bengal near Teknaf, close to Saint Martin's Island.",
-    "image": "/images/rivers/naf.jpg"
+    "image": "/images/rivers/naf.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Naf_River"
   },
   {
     "id": "atrai",
@@ -197,7 +207,8 @@
       "Rajshahi"
     ],
     "description": "A long, winding river of the northwest that feeds the Chalan Beel wetland system and supports agriculture across greater Rajshahi and Rangpur.",
-    "image": "/images/rivers/atrai.jpg"
+    "image": "/images/rivers/atrai.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Atrai_River"
   },
   {
     "id": "gorai-madhumati",
@@ -239,7 +250,8 @@
       "Chattogram"
     ],
     "description": "A fast-flowing hill river winding through Bandarban's forests and hills before reaching the Bay of Bengal, popular for river-boat tourism.",
-    "image": "/images/rivers/sangu.jpg"
+    "image": "/images/rivers/sangu.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Sangu_River"
   },
   {
     "id": "matamuhuri",
@@ -266,7 +278,8 @@
       "Chattogram"
     ],
     "description": "A border river between Bangladesh and India in the southeast, historically significant and site of the Muhuri irrigation project.",
-    "image": "/images/rivers/feni.jpg"
+    "image": "/images/rivers/feni.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Feni_River"
   },
   {
     "id": "kushiyara",
@@ -280,7 +293,8 @@
       "Habiganj"
     ],
     "description": "One of the two branches of the Barak River, flowing through Sylhet division before joining the Meghna system.",
-    "image": "/images/rivers/kushiyara.jpg"
+    "image": "/images/rivers/kushiyara.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Kushiyara_River"
   },
   {
     "id": "someshwari",
@@ -721,7 +735,8 @@
       "Bangladesh"
     ],
     "description": "Gorai is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
-    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "wiki": "https://en.wikipedia.org/wiki/Gorai_River"
   },
   {
     "id": "gomoti",
@@ -853,7 +868,8 @@
       "Bangladesh"
     ],
     "description": "Madhumati is part of Bangladesh’s extensive river network. River courses, names and seasonal flow can vary by region and source.",
-    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "wiki": "https://en.wikipedia.org/wiki/Madhumati_River"
   },
   {
     "id": "mathabhanga",
@@ -2317,7 +2333,8 @@
       "Bangladesh"
     ],
     "description": "Brahmaputra River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
-    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "wiki": "https://en.wikipedia.org/wiki/Brahmaputra_River"
   },
   {
     "id": "rupsa",
@@ -2329,7 +2346,8 @@
       "Bangladesh"
     ],
     "description": "Rupsa River is part of Bangladesh’s interconnected river network. Course, naming and seasonal flow may vary across hydrological and local sources.",
-    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80"
+    "image": "https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=1200&q=80",
+    "wiki": "https://en.wikipedia.org/wiki/Rupsa_River"
   },
   {
     "id": "tetulia",
