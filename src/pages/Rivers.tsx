@@ -1,35 +1,32 @@
 import { useEffect, useMemo, useState } from 'react';
-import rivers from '../data/json/others/rivers.json';
-import { Search, Waves, MapPin, Ruler, ExternalLink, BookOpen } from 'lucide-react';
+import { fetchRivers, River } from '../lib/contentApi';
+import { Search, Waves, MapPin, Ruler, ExternalLink, BookOpen, ImageOff } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useSearchParams } from 'react-router-dom';
-
-type River = {
-  id: string;
-  name: string;
-  localName?: string;
-  length_km: number | null;
-  origin: string;
-  districts: string[];
-  description: string;
-  image?: string;
-};
-
-const ALL_RIVERS = rivers as River[];
+import { withFeaturedFirst, FEATURED_RIVER_SLUGS } from '../lib/featured';
 
 export default function Rivers() {
+  const [allRivers, setAllRivers] = useState<River[]>([]);
   const [searchParams] = useSearchParams();
   const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
   const [currentPage, setCurrentPage] = useState(1);
   const RIVERS_PER_PAGE = 25;
 
+  useEffect(() => {
+    fetchRivers().then(setAllRivers).catch(() => setAllRivers([]));
+  }, []);
+
   const filtered = useMemo(() => {
-    return ALL_RIVERS.filter(
+    const matches = allRivers.filter(
       (r) =>
         r.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         r.districts.some((d) => d.toLowerCase().includes(searchTerm.toLowerCase()))
     );
-  }, [searchTerm]);
+    // Show the major, most-searched rivers first (same pattern as Districts
+    // and Explore); the rest follow in their existing order so all 250+
+    // rivers stay searchable below.
+    return withFeaturedFirst(matches, FEATURED_RIVER_SLUGS);
+  }, [allRivers, searchTerm]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / RIVERS_PER_PAGE));
   const paginatedRivers = filtered.slice(
@@ -51,7 +48,7 @@ export default function Rivers() {
         <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Land of Rivers</span>
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-heading">Rivers of Bangladesh</h1>
         <p className="text-muted mb-8 max-w-2xl mx-auto text-lg">
-          Bangladesh is crisscrossed by {ALL_RIVERS.length}+ major rivers that shape its land, livelihood and culture.
+          Bangladesh is crisscrossed by {allRivers.length}+ major rivers that shape its land, livelihood and culture.
         </p>
         <div className="relative max-w-xl mx-auto">
           <Search className="absolute left-5 top-1/2 -translate-y-1/2 text-muted" size={20} />
@@ -84,6 +81,7 @@ export default function Rivers() {
             className="bg-surface rounded-2xl border border-line/5 hover:border-brand-green/40 transition-all overflow-hidden flex flex-col"
           >
             <div className="h-44 bg-surfacealt relative overflow-hidden flex items-center justify-center">
+              <ImageOff size={26} className="text-muted/50" />
               <img
                 src={river.image || `/images/rivers/${river.id}.jpg`}
                 alt={river.name}
@@ -92,10 +90,15 @@ export default function Rivers() {
                 className="absolute inset-0 w-full h-full object-cover"
                 onError={(e) => (e.currentTarget.style.opacity = '0')}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/10 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
               <span className="absolute bottom-3 right-3 flex items-center gap-1 bg-brand-green/90 text-black text-xs font-semibold px-3 py-1.5 rounded-full whitespace-nowrap">
                 <Ruler size={13} /> {river.length_km ? `${river.length_km} km` : `Regional river`}
               </span>
+              {(river.featured || FEATURED_RIVER_SLUGS.includes(river.id)) && (
+                <span className="absolute top-3 left-3 bg-brand-green text-black text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full">
+                  Popular
+                </span>
+              )}
             </div>
             <div className="p-6 md:p-7">
             <div className="flex items-start justify-between gap-4 mb-3">
@@ -114,7 +117,7 @@ export default function Rivers() {
               <p className="text-sm text-body">{river.origin}</p>
             </div>
 
-            <div>
+            <div className="mb-5">
               <p className="text-xs uppercase tracking-wider text-muted mb-2 flex items-center gap-1"><MapPin size={12} /> Flows through</p>
               <div className="flex flex-wrap gap-2">
                 {river.districts.map((d) => (
@@ -122,6 +125,14 @@ export default function Rivers() {
                 ))}
               </div>
             </div>
+
+            <a
+              href={river.wiki || `https://en.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(river.name)}`}
+              target="_blank" rel="noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-brand-green hover:text-heading transition-colors"
+            >
+              <BookOpen size={16} /> Read more on Wikipedia <ExternalLink size={13} />
+            </a>
             </div>
           </motion.div>
         ))}
