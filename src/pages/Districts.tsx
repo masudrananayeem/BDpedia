@@ -1,24 +1,34 @@
-import { useMemo, useState } from 'react';
-import districtsIndex from '../data/json/districts/index.json';
-import { ArrowRight, MapPin, Search, X } from 'lucide-react';
+import { useEffect, useMemo, useState } from 'react';
+import { ArrowRight, MapPin, Search, X, ImageOff } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-
-type District = { id: string; name: string; image: string; history: string; division?: string };
-const ALL_DISTRICTS = districtsIndex as District[];
-const DIVISIONS = Array.from(new Set(ALL_DISTRICTS.map((d) => d.division).filter(Boolean))) as string[];
+import { fetchDistricts, District } from '../lib/contentApi';
+import { withFeaturedFirst, FEATURED_DISTRICT_SLUGS } from '../lib/featured';
 
 export default function Districts() {
+  const [allDistricts, setAllDistricts] = useState<District[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeDivision, setActiveDivision] = useState('All');
 
+  useEffect(() => {
+    fetchDistricts().then(setAllDistricts).catch(() => setAllDistricts([]));
+  }, []);
+
+  const DIVISIONS = useMemo(
+    () => Array.from(new Set(allDistricts.map((d) => d.division).filter(Boolean))) as string[],
+    [allDistricts]
+  );
+
   const filteredDistricts = useMemo(() => {
-    return ALL_DISTRICTS.filter((d) => {
+    const filtered = allDistricts.filter((d) => {
       const matchesSearch = d.name.toLowerCase().includes(searchTerm.toLowerCase());
       const matchesDivision = activeDivision === 'All' || d.division === activeDivision;
       return matchesSearch && matchesDivision;
     });
-  }, [searchTerm, activeDivision]);
+    // Show the major, most-visited districts first; the rest follow in their
+    // existing order so the full list of 64 stays searchable/filterable.
+    return withFeaturedFirst(filtered, FEATURED_DISTRICT_SLUGS);
+  }, [allDistricts, searchTerm, activeDivision]);
 
   const activeFilterCount = (activeDivision !== 'All' ? 1 : 0) + (searchTerm ? 1 : 0);
 
@@ -66,7 +76,7 @@ export default function Districts() {
       </div>
 
       <p className="text-sm text-muted mb-6">
-        Showing <span className="text-heading font-semibold">{filteredDistricts.length}</span> of {ALL_DISTRICTS.length} districts
+        Showing <span className="text-heading font-semibold">{filteredDistricts.length}</span> of {allDistricts.length} districts
       </p>
 
       <AnimatePresence mode="popLayout">
@@ -80,12 +90,18 @@ export default function Districts() {
                   transition={{ delay: (index % 15) * 0.04 }}
                   className="bg-surface rounded-2xl overflow-hidden border border-line/5 hover:border-brand-green/50 hover:shadow-[0_0_20px_rgba(34,197,94,0.15)] transition-all group flex flex-col h-full"
                 >
-                  <div className="h-40 bg-surfacealt relative overflow-hidden flex items-center justify-center">
-                    <img src={district.image} alt={district.name} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-60 group-hover:opacity-100" onError={(e) => (e.currentTarget.style.opacity = '0')} />
-                    <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
+                  <div className="h-64 bg-surfacealt relative overflow-hidden flex items-center justify-center">
+                    <ImageOff size={24} className="text-muted/50" />
+                    <img src={district.image} alt={district.name} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onError={(e) => (e.currentTarget.style.opacity = '0')} />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-transparent"></div>
                     {district.division && (
                       <span className="absolute top-3 left-3 bg-black/60 backdrop-blur-sm text-brand-green text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full border border-brand-green/30">
                         {district.division}
+                      </span>
+                    )}
+                    {(district.featured || FEATURED_DISTRICT_SLUGS.includes(district.id)) && (
+                      <span className="absolute top-3 right-3 bg-brand-green text-black text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full">
+                        Popular
                       </span>
                     )}
                   </div>
