@@ -1,11 +1,21 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Youtube, MapPin, Mail, Phone, ArrowUp, Send, Check, Loader2 } from 'lucide-react';
-import { useState, FormEvent } from 'react';
+import { useState, FormEvent, MouseEvent } from 'react';
 import api from '../lib/api';
 
 export default function Footer() {
   const year = new Date().getFullYear();
   const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+  const location = useLocation();
+
+  // Same fix as Navbar: clicking a link to the page you're already on
+  // doesn't trigger React Router navigation, so it looks broken.
+  const handleNavClick = (path: string) => (e: MouseEvent) => {
+    if (location.pathname === path) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
@@ -89,28 +99,28 @@ export default function Footer() {
           <div>
             <h3 className="text-heading font-semibold text-base mb-5">Explore</h3>
             <ul className="space-y-3 text-sm">
-              <li><Link to="/explore" className="hover:text-brand-green transition-colors">Tourist Places</Link></li>
-              <li><Link to="/districts" className="hover:text-brand-green transition-colors">64 Districts</Link></li>
-              <li><Link to="/rivers" className="hover:text-brand-green transition-colors">Rivers of BD</Link></li>
-              <li><Link to="/gallery" className="hover:text-brand-green transition-colors">Gallery</Link></li>
+              <li><Link to="/explore" onClick={handleNavClick("/explore")} className="hover:text-brand-green transition-colors">Tourist Places</Link></li>
+              <li><Link to="/districts" onClick={handleNavClick("/districts")} className="hover:text-brand-green transition-colors">64 Districts</Link></li>
+              <li><Link to="/rivers" onClick={handleNavClick("/rivers")} className="hover:text-brand-green transition-colors">Rivers of BD</Link></li>
+              <li><Link to="/gallery" onClick={handleNavClick("/gallery")} className="hover:text-brand-green transition-colors">Gallery</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-heading font-semibold text-base mb-5">Learn</h3>
             <ul className="space-y-3 text-sm">
-              <li><Link to="/history" className="hover:text-brand-green transition-colors">History of BD</Link></li>
-              <li><Link to="/culture" className="hover:text-brand-green transition-colors">Culture</Link></li>
-              <li><Link to="/blog" className="hover:text-brand-green transition-colors">Blog</Link></li>
-              <li><Link to="/guide" className="hover:text-brand-green transition-colors">Travel Guide</Link></li>
+              <li><Link to="/history" onClick={handleNavClick("/history")} className="hover:text-brand-green transition-colors">History of BD</Link></li>
+              <li><Link to="/culture" onClick={handleNavClick("/culture")} className="hover:text-brand-green transition-colors">Culture</Link></li>
+              <li><Link to="/blog" onClick={handleNavClick("/blog")} className="hover:text-brand-green transition-colors">Blog</Link></li>
+              <li><Link to="/guide" onClick={handleNavClick("/guide")} className="hover:text-brand-green transition-colors">Travel Guide</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-heading font-semibold text-base mb-5">Company</h3>
             <ul className="space-y-3 text-sm mb-5">
-              <li><Link to="/about" className="hover:text-brand-green transition-colors">About Us</Link></li>
-              <li><Link to="/contact" className="hover:text-brand-green transition-colors">Contact</Link></li>
+              <li><Link to="/about" onClick={handleNavClick("/about")} className="hover:text-brand-green transition-colors">About Us</Link></li>
+              <li><Link to="/contact" onClick={handleNavClick("/contact")} className="hover:text-brand-green transition-colors">Contact</Link></li>
             </ul>
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3"><MapPin size={16} className="text-brand-green shrink-0 mt-0.5" /> <span>Dhaka, Bangladesh</span></li>
@@ -124,8 +134,8 @@ export default function Footer() {
         <div className="border-t border-line/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted">
           <p>&copy; {year} BDpedia. All rights reserved.</p>
           <div className="flex items-center gap-6">
-            <Link to="/privacy-policy" className="hover:text-brand-green transition-colors">Privacy Policy</Link>
-            <Link to="/terms-of-service" className="hover:text-brand-green transition-colors">Terms of Service</Link>
+            <Link to="/privacy-policy" onClick={handleNavClick("/privacy-policy")} className="hover:text-brand-green transition-colors">Privacy Policy</Link>
+            <Link to="/terms-of-service" onClick={handleNavClick("/terms-of-service")} className="hover:text-brand-green transition-colors">Terms of Service</Link>
           </div>
           <p>Made with <span className="text-brand-green">♥</span> for Bangladesh</p>
         </div>
