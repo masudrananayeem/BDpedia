@@ -1,36 +1,48 @@
-import { useEffect, useMemo, useState } from 'react';
-import placesIndex from '../data/json/places/index.json';
-import { MapPin, ArrowRight, Search, SlidersHorizontal, X, ArrowUpDown, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { MapPin, ArrowRight, Search, SlidersHorizontal, X, ArrowUpDown, ChevronLeft, ChevronRight, ImageOff } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
+import { fetchPlaces, Place } from '../lib/contentApi';
+import { withFeaturedFirst, FEATURED_PLACE_SLUGS } from '../lib/featured';
 
-type Place = {
-  id: string;
-  name: string;
-  image: string;
-  description: string;
-  category?: string;
-  district?: string;
-};
-
-const ALL_PLACES = placesIndex as Place[];
 const PAGE_SIZE = 33;
-
-const CATEGORIES = Array.from(new Set(ALL_PLACES.map((p) => p.category).filter(Boolean))) as string[];
-const DISTRICTS = Array.from(new Set(ALL_PLACES.map((p) => p.district).filter(Boolean))).sort() as string[];
+const TOP_COUNT = 200;
 
 type SortKey = 'default' | 'az' | 'za';
+type ViewMode = 'all' | 'top';
 
 export default function Explore() {
+  const [allPlaces, setAllPlaces] = useState<Place[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('All');
   const [activeDistrict, setActiveDistrict] = useState<string>('All');
   const [sortKey, setSortKey] = useState<SortKey>('default');
+  const [viewMode, setViewMode] = useState<ViewMode>('all');
   const [filtersOpen, setFiltersOpen] = useState(false);
-  const [page, setPage] = useState(1);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [page, setPage] = useState(() => Math.max(1, parseInt(searchParams.get('page') || '1', 10) || 1));
+  // filter/sort পরিবর্তন হলে page 1-এ ফিরিয়ে নেওয়ার জন্য — মান তুলনা করে,
+  // effect ক'বার চলেছে সেটা গুনে নয়, কারণ React.StrictMode dev-mode-এ
+  // প্রতিটা effect mount-এ দু'বার চালায়; count-based flag হলে সেই দ্বিতীয়
+  // বার-ই ভুলবশত page 1-এ রিসেট করে দিত।
+  const filterSignature = `${searchTerm}|${activeCategory}|${activeDistrict}|${sortKey}|${viewMode}`;
+  const prevFilterSignature = useRef(filterSignature);
+
+  useEffect(() => {
+    fetchPlaces().then(setAllPlaces).catch(() => setAllPlaces([]));
+  }, []);
+
+  const CATEGORIES = useMemo(() => Array.from(new Set(allPlaces.map((p) => p.category).filter(Boolean))) as string[], [allPlaces]);
+  const DISTRICTS = useMemo(() => Array.from(new Set(allPlaces.map((p) => p.district).filter(Boolean))).sort() as string[], [allPlaces]);
+
+  // "Top 200 Places": the curated/most-visited places first (see featured.ts),
+  // padded out to 200 with the rest in their existing order. This is the base
+  // list for Top view; search/category/district/sort below still apply on top of it.
+  const topPlaces = useMemo(() => withFeaturedFirst(allPlaces, FEATURED_PLACE_SLUGS).slice(0, TOP_COUNT), [allPlaces]);
 
   const filteredPlaces = useMemo(() => {
-    let list = ALL_PLACES.filter((p) => {
+    const base = viewMode === 'top' ? topPlaces : allPlaces;
+    let list = base.filter((p) => {
       const matchesSearch =
         p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         (p.district || '').toLowerCase().includes(searchTerm.toLowerCase());
@@ -40,10 +52,12 @@ export default function Explore() {
     });
 
     if (sortKey === 'az') list = [...list].sort((a, b) => a.name.localeCompare(b.name));
-    if (sortKey === 'za') list = [...list].sort((a, b) => b.name.localeCompare(a.name));
+    else if (sortKey === 'za') list = [...list].sort((a, b) => b.name.localeCompare(a.name));
+    // "Featured" default: surface the most-visited places first, rest keep order.
+    else if (viewMode !== 'top') list = withFeaturedFirst(list, FEATURED_PLACE_SLUGS);
 
     return list;
-  }, [searchTerm, activeCategory, activeDistrict, sortKey]);
+  }, [allPlaces, topPlaces, viewMode, searchTerm, activeCategory, activeDistrict, sortKey]);
 
   const totalPages = Math.max(1, Math.ceil(filteredPlaces.length / PAGE_SIZE));
   const paginatedPlaces = useMemo(
@@ -52,12 +66,30 @@ export default function Explore() {
   );
 
   useEffect(() => {
-    setPage(1);
-  }, [searchTerm, activeCategory, activeDistrict, sortKey]);
+    if (prevFilterSignature.current !== filterSignature) {
+      prevFilterSignature.current = filterSignature;
+      setPage(1);
+    }
+  }, [filterSignature]);
 
   useEffect(() => {
-    if (page > totalPages) setPage(totalPages);
-  }, [totalPages, page]);
+    if (allPlaces.length > 0 && page > totalPages) setPage(totalPages);
+  }, [totalPages, page, allPlaces.length]);
+
+  // পেজ নম্বর URL-এ রাখা হচ্ছে (?page=), যাতে কোনো place-এ ঢুকে "Back to
+  // Places" ক্লিক করলে ইউজার ঠিক সেই পেজেই ফিরে আসতে পারে।
+  useEffect(() => {
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        if (page > 1) next.set('page', String(page));
+        else next.delete('page');
+        return next;
+      },
+      { replace: true }
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [page]);
 
   const activeFilterCount = (activeCategory !== 'All' ? 1 : 0) + (activeDistrict !== 'All' ? 1 : 0) + (searchTerm ? 1 : 0);
 
@@ -74,8 +106,31 @@ export default function Explore() {
         <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Explore Bangladesh</span>
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-heading">Tourist Places</h1>
         <p className="text-muted mb-8 max-w-2xl mx-auto text-lg">
-          {ALL_PLACES.length}+ handpicked destinations across the country &mdash; filter by category, district, or search for a place.
+          {allPlaces.length}+ handpicked destinations across the country &mdash; filter by category, district, or search for a place.
         </p>
+
+        <div className="flex items-center justify-center gap-2 mb-8">
+          <button
+            onClick={() => setViewMode('all')}
+            className={`px-5 py-2 rounded-full text-sm font-semibold border transition-all ${
+              viewMode === 'all'
+                ? 'bg-brand-green text-black border-brand-green'
+                : 'bg-transparent text-body border-line/15 hover:border-brand-green/50 hover:text-heading'
+            }`}
+          >
+            All Places
+          </button>
+          <button
+            onClick={() => setViewMode('top')}
+            className={`px-5 py-2 rounded-full text-sm font-semibold border transition-all ${
+              viewMode === 'top'
+                ? 'bg-brand-green text-black border-brand-green'
+                : 'bg-transparent text-body border-line/15 hover:border-brand-green/50 hover:text-heading'
+            }`}
+          >
+            Top {TOP_COUNT} Places
+          </button>
+        </div>
 
         <div className="relative max-w-xl mx-auto">
           <Search className="absolute left-5 top-1/2 -translate-y-1/2 text-muted" size={20} />
@@ -175,7 +230,7 @@ export default function Explore() {
         {paginatedPlaces.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {paginatedPlaces.map((place, index) => (
-              <Link to={`/explore/${place.id}`} key={place.id}>
+              <Link to={`/explore/${place.id}${page > 1 ? `?page=${page}` : ''}`} key={place.id}>
                 <motion.div
                   layout
                   initial={{ opacity: 0, y: 20 }}
@@ -185,18 +240,24 @@ export default function Explore() {
                   className="bg-surface rounded-2xl overflow-hidden border border-line/5 hover:border-brand-green/50 hover:shadow-[0_0_20px_rgba(34,197,94,0.15)] transition-all group flex flex-col h-full"
                 >
                   <div className="h-56 bg-surfacealt relative overflow-hidden flex items-center justify-center">
+                    <ImageOff size={28} className="text-muted/50" />
                     <img
                       src={place.image}
                       alt={place.name}
                       loading="lazy"
                       decoding="async"
-                      className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100"
+                      className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                       onError={(e) => (e.currentTarget.style.opacity = '0')}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent" />
                     {place.category && (
                       <span className="absolute top-4 left-4 bg-black/60 backdrop-blur-sm text-brand-green text-[11px] font-semibold uppercase tracking-wider px-3 py-1 rounded-full border border-brand-green/30">
                         {place.category}
+                      </span>
+                    )}
+                    {(place.featured || FEATURED_PLACE_SLUGS.includes(place.id)) && (
+                      <span className="absolute top-4 right-4 bg-brand-green text-black text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">
+                        Popular
                       </span>
                     )}
                   </div>
