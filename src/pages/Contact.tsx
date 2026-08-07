@@ -1,7 +1,33 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { useState, FormEvent } from 'react';
+import { Mail, Phone, MapPin, Send, CheckCircle2, Loader2 } from 'lucide-react';
 import { motion } from 'framer-motion';
+import api from '../lib/api';
 
 export default function Contact() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    setError('');
+    setSubmitting(true);
+    try {
+      await api.post('/contact', { name, email, message });
+      setSent(true);
+      setName('');
+      setEmail('');
+      setMessage('');
+    } catch (err: any) {
+      setError(err.message || 'Message could not be sent, please try again');
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-6 py-16">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-14">
@@ -28,14 +54,54 @@ export default function Contact() {
         </div>
       </div>
 
-      <form className="bg-surface p-8 rounded-2xl border border-line/10 grid grid-cols-1 md:grid-cols-2 gap-6" onSubmit={(e) => e.preventDefault()}>
-        <input type="text" placeholder="Your Name" className="bg-black/40 border border-line/15 rounded-xl px-5 py-3 focus:outline-none focus:border-brand-green text-heading md:col-span-1" />
-        <input type="email" placeholder="Your Email" className="bg-black/40 border border-line/15 rounded-xl px-5 py-3 focus:outline-none focus:border-brand-green text-heading md:col-span-1" />
-        <textarea placeholder="Your Message" rows={5} className="bg-black/40 border border-line/15 rounded-xl px-5 py-3 focus:outline-none focus:border-brand-green text-heading md:col-span-2" />
-        <button type="submit" className="bg-brand-dark hover:bg-green-500 text-heading px-8 py-3 rounded-full font-semibold transition-all md:col-span-2 md:w-fit">
-          Send Message
-        </button>
-      </form>
+      {sent ? (
+        <div className="bg-surface p-10 rounded-2xl border border-brand-green/30 text-center">
+          <CheckCircle2 className="text-brand-green mx-auto mb-4" size={40} />
+          <h3 className="text-xl font-bold text-heading mb-2">Message পাঠানো হয়েছে!</h3>
+          <p className="text-muted mb-6">ধন্যবাদ যোগাযোগ করার জন্য — যত দ্রুত সম্ভব রিপ্লাই দেওয়া হবে।</p>
+          <button onClick={() => setSent(false)} className="text-brand-green font-semibold hover:underline">
+            আরেকটা message পাঠান
+          </button>
+        </div>
+      ) : (
+        <form onSubmit={handleSubmit} className="bg-surface p-8 rounded-2xl border border-line/10 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <input
+            type="text"
+            required
+            placeholder="Your Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="bg-base border border-line/20 rounded-xl px-5 py-3 focus:outline-none focus:border-brand-green text-heading placeholder:text-muted md:col-span-1"
+          />
+          <input
+            type="email"
+            required
+            placeholder="Your Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="bg-base border border-line/20 rounded-xl px-5 py-3 focus:outline-none focus:border-brand-green text-heading placeholder:text-muted md:col-span-1"
+          />
+          <textarea
+            required
+            placeholder="Your Message"
+            rows={5}
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            className="bg-base border border-line/20 rounded-xl px-5 py-3 focus:outline-none focus:border-brand-green text-heading placeholder:text-muted md:col-span-2"
+          />
+
+          {error && <p className="text-sm text-red-400 md:col-span-2">{error}</p>}
+
+          <button
+            type="submit"
+            disabled={submitting}
+            className="flex items-center justify-center gap-2 bg-brand-green hover:brightness-110 text-black px-8 py-3 rounded-full font-semibold transition-all md:col-span-2 md:w-fit disabled:opacity-60"
+          >
+            {submitting ? <Loader2 size={18} className="animate-spin" /> : <Send size={18} />}
+            {submitting ? 'পাঠানো হচ্ছে...' : 'Send Message'}
+          </button>
+        </form>
+      )}
     </div>
   );
 }
