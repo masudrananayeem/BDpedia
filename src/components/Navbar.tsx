@@ -1,11 +1,13 @@
-import { useState, useEffect } from 'react';
-import { Search, Menu, X, ChevronDown, Waves, BedDouble, Info, Mail, Sun, Moon } from 'lucide-react';
+import { useState, useEffect, MouseEvent } from 'react';
+import { Search, Menu, X, ChevronDown, Waves, BedDouble, Info, Mail, Sun, Moon, Bookmark } from 'lucide-react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import places from '../data/json/places/index.json';
 import districts from '../data/json/districts/index.json';
 import rivers from '../data/json/others/rivers.json';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '../context/ThemeContext';
+import { useItinerary } from '../context/ItineraryContext';
+import AuthNavItem from './AuthNavItem';
 
 export default function Navbar({ isHome }: { isHome: boolean }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +19,7 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
   const location = useLocation();
   const navigate = useNavigate();
   const { mode, toggleMode } = useTheme();
+  const { items: itineraryItems } = useItinerary();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -27,6 +30,23 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
   useEffect(() => {
     setIsOpen(false);
   }, [location.pathname]);
+
+  // If the user clicks a nav link for the page they're already on, the
+  // route doesn't change, so React Router does nothing and it looks like
+  // the click "didn't work". Scroll back to top in that case instead.
+  const handleNavClick = (path: string) => (e: MouseEvent) => {
+    const [targetPath, targetHash] = path.split('#');
+    const alreadyThere = location.pathname === targetPath && (location.hash || '') === (targetHash ? `#${targetHash}` : '');
+    if (alreadyThere) {
+      e.preventDefault();
+      if (targetHash) {
+        document.getElementById(targetHash)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+      setIsOpen(false);
+    }
+  };
 
   const navLinks = [
     { name: 'Home', path: '/' }, { name: 'Explore', path: '/explore' },
@@ -53,7 +73,7 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
 
   const openResult = (path: string) => { setSearchOpen(false); setQuery(''); navigate(path); };
 
-  const overHero = isHome && !scrolled;
+ const overHero = isHome && !scrolled;
   const bgClass = overHero ? 'bg-transparent' : 'bg-navbar/90 backdrop-blur-md border-b border-line/10';
   const linkColor = overHero ? 'text-gray-200' : 'text-body';
   const headingColor = overHero ? 'text-white' : 'text-heading';
@@ -71,7 +91,7 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
 
         <div className="hidden xl:flex items-center gap-8 text-sm font-medium">
           {navLinks.map((link) => (
-             <Link key={link.name} to={link.path} className={`hover:text-brand-green transition-colors ${location.pathname === link.path ? 'text-brand-green' : linkColor}`}>
+             <Link key={link.name} to={link.path} onClick={handleNavClick(link.path)} className={`hover:text-brand-green transition-colors ${location.pathname === link.path ? 'text-brand-green' : linkColor}`}>
               {link.name}
             </Link>
           ))}
@@ -84,7 +104,7 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
               {guideOpen && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 10 }} className="absolute top-full left-0 mt-2 w-56 bg-surface border border-line/10 rounded-lg shadow-xl overflow-hidden">
                   {guideLinks.map((l) => (
-                    <Link key={l.name} to={l.path} className="flex items-center gap-2 px-4 py-3 text-sm text-body hover:bg-line/5 hover:text-brand-green">
+                    <Link key={l.name} to={l.path} onClick={handleNavClick(l.path)} className="flex items-center gap-2 px-4 py-3 text-sm text-body hover:bg-line/5 hover:text-brand-green">
                       {l.icon} {l.name}
                     </Link>
                   ))}
@@ -101,7 +121,7 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
               {moreOpen && (
                 <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 10 }} className="absolute top-full right-0 mt-2 w-52 bg-surface border border-line/10 rounded-lg shadow-xl overflow-hidden">
                   {moreLinks.map((l) => (
-                    <Link key={l.name} to={l.path} className="flex items-center gap-2 px-4 py-3 text-sm text-body hover:bg-line/5 hover:text-brand-green">
+                    <Link key={l.name} to={l.path} onClick={handleNavClick(l.path)} className="flex items-center gap-2 px-4 py-3 text-sm text-body hover:bg-line/5 hover:text-brand-green">
                       {l.icon} {l.name}
                     </Link>
                   ))}
@@ -112,6 +132,7 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
         </div>
 
         <div className="flex items-center gap-5">
+          <AuthNavItem linkColor={linkColor} />
           <button
             onClick={toggleMode}
             aria-label={mode === 'night' ? 'Switch to day mode' : 'Switch to night mode'}
@@ -128,6 +149,14 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
               {mode === 'night' ? <Moon size={13} /> : <Sun size={13} />}
             </motion.span>
           </button>
+          <Link to="/itinerary" onClick={handleNavClick('/itinerary')} aria-label="My Travel Itinerary" title="My Travel Itinerary" className={`relative ${location.pathname === '/itinerary' ? 'text-brand-green' : linkColor} hover:text-brand-green transition-colors`}>
+            <Bookmark size={22} />
+            {itineraryItems.length > 0 && (
+              <span className="absolute -top-2 -right-2 bg-brand-green text-black text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center">
+                {itineraryItems.length}
+              </span>
+            )}
+          </Link>
           <button onClick={() => setSearchOpen(true)} aria-label="Search BDpedia" className={`${linkColor} hover:text-brand-green transition-colors`}><Search size={22} /></button>
           <button className={`${linkColor} hover:text-brand-green xl:hidden`} onClick={() => setIsOpen(!isOpen)}>{isOpen ? <X size={24} /> : <Menu size={24} />}</button>
         </div>
@@ -156,8 +185,8 @@ export default function Navbar({ isHome }: { isHome: boolean }) {
             className="xl:hidden mt-4 bg-base border border-line/10 rounded-2xl overflow-hidden"
           >
             <div className="flex flex-col p-4 gap-1">
-              {[...navLinks, ...guideLinks, ...moreLinks].map((link) => (
-                <Link key={link.name} to={link.path} className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors ${location.pathname === link.path ? 'text-brand-green bg-line/5' : 'text-body hover:bg-line/5'}`}>
+              {[...navLinks, ...guideLinks, ...moreLinks, { name: `My Itinerary${itineraryItems.length ? ` (${itineraryItems.length})` : ''}`, path: '/itinerary' }].map((link) => (
+                <Link key={link.name} to={link.path} onClick={handleNavClick(link.path)} className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors ${location.pathname === link.path ? 'text-brand-green bg-line/5' : 'text-body hover:bg-line/5'}`}>
                   {link.name}
                 </Link>
               ))}
