@@ -1,11 +1,17 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Play, Map, Mountain, Waves, Landmark, Users, Leaf } from 'lucide-react';
+import { ArrowRight, Play, Map, Mountain, Waves, Landmark, Users, Leaf, Home as HomeIcon, Fish } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { fetchHome, HomeContent } from '../lib/contentApi';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('hero');
+  const [homeContent, setHomeContent] = useState<HomeContent | null>(null);
   const sections = ['hero', 'about', 'facts', 'featured', 'video'];
+
+  useEffect(() => {
+    fetchHome().then(setHomeContent).catch(() => setHomeContent(null));
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -51,7 +57,10 @@ export default function Home() {
       </div>
 
       <section id="hero" className="relative min-h-[100svh] flex flex-col px-6 lg:px-24 pt-32 pb-10 lg:pb-14 overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" style={{ backgroundImage: "url('/images/hero/bg-image.jpg')" }}>
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+          style={{ backgroundImage: `url('${homeContent?.heroImages?.[0]?.url || '/images/hero/bg-image.jpg'}')` }}
+        >
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-[#051005] via-transparent to-black/60"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-transparent to-transparent"></div>
@@ -60,11 +69,22 @@ export default function Home() {
         <div className="relative z-10 flex-1 flex flex-col justify-center">
           <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 1, ease: "easeOut", delay: 0.2 }} className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.5rem] font-extrabold text-white leading-[1.05] tracking-tight">
-              Discover <br /> The Beauty of <br /> <span className="text-brand-green">Bangladesh</span>
+              {homeContent?.headline ? (
+                homeContent.headline.split('\n').map((line, i, arr) => (
+                  <span key={i}>
+                    {i === arr.length - 1 ? <span className="text-brand-green">{line}</span> : line}
+                    {i < arr.length - 1 && <br />}
+                  </span>
+                ))
+              ) : (
+                <>Discover <br /> The Beauty of <br /> <span className="text-brand-green">Bangladesh</span></>
+              )}
             </h1>
 
             <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.6 }} className="mt-6 md:mt-8 text-base md:text-lg lg:text-xl text-gray-200/90 max-w-lg leading-relaxed font-medium">
-              From the mighty rivers to the green hills,<br />from rich history to diverse culture—<br />explore everything that makes Bangladesh unique.
+              {homeContent?.subheadline || (
+                <>From the mighty rivers to the green hills,<br />from rich history to diverse culture—<br />explore everything that makes Bangladesh unique.</>
+              )}
             </motion.p>
 
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.8 }} className="mt-8 md:mt-10 flex flex-wrap items-center gap-5">
@@ -92,8 +112,32 @@ export default function Home() {
         </motion.div>
       </section>
 
-      <section id="about" className="py-32 px-6 lg:px-24 bg-base">
-        <div className="max-w-7xl mx-auto">
+      <section id="about" className="relative py-32 px-6 lg:px-24 bg-base overflow-hidden">
+        {/* Decorative floating leaves + soft green glow (purely visual, non-interactive) */}
+        <div className="pointer-events-none absolute inset-0 overflow-hidden">
+          <div className="absolute -top-24 -left-16 w-96 h-96 bg-brand-green/20 rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 -right-16 w-[28rem] h-[28rem] bg-brand-green/15 rounded-full blur-[120px]" />
+
+          <Leaf
+            size={140}
+            className="absolute top-10 left-[6%] text-brand-green/10 rotate-[-18deg] drop-shadow-[0_25px_35px_rgba(34,197,94,0.25)]"
+            style={{ filter: 'blur(0.5px)' }}
+          />
+          <Leaf
+            size={90}
+            className="absolute top-1/3 right-[10%] text-brand-green/15 rotate-[35deg] drop-shadow-[0_20px_25px_rgba(34,197,94,0.3)]"
+          />
+          <Leaf
+            size={70}
+            className="absolute bottom-8 left-[18%] text-brand-green/10 rotate-[160deg] drop-shadow-[0_15px_20px_rgba(34,197,94,0.25)]"
+          />
+          <Leaf
+            size={160}
+            className="absolute -bottom-10 right-[4%] text-brand-green/[0.08] rotate-[-30deg] drop-shadow-[0_30px_40px_rgba(34,197,94,0.2)]"
+          />
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 text-heading">Discover the Essence</h2>
             <div className="w-20 h-1 bg-brand-green mx-auto rounded-full"></div>
@@ -116,8 +160,27 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="facts" className="py-32 px-6 lg:px-24 bg-base">
-        <div className="max-w-7xl mx-auto">
+      <section id="facts" className="relative py-32 px-6 lg:px-24 bg-base overflow-hidden">
+        {/* Decorative floating leaves + soft green glow, matching the "Discover the Essence" section above */}
+        <div className="pointer-events-none absolute inset-0 overflow-hidden">
+          <div className="absolute top-0 -right-20 w-[26rem] h-[26rem] bg-brand-green/15 rounded-full blur-[120px]" />
+          <div className="absolute -bottom-24 -left-16 w-96 h-96 bg-brand-green/20 rounded-full blur-[100px]" />
+
+          <Leaf
+            size={130}
+            className="absolute top-6 right-[8%] text-brand-green/10 rotate-[24deg] drop-shadow-[0_25px_35px_rgba(34,197,94,0.25)]"
+          />
+          <Leaf
+            size={80}
+            className="absolute top-1/2 left-[5%] text-brand-green/[0.08] rotate-[-40deg] drop-shadow-[0_20px_25px_rgba(34,197,94,0.25)]"
+          />
+          <Leaf
+            size={150}
+            className="absolute -bottom-12 right-[10%] text-brand-green/10 rotate-[150deg] drop-shadow-[0_30px_40px_rgba(34,197,94,0.2)]"
+          />
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Know Bangladesh</span>
             <h2 className="text-4xl font-bold mb-4 text-heading">Quick Facts About Bangladesh</h2>
@@ -156,6 +219,27 @@ export default function Home() {
               </ul>
             </div>
           </div>
+
+          {/* Traditional house types — a glimpse of rural & regional architecture */}
+          <div className="mt-16">
+            <div className="flex items-center gap-3 mb-8">
+              <div className="p-2.5 bg-brand-green/10 rounded-xl"><HomeIcon className="text-brand-green" size={22} /></div>
+              <h3 className="text-2xl font-bold text-heading">Traditional House Types of Bangladesh</h3>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+              {[
+                { title: 'Chhon (Thatched) House', desc: 'Walls of bamboo or mud topped with a straw or golpata roof — the classic village home.' },
+                { title: 'Tin-Shed House', desc: 'Corrugated tin roof and walls; the most common rural and semi-urban house today.' },
+                { title: 'Machan / Stilt House', desc: 'Raised on wooden or bamboo stilts in haor and flood-prone areas to stay above the water.' },
+                { title: 'Pucca (Brick) House', desc: 'Brick and concrete construction found across towns and cities, built to last.' },
+              ].map((h) => (
+                <div key={h.title} className="bg-surface border border-line/10 rounded-2xl p-5 hover:border-brand-green/30 transition-colors">
+                  <p className="font-bold text-heading mb-1.5">{h.title}</p>
+                  <p className="text-xs text-muted leading-relaxed">{h.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -169,6 +253,31 @@ export default function Home() {
             <p className="text-body mb-6 text-lg leading-relaxed">
               Bangladesh is home to numerous ethnic groups, each with their own unique traditions, languages, and festivals. From the bustling streets of Dhaka to the peaceful hills of Bandarban, every corner tells a story.
             </p>
+            <div className="flex items-start gap-4 bg-surface border border-line/10 rounded-2xl p-5 mb-6">
+              <div className="p-2.5 bg-brand-green/10 rounded-xl shrink-0"><Fish className="text-brand-green" size={22} /></div>
+              <p className="text-sm text-body leading-relaxed">
+                <span className="font-bold text-heading">Ilish (Hilsa) & Bhat: </span>
+                No plate says Bangladesh quite like steamed rice with hilsa — the national fish. Panta ilish on Pohela Boishakh, mustard-hilsa curry at home, or hilsa fresh off a riverside stall — it's the taste locals grow up on and every visitor should try.
+              </p>
+            </div>
+
+            <div className="bg-surface border border-line/10 rounded-2xl p-5 mb-8">
+              <p className="font-bold text-heading mb-3">Sarees Woven Across the Country</p>
+              <div className="grid grid-cols-2 gap-3 text-xs">
+                {[
+                  { name: 'Jamdani', desc: 'Hand-loomed muslin from Narayanganj, prized for its intricate motifs — a UNESCO-recognized craft.' },
+                  { name: 'Tangail Saree', desc: 'Light cotton sarees with bold geometric borders, woven around Tangail.' },
+                  { name: 'Rajshahi Silk', desc: 'Smooth, lustrous silk sarees from the mulberry belt around Rajshahi.' },
+                  { name: 'Katan Saree', desc: 'Rich, heavyweight silk with zari work, favoured for weddings and festivals.' },
+                ].map((s) => (
+                  <div key={s.name} className="bg-base rounded-xl p-3 border border-line/10">
+                    <p className="font-semibold text-brand-green mb-1">{s.name}</p>
+                    <p className="text-muted leading-relaxed">{s.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
             <Link to="/culture" className="inline-block border border-brand-green text-brand-green hover:bg-brand-green hover:text-black px-8 py-3 rounded-full font-semibold transition-colors">
               Read About Culture
             </Link>
@@ -178,13 +287,14 @@ export default function Home() {
 
       <section id="video" className="relative h-[70vh] md:h-[85vh] overflow-hidden flex items-center justify-center">
         <video
+          key={homeContent?.heroVideo || 'default'}
           className="absolute inset-0 w-full h-full object-cover"
-          src="/videos/bangladesh-nature.mp4"
-          poster="/images/hero/bg-image.jpg"
+          src={homeContent?.heroVideo || '/videos/bangladesh-nature.mp4'}
+          poster={homeContent?.heroImages?.[0]?.url || '/images/hero/bg-image.jpg'}
           autoPlay loop muted playsInline
         />
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-black/20 to-black/40" />
+        {/* Just a light bottom fade so the caption text stays readable — the video itself carries the section, no heavy overlay on top of it */}
+        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/55 to-transparent" />
 
         <motion.div
           initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}
