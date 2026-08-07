@@ -11,9 +11,9 @@ const PAGE_SIZE = 24;
 //   ৩) caption-এ যা লেখা দেখাতে চাও তা বসাও
 // আপাতত সবগুলো placeholder ছবি (picsum.photos) — নিজেরটা বসালেই বদলে যাবে।
 const GALLERY_IMAGES: { src: string; number: number; caption: string }[] = [
-  { src: 'https://picsum.photos/seed/bdpedia-bangladesh-1/900/650', number: 1, caption: 'Photo 1' },
-  { src: 'https://picsum.photos/seed/bdpedia-bangladesh-2/900/650', number: 2, caption: 'Photo 2' },
-  { src: 'https://picsum.photos/seed/bdpedia-bangladesh-3/900/650', number: 3, caption: 'Photo 3' },
+  { src: '../../public/images/gallery/photo1.jpg', number: 1, caption: 'Royel Bengal Tiger' },
+  { src: '../../public/images/gallery/photo2.jpg', number: 2, caption: 'Photo 2' },
+  { src: '../../public/images/gallery/photo3.jpg', number: 3, caption: 'Photo 3' },
   { src: 'https://picsum.photos/seed/bdpedia-bangladesh-4/900/650', number: 4, caption: 'Photo 4' },
   { src: 'https://picsum.photos/seed/bdpedia-bangladesh-5/900/650', number: 5, caption: 'Photo 5' },
   { src: 'https://picsum.photos/seed/bdpedia-bangladesh-6/900/650', number: 6, caption: 'Photo 6' },
