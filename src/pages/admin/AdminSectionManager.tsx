@@ -247,7 +247,7 @@ export default function AdminSectionManager({ config }: { config: SectionConfig 
                   <label className="text-xs text-muted mb-1 block">Additional Images (gallery)</label>
                   <input type="file" accept="image/*" multiple onChange={(e) => setImageFiles(e.target.files)} className="text-sm text-body" />
                   {editing?.images?.length > 0 && (
-                    <p className="text-[11px] text-muted mt-1">Already {editing.images.length}টা image আছে — নতুন gুলো যোগ হবে।</p>
+                    <p className="text-[11px] text-muted mt-1">Already {editing?.images?.length}টা image আছে — নতুন gুলো যোগ হবে।</p>
                   )}
                 </div>
               )}

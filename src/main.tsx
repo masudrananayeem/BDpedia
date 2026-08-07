@@ -1,4 +1,4 @@
-import React from 'react'; import ReactDOM from 'react-dom/client'; import App from './App.tsx'; import './index.css';
-import { ThemeProvider } from './context/ThemeContext.tsx';
-import { ItineraryProvider } from './context/ItineraryContext.tsx';
+import React from 'react'; import ReactDOM from 'react-dom/client'; import App from './App'; import './index.css';
+import { ThemeProvider } from './context/ThemeContext';
+import { ItineraryProvider } from './context/ItineraryContext';
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><ThemeProvider><ItineraryProvider><App /></ItineraryProvider></ThemeProvider></React.StrictMode>);
