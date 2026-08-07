@@ -1,20 +1,29 @@
 import { useParams, Link } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { ArrowLeft, ChevronRight, User, CalendarDays } from 'lucide-react';
 import { motion } from 'framer-motion';
-import blogs from '../data/json/others/blogs.json';
-
-type Blog = { id: number; title: string; author: string; category: string; image: string; excerpt: string; content?: string[] };
-const ALL_BLOGS = blogs as Blog[];
+import { fetchBlog, fetchBlogs, BlogPost } from '../lib/contentApi';
 
 export default function BlogDetails() {
   const { id } = useParams();
+  const [blog, setBlog] = useState<BlogPost | null>(null);
+  const [related, setRelated] = useState<BlogPost[]>([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    if (!id) return;
+    setLoading(true);
+    Promise.all([fetchBlog(id), fetchBlogs()])
+      .then(([b, all]) => {
+        setBlog(b);
+        setRelated(all.filter((x) => x.id !== b.id && x.category === b.category).slice(0, 3));
+      })
+      .catch(() => setBlog(null))
+      .finally(() => setLoading(false));
   }, [id]);
 
-  const blog = ALL_BLOGS.find((b) => String(b.id) === id);
+  if (loading) return <div className="text-center py-32 text-xl text-muted">Loading details...</div>;
 
   if (!blog) {
     return (
@@ -24,8 +33,6 @@ export default function BlogDetails() {
       </div>
     );
   }
-
-  const related = ALL_BLOGS.filter((b) => b.id !== blog.id && b.category === blog.category).slice(0, 3);
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-10">
