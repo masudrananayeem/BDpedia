@@ -3,6 +3,7 @@ import fbGroups from '../data/json/others/fbGroups.json';
 import vloggers from '../data/json/others/vloggers.json';
 import hotels from '../data/json/others/hotels.json';
 import { Youtube, Users, Building, Phone, Star, BedDouble, Wifi, CalendarClock, Bus, Wallet, ShieldCheck, Backpack, Landmark as LandmarkIcon } from 'lucide-react';
+import BudgetPlanner from '../components/BudgetPlanner';
 
 type Hotel = {
   id: string; name: string; district: string; category: string;
@@ -58,6 +59,10 @@ export default function TravelGuide() {
         <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">Plan Your Trip</span>
         <h1 className="text-4xl md:text-5xl font-extrabold text-heading">Ultimate Travel Guide</h1>
         <p className="text-body max-w-2xl mx-auto mt-4">Everything you need before you go — timing, transport, budgeting, communities, and where to stay.</p>
+      </div>
+
+      <div className="mb-16">
+        <BudgetPlanner />
       </div>
 
       {/* Trip planning essentials */}
