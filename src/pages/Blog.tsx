@@ -1,21 +1,24 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import blogs from '../data/json/others/blogs.json';
-import { CalendarDays, User } from 'lucide-react';
-
-type Blog = { id: number; title: string; author: string; category: string; image: string; excerpt: string };
-const ALL_BLOGS = blogs as Blog[];
-const CATEGORIES = ['All', ...Array.from(new Set(ALL_BLOGS.map((b) => b.category)))];
+import { fetchBlogs, BlogPost } from '../lib/contentApi';
+import { CalendarDays, User, ImageOff } from 'lucide-react';
 
 export default function Blog() {
+  const [allBlogs, setAllBlogs] = useState<BlogPost[]>([]);
   const [category, setCategory] = useState('All');
 
+  useEffect(() => {
+    fetchBlogs().then(setAllBlogs).catch(() => setAllBlogs([]));
+  }, []);
+
+  const CATEGORIES = useMemo(() => ['All', ...Array.from(new Set(allBlogs.map((b) => b.category)))], [allBlogs]);
+
   const filtered = useMemo(
-    () => (category === 'All' ? ALL_BLOGS : ALL_BLOGS.filter((b) => b.category === category)),
-    [category]
+    () => (category === 'All' ? allBlogs : allBlogs.filter((b) => b.category === category)),
+    [allBlogs, category]
   );
 
-  const featured = ALL_BLOGS[0];
+  const featured = allBlogs[0];
   const rest = filtered.filter((b) => b.id !== featured?.id);
 
   return (
@@ -29,8 +32,9 @@ export default function Blog() {
       {/* Featured post */}
       {featured && (
         <article className="mb-12 grid grid-cols-1 lg:grid-cols-2 gap-0 bg-surface border border-line/10 rounded-3xl overflow-hidden">
-          <div className="h-64 lg:h-full bg-surfacealt relative flex items-center justify-center text-muted text-sm">
-            <span className="z-10">{featured.image}</span>
+          <div className="h-64 lg:h-full bg-surfacealt relative flex items-center justify-center overflow-hidden">
+            <ImageOff size={30} className="text-muted/50" />
+            <img src={featured.image} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover" onError={(e) => (e.currentTarget.style.opacity = '0')} alt={featured.title} />
             <span className="absolute top-4 left-4 bg-brand-green text-black text-xs font-bold px-3 py-1 rounded-full z-20">Featured</span>
           </div>
           <div className="p-8 flex flex-col justify-center">
@@ -66,9 +70,9 @@ export default function Blog() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {rest.map((blog) => (
           <Link to={`/blog/${blog.id}`} key={blog.id} className="bg-surface rounded-2xl overflow-hidden border border-line/10 hover:border-brand-green/50 transition-colors group flex flex-col">
-            <div className="h-48 bg-surfacealt relative flex items-center justify-center text-muted text-sm">
-              <span className="z-10">{blog.image}</span>
-              <img src={blog.image} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity" onError={(e) => (e.currentTarget.style.opacity = '0')} alt={blog.title}/>
+            <div className="h-48 bg-surfacealt relative flex items-center justify-center overflow-hidden">
+              <ImageOff size={24} className="text-muted/50" />
+              <img src={blog.image} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover" onError={(e) => (e.currentTarget.style.opacity = '0')} alt={blog.title}/>
               <span className="absolute top-4 left-4 bg-brand-green text-black text-xs font-bold px-3 py-1 rounded-full z-20">{blog.category}</span>
             </div>
             <div className="p-6 flex-grow flex flex-col">
