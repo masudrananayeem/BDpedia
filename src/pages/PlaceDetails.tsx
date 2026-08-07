@@ -1,29 +1,29 @@
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { ArrowLeft, MapPin, Compass, ChevronRight, Tag, Navigation } from 'lucide-react';
+import { ArrowLeft, MapPin, Compass, ChevronRight, Tag, Navigation, BookmarkPlus, BookmarkCheck, BookOpen, Ticket, Clock, CalendarClock } from 'lucide-react';
 import { motion } from 'framer-motion';
-import placesIndex from '../data/json/places/index.json';
+import { fetchPlace, fetchPlaces, Place } from '../lib/contentApi';
+import { useItinerary } from '../context/ItineraryContext';
 
 export default function PlaceDetails() {
   const { slug } = useParams();
-  const [place, setPlace] = useState<any>(null);
+  const [searchParams] = useSearchParams();
+  const [place, setPlace] = useState<Place | null>(null);
+  const [related, setRelated] = useState<Place[]>([]);
   const [loading, setLoading] = useState(true);
+  const { isSaved, toggleItem } = useItinerary();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    const loadPlace = async () => {
-      setLoading(true);
-      try {
-        const module = await import(`../data/json/places/${slug}.json`);
-        setPlace(module.default || module);
-      } catch (err) {
-        const fallback = (placesIndex as any[]).find((p) => p.id === slug);
-        setPlace(fallback || null);
-      } finally {
-        setLoading(false);
-      }
-    };
-    loadPlace();
+    if (!slug) return;
+    setLoading(true);
+    Promise.all([fetchPlace(slug), fetchPlaces()])
+      .then(([p, all]) => {
+        setPlace(p);
+        setRelated(all.filter((x) => x.id !== p.id && (x.district === p.district || x.category === p.category)).slice(0, 3));
+      })
+      .catch(() => setPlace(null))
+      .finally(() => setLoading(false));
   }, [slug]);
 
   if (loading) return <div className="text-center py-32 text-xl text-muted">Loading details...</div>;
@@ -34,53 +34,83 @@ export default function PlaceDetails() {
     </div>
   );
 
-  const related = (placesIndex as any[])
-    .filter((p) => p.id !== place.id && (p.district === place.district || p.category === place.category))
-    .slice(0, 3);
+  const wikiHref = place.wiki || (place.name ? `https://en.wikipedia.org/wiki/${encodeURIComponent(place.name.replace(/\s+/g, '_'))}` : '');
+  // ইউজার যে পেজ থেকে এই place-এ ঢুকেছিল (Explore-এর ?page=), "Back to
+  // Places" ক্লিক করলে ঠিক সেই পেজেই ফিরিয়ে নেওয়ার জন্য।
+  const fromPage = searchParams.get('page');
+  const backToExploreHref = fromPage ? `/explore?page=${fromPage}` : '/explore';
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-10">
-      {/* Breadcrumb */}
-      <div className="flex items-center flex-wrap gap-2 text-xs md:text-sm text-muted mb-6">
-        <Link to="/" className="hover:text-brand-green transition-colors">Home</Link>
-        <ChevronRight size={14} />
-        <Link to="/explore" className="hover:text-brand-green transition-colors">Explore</Link>
-        <ChevronRight size={14} />
-        <span className="text-body">{place.name}</span>
-      </div>
+    <div>
+      {/* Full-screen hero, fully visible image (mirrors the district page) */}
+      <div className="relative w-full h-[85vh] md:h-[92vh] min-h-[560px] bg-surfacealt overflow-hidden">
+        <motion.img
+          initial={{ scale: 1.08, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.9, ease: 'easeOut' }}
+          src={place.image} alt={place.name}
+          className="absolute inset-0 w-full h-full object-cover"
+          onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/hero/bg-image.jpg'; }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-black/10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-transparent to-transparent" />
 
-      <Link to="/explore" className="inline-flex items-center gap-2 text-muted hover:text-brand-green transition-colors mb-6">
-        <ArrowLeft size={18} /> Back to Places
-      </Link>
-
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="rounded-3xl overflow-hidden border border-line/10 shadow-2xl">
-        <div className="h-72 md:h-[480px] bg-surfacealt relative flex items-center justify-center">
-          <img src={place.image} alt={place.name} className="absolute inset-0 w-full h-full object-cover opacity-85" onError={(e) => (e.currentTarget.style.opacity = '0')} />
-          <div className="absolute inset-0 bg-gradient-to-t from-base via-base/30 to-transparent" />
-          <div className="absolute bottom-8 left-6 right-6 md:left-10 md:right-10">
-            <div className="flex flex-wrap items-center gap-3 mb-4">
-              {place.category && (
-                <span className="bg-brand-green text-black px-4 py-1 rounded-full text-xs md:text-sm font-bold uppercase tracking-wider">
-                  {place.category}
-                </span>
-              )}
-              {place.district && (
-                <span className="flex items-center gap-1 bg-black/50 backdrop-blur-sm text-body px-4 py-1 rounded-full text-xs md:text-sm border border-line/10">
-                  <MapPin size={14} className="text-brand-green" /> {place.district} District
-                </span>
-              )}
+        {/* Breadcrumb + back, overlaid on the image (navbar hidden on this page, so sits near the top) */}
+        <div className="absolute top-6 md:top-8 left-0 right-0 px-6 lg:px-16 z-10">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex items-center flex-wrap gap-2 text-xs md:text-sm text-white/70 mb-4">
+              <Link to="/" className="hover:text-brand-green transition-colors">Home</Link>
+              <ChevronRight size={14} />
+              <Link to="/explore" className="hover:text-brand-green transition-colors">Explore</Link>
+              <ChevronRight size={14} />
+              <span className="text-white/90">{place.name}</span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold text-heading drop-shadow-lg">{place.name}</h1>
+            <Link to={backToExploreHref} className="inline-flex items-center gap-2 text-white/80 hover:text-brand-green transition-colors text-sm">
+              <ArrowLeft size={18} /> Back to Places
+            </Link>
           </div>
         </div>
 
-        <div className="p-8 md:p-12 grid grid-cols-1 lg:grid-cols-3 gap-10 bg-surface">
+        {/* Place identity — glass card, aligned right */}
+        <div className="absolute inset-x-0 bottom-0 pb-10 md:pb-16 px-6 lg:px-16 z-10">
+          <div className="max-w-7xl mx-auto flex justify-end">
+            <motion.div
+              initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2, duration: 0.7 }}
+              className="text-right max-w-xl bg-black/25 backdrop-blur-md border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl"
+            >
+              <div className="flex flex-wrap items-center justify-end gap-3 mb-4">
+                {place.category && (
+                  <span className="bg-brand-green text-black px-4 py-1 rounded-full text-xs md:text-sm font-bold uppercase tracking-wider">
+                    {place.category}
+                  </span>
+                )}
+                {place.district && (
+                  <span className="flex items-center gap-1 bg-black/40 backdrop-blur-sm text-white/90 px-4 py-1 rounded-full text-xs md:text-sm border border-white/10">
+                    <MapPin size={14} className="text-brand-green" /> {place.district} District
+                  </span>
+                )}
+              </div>
+              <h1 className="text-5xl md:text-7xl font-extrabold text-white drop-shadow-lg leading-none">{place.name}</h1>
+            </motion.div>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-6xl mx-auto px-6 py-12">
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="bg-surface rounded-3xl overflow-hidden border border-line/10 shadow-2xl">
+        <div className="p-8 md:p-12 grid grid-cols-1 lg:grid-cols-3 gap-10">
           <div className="lg:col-span-2">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-2 text-brand-green"><Compass /> About this Place</h2>
             <p className="text-body leading-relaxed text-lg mb-8">{place.description}</p>
             <div className="flex flex-wrap gap-4">
-              <button className="bg-brand-dark hover:bg-green-500 text-heading px-8 py-3 rounded-full font-semibold transition-all">
-                Add to Travel Itinerary
+              <button
+                onClick={() => toggleItem({ type: 'place', slug: place.id, name: place.name, image: place.image, meta: place.district })}
+                className={`flex items-center gap-2 px-8 py-3 rounded-full font-semibold transition-all ${
+                  isSaved('place', place.id)
+                    ? 'bg-brand-green/15 border border-brand-green text-brand-green'
+                    : 'bg-brand-dark hover:bg-green-500 text-heading'
+                }`}
+              >
+                {isSaved('place', place.id) ? <BookmarkCheck size={18} /> : <BookmarkPlus size={18} />}
+                {isSaved('place', place.id) ? 'Added to Itinerary' : 'Add to Travel Itinerary'}
               </button>
               {place.district && (
                 <Link
@@ -89,6 +119,14 @@ export default function PlaceDetails() {
                 >
                   <Navigation size={18} /> Explore {place.district} District
                 </Link>
+              )}
+              {wikiHref && (
+                <a
+                  href={wikiHref} target="_blank" rel="noreferrer"
+                  className="inline-flex items-center gap-2 border border-line/20 hover:border-brand-green text-body hover:text-brand-green px-8 py-3 rounded-full font-semibold transition-all"
+                >
+                  <BookOpen size={18} /> Read more on Wikipedia
+                </a>
               )}
             </div>
           </div>
@@ -105,8 +143,16 @@ export default function PlaceDetails() {
                   <span className="text-muted">District</span>
                   <span className="text-heading font-medium">{place.district || '—'}</span>
                 </li>
+                <li className="flex justify-between border-b border-line/5 pb-3">
+                  <span className="text-muted flex items-center gap-1"><Ticket size={14} /> Entry fee</span>
+                  <span className="text-heading font-medium text-right">{place.entryFee || 'Free'}</span>
+                </li>
+                <li className="flex justify-between border-b border-line/5 pb-3">
+                  <span className="text-muted flex items-center gap-1"><Clock size={14} /> Opening hours</span>
+                  <span className="text-heading font-medium text-right">{place.openingHours || 'All day'}</span>
+                </li>
                 <li className="flex justify-between">
-                  <span className="text-muted">Best time</span>
+                  <span className="text-muted flex items-center gap-1"><CalendarClock size={14} /> Best time</span>
                   <span className="text-heading font-medium">Oct – Mar</span>
                 </li>
               </ul>
@@ -123,7 +169,7 @@ export default function PlaceDetails() {
               <Link to={`/explore/${p.id}`} key={p.id} className="group bg-surface rounded-2xl overflow-hidden border border-line/5 hover:border-brand-green/50 transition-all">
                 <div className="h-36 bg-surfacealt relative overflow-hidden">
                   <img src={p.image} alt={p.name} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onError={(e) => (e.currentTarget.style.opacity = '0')} />
-                  <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-transparent" />
                 </div>
                 <div className="p-4">
                   <h3 className="font-bold text-heading group-hover:text-brand-green transition-colors">{p.name}</h3>
@@ -134,6 +180,7 @@ export default function PlaceDetails() {
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 }
