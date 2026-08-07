@@ -1,6 +1,7 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Landmark, Swords, Crown, Flag, Sparkles, ScrollText, Building2, BookOpen, MapPinned } from 'lucide-react';
+import { fetchHistory, SimpleItem } from '../lib/contentApi';
 
 type Era = 'All' | 'Ancient' | 'Medieval' | 'Colonial' | 'Modern';
 
@@ -35,6 +36,8 @@ const eras:Era[]=['All','Ancient','Medieval','Colonial','Modern'];
 
 export default function History(){
  const [activeEra,setActiveEra]=useState<Era>('All');
+ const [adminItems,setAdminItems]=useState<SimpleItem[]>([]);
+ useEffect(()=>{ fetchHistory().then(setAdminItems).catch(()=>setAdminItems([])); },[]);
  const filtered=useMemo(()=>activeEra==='All'?periods:periods.filter(p=>p.era===activeEra),[activeEra]);
  return <div className="max-w-6xl mx-auto px-6 py-12">
   <div className="text-center mb-10"><span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-brand-green mb-3">From Ancient Bengal to Today</span><h1 className="text-4xl md:text-5xl font-bold mb-6 text-brand-green">History of Bangladesh</h1><p className="text-body max-w-3xl mx-auto leading-relaxed">Explore the long historical journey of the Bengal delta — ancient cities and Buddhist centres, sultanate and Mughal architecture, colonial transformation, the Language Movement, the Liberation War and independent Bangladesh.</p></div>
@@ -42,5 +45,7 @@ export default function History(){
   <div className="flex flex-wrap justify-center gap-2 mb-14">{eras.map(era=><button key={era} onClick={()=>setActiveEra(era)} className={`px-5 py-2 rounded-full text-sm font-medium border transition-all ${activeEra===era?'bg-brand-green text-black border-brand-green':'bg-transparent text-body border-line/15 hover:border-brand-green/50 hover:text-brand-green'}`}>{era}</button>)}</div>
   <div className="space-y-10 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-brand-green/20">{filtered.map((period,i)=><motion.div key={period.title} initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:i*.04}} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group"><div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-base bg-brand-green text-black shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">{period.icon}</div><div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-6 rounded-2xl bg-surface border border-line/5 hover:border-brand-green/30 transition-colors"><div className="flex items-center justify-between gap-3 mb-2 flex-wrap"><h3 className="font-bold text-xl text-heading">{period.title}</h3><span className="text-[11px] text-brand-green bg-brand-green/10 px-2.5 py-1 rounded-full">{period.range}</span></div><p className="text-muted text-sm leading-relaxed mb-4">{period.content}</p><ul className="space-y-1.5">{period.highlights.map(h=><li key={h} className="flex items-start gap-2 text-xs text-body"><Sparkles size={12} className="text-brand-green shrink-0 mt-0.5"/>{h}</li>)}</ul></div></motion.div>)}</div>
   <section className="mt-20"><div className="text-center mb-8"><span className="text-xs uppercase tracking-[.25em] text-brand-green font-semibold">Heritage Highlights</span><h2 className="text-3xl font-bold text-heading mt-2">Historical Places to Explore</h2><p className="text-muted mt-3">A quick gateway to some of the country’s best-known archaeological and architectural heritage.</p></div><div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">{heritage.map(([name,place,desc])=><div key={name} className="bg-surface border border-line/10 rounded-2xl p-6 hover:border-brand-green/40 transition-colors"><MapPinned className="text-brand-green mb-4" size={24}/><h3 className="text-lg font-bold text-heading">{name}</h3><p className="text-xs text-brand-green mt-1 mb-3">{place}</p><p className="text-sm text-muted leading-relaxed">{desc}</p></div>)}</div></section>
+
+  {adminItems.length>0 && <section className="mt-20"><div className="text-center mb-8"><span className="text-xs uppercase tracking-[.25em] text-brand-green font-semibold">Added by BDpedia Team</span><h2 className="text-3xl font-bold text-heading mt-2">More History</h2></div><div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">{adminItems.map(item=><div key={item._id} className="bg-surface border border-line/10 rounded-2xl overflow-hidden hover:border-brand-green/40 transition-colors">{item.coverImage && <img src={item.coverImage} alt={item.title} className="w-full h-40 object-cover"/>}<div className="p-6"><h3 className="text-lg font-bold text-heading mb-2">{item.title}</h3><p className="text-sm text-muted leading-relaxed">{item.description}</p></div></div>)}</div></section>}
  </div>
 }
