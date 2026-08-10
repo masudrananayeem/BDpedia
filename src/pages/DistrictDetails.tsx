@@ -87,7 +87,7 @@ export default function DistrictDetails() {
                   </span>
                 )}
                 <h1 className="text-5xl md:text-7xl font-extrabold text-white drop-shadow-lg leading-none mb-4">{district.name}</h1>
-                <p className="text-white/85 text-sm md:text-base leading-relaxed line-clamp-3 ml-auto">
+                <p className="text-sm md:text-base leading-relaxed line-clamp-3 ml-auto" style={{ color: '#ffffff', opacity: 0.85 }}>
                   {district.tourist_places || district.history}
                 </p>
               </div>
