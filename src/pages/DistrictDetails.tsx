@@ -76,7 +76,7 @@ export default function DistrictDetails() {
         <div className="absolute inset-x-0 bottom-0 pb-10 md:pb-16 px-6 lg:px-16 z-10">
           <div className="max-w-7xl mx-auto flex justify-end">
             <motion.div
-              initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2, duration: 0.7 }}
+              initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }}
               className="text-right max-w-xl bg-black/25 backdrop-blur-md border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl"
             >
               {district.division && (
