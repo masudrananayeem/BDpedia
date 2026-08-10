@@ -77,17 +77,20 @@ export default function DistrictDetails() {
           <div className="max-w-7xl mx-auto flex justify-end">
             <motion.div
               initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }}
-              className="text-right max-w-xl bg-black/25 backdrop-blur-md border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl"
+              className="relative text-right max-w-xl rounded-3xl shadow-2xl isolate"
             >
-              {district.division && (
-                <span className="inline-block bg-brand-green text-black px-4 py-1 rounded-full text-xs md:text-sm font-bold uppercase tracking-wider mb-4">
-                  {district.division} Division
-                </span>
-              )}
-              <h1 className="text-5xl md:text-7xl font-extrabold text-white drop-shadow-lg leading-none mb-4">{district.name}</h1>
-              <p className="text-white/85 text-sm md:text-base leading-relaxed line-clamp-3 ml-auto">
-                {district.tourist_places || district.history}
-              </p>
+              <div className="absolute inset-0 bg-black/25 backdrop-blur-md border border-white/10 rounded-3xl -z-10" />
+              <div className="p-6 md:p-8">
+                {district.division && (
+                  <span className="inline-block bg-brand-green text-black px-4 py-1 rounded-full text-xs md:text-sm font-bold uppercase tracking-wider mb-4">
+                    {district.division} Division
+                  </span>
+                )}
+                <h1 className="text-5xl md:text-7xl font-extrabold text-white drop-shadow-lg leading-none mb-4">{district.name}</h1>
+                <p className="text-white/85 text-sm md:text-base leading-relaxed line-clamp-3 ml-auto">
+                  {district.tourist_places || district.history}
+                </p>
+              </div>
             </motion.div>
           </div>
         </div>
