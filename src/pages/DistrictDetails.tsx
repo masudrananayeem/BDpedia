@@ -51,7 +51,7 @@ export default function DistrictDetails() {
       {/* Full-screen hero */}
       <div className="relative w-full h-[85vh] md:h-[92vh] min-h-[560px] bg-surfacealt overflow-hidden">
         <motion.img
-          initial={{ scale: 1.08, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.9, ease: 'easeOut' }}
+          initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, ease: 'easeOut' }}
           src={district.image || '/images/hero/bg-image.jpg'} alt={district.name}
           className="absolute inset-0 w-full h-full object-cover"
           onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/hero/bg-image.jpg'; }}
