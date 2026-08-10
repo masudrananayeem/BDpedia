@@ -59,7 +59,7 @@ export default function Home() {
       <section id="hero" className="relative min-h-[100svh] flex flex-col px-6 lg:px-24 pt-32 pb-10 lg:pb-14 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
-          style={{ backgroundImage: `url('${homeContent?.heroImages?.[0]?.url || '/images/hero/bg-image.jpg'}')` }}
+          style={{ backgroundImage: `url('${homeContent?.heroImages?.[0]?.url || '../public/images/hero/bg-image.jpg'}')` }}
         >
           <div className="absolute inset-0 bg-black/20"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-[#051005] via-transparent to-black/60"></div>
