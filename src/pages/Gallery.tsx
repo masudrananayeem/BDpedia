@@ -11,7 +11,7 @@ const PAGE_SIZE = 24;
 //   ৩) caption-এ যা লেখা দেখাতে চাও তা বসাও
 // আপাতত সবগুলো placeholder ছবি (picsum.photos) — নিজেরটা বসালেই বদলে যাবে।
 const GALLERY_IMAGES: { src: string; number: number; caption: string }[] = [
-  { src: '/public/images/gallery/photo1.jpg', number: 1, caption: 'Photo 1' },
+  { src: '/images/gallery/photo1.jpg', number: 1, caption: 'Photo 1' },
   { src: '../../public/images/gallery/photo2.jpg', number: 2, caption: 'Photo 2' },
   { src: '../../public/images/gallery/photo3.jpg', number: 3, caption: 'Photo 3' },
   { src: '../../public/images/gallery/photo4.jpg', number: 4, caption: 'Photo 4' },
