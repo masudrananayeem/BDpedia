@@ -78,11 +78,11 @@ const GALLERY_IMAGES: { src: string; number: number; caption: string }[] = [
   { src: '/images/gallery/photo65.jpg', number: 65, caption: 'Photo 65' },
   { src: '/images/gallery/photo66.jpg', number: 66, caption: 'Photo 66' },
   { src: '/images/gallery/photo67.jpg', number: 67, caption: 'Photo 67' },
-  { src: 'https://picsum.photos/seed/bdpedia-bangladesh-68/900/650', number: 68, caption: 'Photo 68' },
-  { src: 'https://picsum.photos/seed/bdpedia-bangladesh-69/900/650', number: 69, caption: 'Photo 69' },
-  { src: 'https://picsum.photos/seed/bdpedia-bangladesh-70/900/650', number: 70, caption: 'Photo 70' },
-  { src: 'https://picsum.photos/seed/bdpedia-bangladesh-71/900/650', number: 71, caption: 'Photo 71' },
-  { src: 'https://picsum.photos/seed/bdpedia-bangladesh-72/900/650', number: 72, caption: 'Photo 72' },
+  { src: '/images/gallery/photo68.jpg', number: 68, caption: 'Photo 68' },
+  { src: '/images/gallery/photo69.jpg', number: 69, caption: 'Photo 69' },
+  { src: '/images/gallery/photo70.jpg', number: 70, caption: 'Photo 70' },
+  { src: '/images/gallery/photo71.jpg', number: 71, caption: 'Photo 71' },
+  { src: '/images/gallery/photo72.jpg', number: 72, caption: 'Photo 72' },
 ];
 
 export default function Gallery() {
