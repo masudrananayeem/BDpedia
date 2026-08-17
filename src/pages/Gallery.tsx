@@ -28,7 +28,7 @@ const GALLERY_IMAGES: { src: string; number: number; caption: string }[] = [
   { src: '/images/gallery/photo15.jpg', number: 15, caption: 'Photo 15' },
   { src: '/images/gallery/photo16.jpg', number: 16, caption: 'Photo 16' },
   { src: '/images/gallery/photo17.jpg', number: 17, caption: 'Photo 17' },
-  { src: '/images/gallery/photo5pg', number: 18, caption: 'Photo 18' },
+  { src: '/images/gallery/photo16pg', number: 18, caption: 'Photo 18' },
   { src: '/images/gallery/photo19.jpg', number: 19, caption: 'Photo 19' },
   { src: '/images/gallery/photo20.jpg', number: 20, caption: 'Photo 20' },
   { src: '/images/gallery/photo21.jpg', number: 21, caption: 'Photo 21' },
