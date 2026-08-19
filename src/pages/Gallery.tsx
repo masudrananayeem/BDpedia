@@ -89,6 +89,12 @@ const GALLERY_IMAGES: { src: string; number: number; caption: string }[] = [
   { src: '/images/gallery/photo76.jpg', number: 76, caption: 'Photo 76' },
   { src: '/images/gallery/photo77.jpg', number: 77, caption: 'Photo 77' },
   { src: '/images/gallery/photo78.jpg', number: 78, caption: 'Photo 78' },
+  { src: '/images/gallery/photo79.jpg', number: 79, caption: 'Photo 79' },
+  { src: '/images/gallery/photo80.jpg', number: 80, caption: 'Photo 80' },
+  { src: '/images/gallery/photo81.jpg', number: 81, caption: 'Photo 81' },
+  { src: '/images/gallery/photo82.jpg', number: 82, caption: 'Photo 82' },
+  { src: '/images/gallery/photo83.jpg', number: 83, caption: 'Photo 83' },
+  { src: '/images/gallery/photo84.jpg', number: 84, caption: 'Photo 84' },
 ];
 
 export default function Gallery() {
